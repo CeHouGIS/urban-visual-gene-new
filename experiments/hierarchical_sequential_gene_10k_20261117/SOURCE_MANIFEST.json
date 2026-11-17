@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-11-17T15:40:21.903725+00:00",
+  "scope": "Exact source/config/design snapshots and historical gate evidence; generated GitHub guidance is not listed",
+  "base_commit": "7741c737ea16b9e6dc54e79d36a46348daa8ab34",
+  "files": [
+    {
+      "path": "README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/README.md",
+      "bytes": 5300,
+      "sha256": "6912d98b3d3227c6a844091b43726f06346b441fd3667bb152a7d3591344f4f2"
+    },
+    {
+      "path": "configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/configs/experiment.json",
+      "bytes": 1669,
+      "sha256": "f6a4fb7a4225bbb0fac9626f6f950c0b45a23298de2df9209ef87b48c87311dd"
+    },
+    {
+      "path": "configs/DESIGN_SNAPSHOT.md",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/configs/DESIGN_SNAPSHOT.md",
+      "bytes": 14422,
+      "sha256": "80ffc87c2cbd20c6217dc364462c2f3479201ee59cf13e115aa1e77ff42fa69e"
+    },
+    {
+      "path": "source/analyze.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/analyze.py",
+      "bytes": 7723,
+      "sha256": "5064d6b5c27ec5e6f1ae465745ef022209067a4c4d10270b631fdb5625e4c084"
+    },
+    {
+      "path": "source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/common.py",
+      "bytes": 1336,
+      "sha256": "79c4e847dff110d7b0b71a9d403a810670201ee9a08035740ffaec8591256d14"
+    },
+    {
+      "path": "source/continue_analysis.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/continue_analysis.py",
+      "bytes": 1012,
+      "sha256": "bc395571c507d0d03c3dc125d2435300ce24993b2b7207398b3500398c39350b"
+    },
+    {
+      "path": "source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/data.py",
+      "bytes": 3153,
+      "sha256": "0cc93c598b61f873cebb5f95f4978683501de83d15d274b8271ff56a2986150a"
+    },
+    {
+      "path": "source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/model.py",
+      "bytes": 9296,
+      "sha256": "24620bef529a0c9505df945eaaecef261b9e2334deb2ad51ebecc24057789fe9"
+    },
+    {
+      "path": "source/preview.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/preview.py",
+      "bytes": 3337,
+      "sha256": "74eef5971432f9f5b3229cd66ba39edcdb589c5d532f9d695c9ca7e17aed5807"
+    },
+    {
+      "path": "source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/supervisor.py",
+      "bytes": 5480,
+      "sha256": "94a37e9ec56ffce21b751a5eaa65aa253c64e8ead6f3ed6c3aa7af0d6229119b"
+    },
+    {
+      "path": "source/test_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/test_gpu.py",
+      "bytes": 5468,
+      "sha256": "49fd9e74edb7b802cfdcbe66563423677b2fc80589b07188c11a2323a3e02f0c"
+    },
+    {
+      "path": "source/test_protocol.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/test_protocol.py",
+      "bytes": 1495,
+      "sha256": "d005e6e2e464a9b1e3691c051d177f75e106428c37acf4a52c53d1bdd9f9fed1"
+    },
+    {
+      "path": "source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/source/train.py",
+      "bytes": 14228,
+      "sha256": "cd74ccce8bf4de68448a154b472a81796a2bddfdc4a797bce821a29c4c780527"
+    },
+    {
+      "path": "evidence/cpu_protocol.json",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/reports/cpu_protocol.json",
+      "bytes": 218,
+      "sha256": "540c378474f881cad3667f791f9390a86d9fc98803820adeff77f78ac9c87fbf"
+    },
+    {
+      "path": "evidence/gpu_tests.json",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/reports/gpu_tests.json",
+      "bytes": 519,
+      "sha256": "317e88f7486f8fe9879036572e0cbc2c745ec75370f463786c0d430eaf15ab8a"
+    },
+    {
+      "path": "evidence/distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/reports/distributed_smoke.json",
+      "bytes": 175,
+      "sha256": "10c252eb5a89bde837f8994863aa116122516a9e44e30f5abb3700ced1fbb12f"
+    }
+  ]
+}

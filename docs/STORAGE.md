@@ -1,3 +1,15 @@
+# 当前四层顺序实验存储
+
+- 当前运行：`/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/`。
+- 代码、配置、设计快照：该目录的 `source/`、`configs/`、`README.md`。
+- 正式训练输出：`runs/main/`；检查和训练后诊断：`reports/`；队列动态状态：`queue_status.json`。
+- GitHub 分支：`hierarchical-sequential`；原 `main` 代码保存为 `additive`。
+- GitHub 工作副本与实际运行目录分开；发布代码不修改正在训练的源码、数据或检查点。
+
+以下为原加性/ISTA 实验的历史存储记录。
+
+---
+
 # 实验存储
 
 原始代码、数据、模型检查点和报告保留原位置。GitHub 上传没有移动或修改已有实验。

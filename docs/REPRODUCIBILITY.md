@@ -1,3 +1,27 @@
+# 当前四层顺序实验的复现
+
+入口：`experiments/hierarchical_sequential_gene_10k_20261117/`。其源码与 NAS 运行版本一致，配置保留原服务器路径。
+当前分支为 `hierarchical-sequential`，旧版原 `main` 已命名为 `additive`。下半部分的 ISTA 说明是历史对照。
+
+1. 建立新的独立实验目录，将本实验的 `source/` 和 `configs/` 复制进去；创建 `data/`、`logs/`、`reports/`、`runs/` 和临时目录。
+2. 修改 `configs/experiment.json` 中的 `root`、`python`、`cache`、`temporary_directory`、`shared_gpu_leases`。`root` 应是包含复制后 `source/` 的目录；监督器实际使用 `root/configs/experiment.json`。所有共用服务器任务必须使用相同 GPU 租约目录。
+3. 准备 `data/images.{train,validation,test}.jsonl` 与顺序严格匹配的 `{train,validation,test}.rgb.npy` 缓存，分别 10,000/1,000/1,000 张 NHWC uint8 RGB、256×256。训练清单每格 20 张，即 5 个全景点 × 4 个朝向。清单至少包含 `id`、`pano`、`grid_id`、`country`、`city`。使用自己的真实数据，不从历史 `evidence/` 复制门禁标记。
+4. 检查 split 间图片/全景/格网隔离。`data/READY.json` 至少需包含根据真实清单计算的 `unseen_city_test_indices`（相对于 test 清单的零起始行号，无该子集时为 `[]`）。原运行完整元信息在 NAS 的 `data/READY.json`；不能在数据缺失或未检查时伪造 ready 状态。
+5. 使用配置里的 Python 运行 `source/test_protocol.py`（仅数据协议，无 CPU 神经执行）。通过后运行监督器，自动等待两张空闲 GPU，依次执行 GPU 检查、完整阶段 smoke、正式训练、训练后分析。
+
+```bash
+python /absolute/new_experiment/source/test_protocol.py
+python /absolute/new_experiment/source/supervisor.py \
+  --config /absolute/new_experiment/configs/experiment.json
+```
+
+两条命令中的 `python` 都需指向安装好依赖的同一解释器，并与配置中的 `python` 一致。
+新监督器已包含 analysis 阶段，无需执行一次性 `continue_analysis.py`。没有 GPU 时排队，CPU 仅做数据/语法检查和绘图。
+原运行通过记录放在 `evidence/`，真正启动门禁读取新运行目录的 `reports/`；两者用途不同。
+不要将新运行配置指向正在训练的 NAS 目录。创建 `STOP_REQUESTED` 可请求当前实验保存并停止；恢复要求配置严格兼容。
+
+---
+
 # 复现与运行范围
 
 ## 当前 ISTA 实验的入口

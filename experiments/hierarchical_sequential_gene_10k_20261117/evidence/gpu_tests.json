@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "updated_utc": "2026-11-17T15:23:49.730660+00:00",
+  "checks": [
+    "tile replay",
+    "target pyramid replay",
+    "ordered forward",
+    "actual predicted parent",
+    "additive correction",
+    "frozen parent weights and EMA",
+    "evaluation EMA immutability",
+    "index serialization/decode replay",
+    "last-cell spatial support",
+    "distributed EMA agreement",
+    "DDP gradient equivalence",
+    "CPU model guard"
+  ],
+  "ddp_max_gradient_absolute_error": 5.587935447692871e-09
+}

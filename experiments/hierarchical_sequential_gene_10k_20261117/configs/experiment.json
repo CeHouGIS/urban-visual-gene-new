@@ -1,0 +1,68 @@
+{
+  "name": "hierarchical_sequential_gene_10k_20261117",
+  "root": "/host/mnt/nas/urban-visual-gene/hierarchical_sequential_gene_10k_20261117",
+  "python": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/.venv/bin/python3",
+  "seed": 42,
+  "cache": "/workspace/urban-visual-gene/multiscale_gene_10k_20261116/cache",
+  "temporary_directory": "/workspace/urban-visual-gene/hierarchical_sequential_gene_10k_20261117/tmp",
+  "shared_gpu_leases": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/gpu_leases",
+  "data": {
+    "train": 10000,
+    "validation": 1000,
+    "test": 1000,
+    "resolution": 256
+  },
+  "model": {
+    "grids": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "resolutions": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "dictionary_sizes": [
+      64,
+      128,
+      128,
+      256
+    ],
+    "selections": 4,
+    "latent_dim": 512,
+    "width": 48,
+    "ema_decay": 0.99,
+    "ema_reset_every": 100,
+    "ema_dead_threshold": 0.1,
+    "beta": 0.25
+  },
+  "training": {
+    "effective_batch_size": 256,
+    "micro_batch_size": 32,
+    "learning_rate": 0.0002,
+    "joint_learning_rate": 2e-05,
+    "weight_decay": 0.0001,
+    "max_stage_updates": 1200,
+    "min_stage_updates": 400,
+    "joint_updates": 1200,
+    "evaluate_every": 100,
+    "first_evaluation": 25,
+    "plateau_patience": 4,
+    "minimum_improvement": 0.0001,
+    "checkpoint_every": 100,
+    "log_every": 10,
+    "gradient_clip": 1.0,
+    "preview_count": 4,
+    "precision": "bfloat16",
+    "validation_images": 1000
+  },
+  "compute": {
+    "gpu_only": true,
+    "gpus_per_model": 2,
+    "max_gpus": 2,
+    "poll_seconds": 15
+  }
+}

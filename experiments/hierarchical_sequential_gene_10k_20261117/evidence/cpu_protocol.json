@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "grid-balanced stream",
+    "rank partition",
+    "epoch uniqueness",
+    "split image/panorama/grid separation"
+  ],
+  "cpu_neural_execution": false,
+  "file_hashes": false
+}
