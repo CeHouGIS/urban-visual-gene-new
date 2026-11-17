@@ -1,0 +1,205 @@
+{
+  "experiment": "uvg_gene_quality_v1",
+  "created_local_date": "2026-10-20",
+  "status": "preflight_passed_preparing_training_cache",
+  "objective": "quality_first_image_conditioned_generation",
+  "model": {
+    "backbone": "stabilityai/stable-diffusion-xl-base-1.0",
+    "resolution": 512,
+    "precision": "bfloat16_when_supported",
+    "freeze": [
+      "vae",
+      "text_encoders",
+      "base_unet"
+    ],
+    "conditioning": "trainable residual image cross attention with 2D positional features",
+    "global_text": "a street-level photograph",
+    "no_content_captions": true,
+    "image_tokens": 256,
+    "token_dim": 256,
+    "dino_features": {
+      "model": "DINOv3 ViT-L/16 existing cache",
+      "grid": [
+        28,
+        28
+      ],
+      "channels": 1024,
+      "pca": false,
+      "resample_grid": [
+        16,
+        16
+      ]
+    },
+    "appearance_features": {
+      "encoder": "same backbone VAE",
+      "use": "posterior_mode",
+      "grid": [
+        64,
+        64
+      ],
+      "channels": 4,
+      "fusion_grid": [
+        16,
+        16
+      ]
+    },
+    "gene": {
+      "bank_size": 512,
+      "dimension": 256,
+      "coefficient": "signed top-k by absolute magnitude; retained coefficients continuous",
+      "normalize_dictionary_columns": true,
+      "residual_bypass": false
+    },
+    "conditioning_geometry": "2D positional features on image tokens and corresponding UNet query grid; custom adapter to verify in smoke"
+  },
+  "data": {
+    "inventory": "data_inventory.json",
+    "seed": 20261020,
+    "train_cities": [
+      "Austin",
+      "Bogota",
+      "Lagos",
+      "London"
+    ],
+    "heldout_city": "Adelaide",
+    "train_per_city": 500,
+    "validation_per_city": 100,
+    "test_per_city": 100,
+    "cross_city_test": 400,
+    "quarantine_previous_608_panoramas": true,
+    "one_heading_per_panorama": true,
+    "preserve_cache_preprocessing": true,
+    "augmentations": "none for cached-feature first version"
+  },
+  "optimization": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "effective_batch": 16,
+    "micro_batch": 1,
+    "gradient_accumulation": 16,
+    "warmup_updates": 300,
+    "gradient_clip_norm": 1.0,
+    "memory_efficient_attention": true,
+    "gradient_checkpointing": true,
+    "vae_and_text_cached": true,
+    "denoising_objective": "original backbone scheduler prediction_type; default epsilon only if model config confirms",
+    "timestep_sampling": "uniform",
+    "lora": "not in primary comparison; if baseline fails, one isolated documented rescue before gene stage"
+  },
+  "stages": {
+    "smoke": {
+      "images": 32,
+      "updates": 200,
+      "full_sampling_before_next_stage": true
+    },
+    "dense_screen": {
+      "conditions": [
+        "D",
+        "V",
+        "DV"
+      ],
+      "max_updates_each": 6000,
+      "validation_interval": 1000,
+      "validation_images": 64,
+      "sampling_seeds": [
+        101,
+        211
+      ]
+    },
+    "dense_confirm": {
+      "winner_additional_updates_max": 6000
+    },
+    "gene_distill": {
+      "variants": [
+        "random_s8",
+        "learned_s8",
+        "learned_s4"
+      ],
+      "max_updates_each": 2000,
+      "renderer_frozen": true,
+      "loss": "normalized_condition_mse",
+      "dictionary_initialization": "paired identical normalized random seed; learnable versus frozen"
+    },
+    "gene_finetune": {
+      "max_updates_each": 8000,
+      "loss": "denoise_loss + 0.1 * normalized_condition_mse",
+      "coefficient_and_dictionary_updates": "only allowed parameters per variant",
+      "adapter_initialized_from_dense_winner": true,
+      "teacher_frozen": true,
+      "no_edit_loss": true,
+      "variants": [
+        "dense_plus",
+        "random_s8",
+        "learned_s8",
+        "learned_s4"
+      ],
+      "freeze_input_fusion": true,
+      "dense_plus_reference_updates": 8000,
+      "teacher_normalizer": {
+        "statistic": "training mean squared dense feature value",
+        "frozen_after_training_split_estimate": true,
+        "epsilon": 1e-06
+      },
+      "dictionary_init_seed": 17
+    },
+    "final_seed_replication": {
+      "train_seeds": [
+        17,
+        29,
+        43
+      ],
+      "models": [
+        "selected_dense",
+        "selected_gene"
+      ],
+      "full_pipeline_retrained_per_seed": true,
+      "conditional_random_baseline": "Include Random-S8 in replication if claiming learned dictionary advantage."
+    }
+  },
+  "evaluation": {
+    "sampler": "EulerDiscreteScheduler if compatible with selected backbone; verify original config",
+    "sampling_steps": 30,
+    "guidance_scale": 5.0,
+    "negative_prompt": "",
+    "image_condition_scale": 1.0,
+    "initial_noise": "pure_random",
+    "fixed_seed_panel": [
+      101,
+      211,
+      307,
+      401
+    ],
+    "checkpoint_metric": "full_sample_validation_mean_lpips",
+    "metrics": [
+      "lpips_alex",
+      "ssim",
+      "psnr",
+      "blinded_quality_and_content_ratings"
+    ],
+    "independent_raters": "collect ratings, never synthesize human judgments",
+    "final_images_per_split": 400,
+    "final_seeds_per_image": 4,
+    "test_opened_after_configuration_lock": true,
+    "fid_primary": false,
+    "bootstrap_unit": "input image, averaging the fixed noise panel within image before resampling",
+    "image_preprocessing": "whole-image square warp matching cache coordinates, 512 target; no claim of native 512 detail"
+  },
+  "gates": {
+    "dense": "visible content correspondence and improvement over zero/shuffled condition at fixed noise; no hardcoded universal threshold",
+    "gene": {
+      "reference": "dense_plus at matched generated-training exposure",
+      "provisional_lpips_relative_deterioration_max": 0.1,
+      "status": "explicit provisional engineering tolerance, not literature consensus",
+      "also_required": "blinded naturalness inspection and paired confidence intervals; do not adjust after test"
+    },
+    "technical_failures": [
+      "source-cache mismatch",
+      "NaN or Inf",
+      "pure-noise generation ignores condition",
+      "unreviewed cross-split near duplicates"
+    ],
+    "no_training_time_or_quality_guarantee": true
+  },
+  "stage1_training_seed": 17
+}

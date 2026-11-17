@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 256,
+  "per_gpu_microbatch": 128,
+  "accumulation_steps": 1,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.3261454105377197,
+    0.3115423172712326,
+    0.2930414080619812,
+    0.2926810383796692,
+    0.2807925194501877,
+    0.2750757932662964,
+    0.2774634212255478,
+    0.27095581591129303,
+    0.2612021267414093,
+    0.2556033581495285,
+    0.2514650523662567,
+    0.22955027967691422,
+    0.21988759189844131,
+    0.21043846011161804,
+    0.2026999667286873,
+    0.20008323341608047,
+    0.19628967344760895,
+    0.19952509552240372,
+    0.20877251029014587,
+    0.19293178617954254
+  ],
+  "full_global_batch_loss": 0.25396178662776947,
+  "gradient_norm": 0.5091719627380371,
+  "gradient_equivalence_max_abs_error": 2.584420144557953e-08,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    28191371264,
+    28191371264
+  ],
+  "forward_conv_dictionary_macs_per_image": 11771756544,
+  "weights_discarded": true,
+  "model_spec": {
+    "variant": "single_scale_ista",
+    "parameters": 5055564,
+    "dictionary_parameters": 32768,
+    "dictionary_genes": 512,
+    "scale_gene_counts": {
+      "coarse": 512
+    },
+    "scale_grids": {
+      "coarse": 16
+    },
+    "dictionary_kernels": {
+      "coarse": 1
+    },
+    "ista_iterations": 6,
+    "sparsity_policy": "nonnegative L1 proximal inference; no hard coefficient quota",
+    "inference_note": "finite unrolled iterations approximate the sparse-coding optimum",
+    "step_policy": "learned sigmoid fraction of conservative operator Lipschitz bound",
+    "feature_additivity": "exact linear dictionary synthesis within each scale",
+    "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+    "encoder_bypass": false,
+    "prior_checkpoint_loaded": false
+  },
+  "updated_utc": "2026-11-16T07:25:54.857131+00:00"
+}

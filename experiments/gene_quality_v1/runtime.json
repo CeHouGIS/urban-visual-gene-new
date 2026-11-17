@@ -1,0 +1,14 @@
+{
+  "active_run": null,
+  "pid": null,
+  "status_path": "/root/code/urban-visual-gene/experiments/gene_quality_v1/runs/smoke1024_DV_seed17/status.json",
+  "trainable_parameters": 52599878,
+  "latest_observed_step": 200,
+  "resolution": 1024,
+  "gene_stage": "not_started",
+  "screening_stage": "not_started",
+  "cache_state": "all2000train400validationready;testtargetscacheuntouched",
+  "generation_gate": "not_passed",
+  "state": "finished",
+  "last_run": "smoke1024_DV_seed17"
+}

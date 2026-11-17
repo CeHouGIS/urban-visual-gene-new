@@ -1,0 +1,71 @@
+seed: 42
+data:
+  root: /host/mnt/nas/urban-visual-gene/urbangene_v11_20261108/v1_grct/smoke/data
+  image_size: 256
+  workers: 0
+  counts:
+    train: 16
+    val_seen: 8
+    test_seen: 8
+    test_unseen_combo: 8
+    test_higher_complexity: 8
+model:
+  latent_channels: 8
+  latent_hw: 32
+  gene_count: 64
+  max_gene_count: 128
+  gene_patch_hw: 8
+  max_instances: 16
+  instance_limit: 32
+  position_grid: 16
+  scale_levels:
+  - 0.5
+  - 1.0
+  - 1.5
+  budget_bits: 272
+  parser_width: 16
+  allow_continuous_scene_residual: false
+  composer:
+    type: grct
+    instance_dim: 32
+    relational_layers: 2
+    relational_heads: 4
+    spatial_layers: 2
+    spatial_heads: 4
+    ffn_ratio: 2
+    chunk_size: 256
+    use_local_gene_features: true
+    residual_from_fixed_average: true
+    init_output_head_zero: true
+    cnn_width: 24
+    cnn_depth: 2
+ae:
+  width: 8
+  epochs: 8
+  learning_rate: 0.001
+training:
+  loss: latent_l1
+  batch_size: 4
+  learning_rate: 0.001
+  epochs: 12
+  amp: false
+  cpu_threads: 4
+  micro_batch_size: 4
+  gradient_accumulation: 1
+probe:
+  epochs: 10
+evaluation:
+  recombination_samples: 8
+  overlap_threshold: 0.5
+  seeds:
+  - 42
+  - 29
+  - 43
+  ae_psnr_min: 24.0
+  failure_rgb_l1: 0.1
+  validation_samples: 8
+  evaluation_batch_size: 8
+provenance:
+  version: '1.1'
+  baseline_root: /root/code/urban-visual-gene/urbangene
+  optional_paired_training: false

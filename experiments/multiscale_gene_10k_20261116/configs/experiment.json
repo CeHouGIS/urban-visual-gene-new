@@ -1,0 +1,82 @@
+{
+  "name": "multiscale_gene_10k_20261116",
+  "seed": 42,
+  "root": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116",
+  "python": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/.venv/bin/python3",
+  "cache": "/workspace/urban-visual-gene/multiscale_gene_10k_20261116/cache",
+  "temporary_directory": "/workspace/urban-visual-gene/multiscale_gene_10k_20261116/tmp",
+  "shared_gpu_leases": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/gpu_leases",
+  "data": {
+    "train": 10000,
+    "validation": 1000,
+    "test": 1000,
+    "resolution": 256,
+    "source_root": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115",
+    "source_cache": "/workspace/urban-visual-gene/additive_gene_1m_20261115/cache",
+    "grid_size_m": 1000,
+    "photos_per_grid": 20,
+    "selection": "capacity-aware continent-country-city balance; whole original grid bundles",
+    "cache_loading": "resident uint8 arrays, no RGB decoding during training"
+  },
+  "model": {
+    "latent_channels": 64,
+    "dictionary_size": 256,
+    "multiscale_dictionary_sizes": [
+      96,
+      80,
+      80
+    ],
+    "scale_names": [
+      "coarse",
+      "medium",
+      "fine"
+    ],
+    "scale_resolutions": [
+      16,
+      32,
+      64
+    ],
+    "active_coefficients_per_image": 1024,
+    "multiscale_coefficient_budgets": [
+      512,
+      256,
+      256
+    ],
+    "sparsity": "positive global top-k per image within each scale",
+    "feature_additivity": true,
+    "rgb_decoder": "nonlinear; no encoder bypass"
+  },
+  "training": {
+    "max_training_images": 1000000,
+    "effective_batch_size": 1024,
+    "micro_batch_size": 128,
+    "learning_rate": 0.0002,
+    "minimum_learning_rate": 2e-05,
+    "warmup_updates": 25,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "perceptual_weight": 0.1,
+    "evaluate_every": 100,
+    "first_evaluation": 25,
+    "checkpoint_every": 50,
+    "log_every": 5,
+    "preview_count": 6,
+    "precision": "bfloat16_if_supported",
+    "initial_validation": true
+  },
+  "variants": [
+    "multiscale_vector",
+    "multiscale_conv",
+    "single_vector",
+    "dense_ae"
+  ],
+  "compute": {
+    "gpu_only": true,
+    "max_gpus": 4,
+    "gpus_per_variant": 2,
+    "poll_seconds": 10,
+    "distributed_backend": "nccl"
+  },
+  "stopped_previous_root": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024",
+  "created_utc": "2026-11-16T02:24:20.822594+00:00"
+}

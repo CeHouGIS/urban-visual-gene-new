@@ -1,0 +1,9 @@
+# Current residual ISTA experiment; install a CUDA-compatible PyTorch build first.
+# Older experiments have their own pyproject.toml/requirements.txt.
+torch>=2.2
+torchvision
+numpy
+Pillow
+matplotlib
+lpips
+pytest>=8

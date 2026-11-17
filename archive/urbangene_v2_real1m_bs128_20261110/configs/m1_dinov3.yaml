@@ -1,0 +1,25 @@
+seed: 42
+device: cpu
+output: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/m1_dinov3_screen
+train_labels_for_instance_discovery: false
+backbone:
+  family: dinov3
+  backend: transformers
+  weights: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/models/dinov3-vitl16
+  resolution: 448
+features:
+  train: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/features.train.npy
+  validation: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/features.val_seen.npy
+model:
+  feature_dim: 1024
+  slot_dim: 128
+  max_slots: 32
+  iterations: 3
+  hidden_dim: 128
+  spatial_strength: 0.1
+  background_slot: true
+training:
+  batch_size: 4
+  epochs: 10
+  learning_rate: 0.0003
+  gradient_clip: 1.0

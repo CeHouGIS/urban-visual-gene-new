@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 1024,
+  "per_gpu_microbatch": 128,
+  "accumulation_steps": 4,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.26920993626117706,
+    0.2878907322883606,
+    0.2748348116874695,
+    0.2406819984316826,
+    0.22758100926876068,
+    0.21118657290935516,
+    0.2066338211297989,
+    0.20034504681825638,
+    0.19232578575611115,
+    0.18558360636234283,
+    0.18065288662910461,
+    0.17717109620571136,
+    0.17402848601341248,
+    0.16826187074184418,
+    0.16384685784578323,
+    0.16119860112667084,
+    0.15820133686065674,
+    0.1575915813446045,
+    0.1561097651720047,
+    0.1546608954668045
+  ],
+  "full_global_batch_loss": 0.21975923515856266,
+  "gradient_norm": 0.16378696262836456,
+  "gradient_equivalence_max_abs_error": 1.1816155165433884e-08,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    27783121920,
+    27783121920
+  ],
+  "forward_conv_dictionary_macs_per_image": 11667505152,
+  "weights_discarded": true,
+  "model_spec": {
+    "variant": "single_vector",
+    "parameters": 5074563,
+    "dictionary_parameters": 16384,
+    "dictionary_genes": 256,
+    "scale_gene_counts": {
+      "coarse": 256
+    },
+    "scale_grids": {
+      "coarse": 16
+    },
+    "scale_coefficient_budgets": {
+      "coarse": 1024
+    },
+    "coefficient_slots": 65536,
+    "maximum_nonzero_coefficients_per_image": 1024,
+    "sparsity_policy": "positive TopK across channel and space, separately per scale",
+    "strict_additivity": "per-scale synthesized features",
+    "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+    "encoder_bypass": false
+  },
+  "updated_utc": "2026-11-16T03:39:14.644526+00:00"
+}

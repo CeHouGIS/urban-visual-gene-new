@@ -1,0 +1,84 @@
+{
+  "status": "inventory_only_not_final_split",
+  "source_root": "/host/mnt/nas/huangyj/GoogleSV/urban_visual_gene",
+  "previous_panoramas_quarantined": 608,
+  "cities": {
+    "Austin": {
+      "ordered_panorama_count": 3000,
+      "eligible_after_quarantine": 2856,
+      "planned": {
+        "train": 500,
+        "validation": 100,
+        "in_domain_test": 100
+      }
+    },
+    "Bogota": {
+      "ordered_panorama_count": 3000,
+      "eligible_after_quarantine": 2856,
+      "planned": {
+        "train": 500,
+        "validation": 100,
+        "in_domain_test": 100
+      }
+    },
+    "Lagos": {
+      "ordered_panorama_count": 3000,
+      "eligible_after_quarantine": 2856,
+      "planned": {
+        "train": 500,
+        "validation": 100,
+        "in_domain_test": 100
+      }
+    },
+    "London": {
+      "ordered_panorama_count": 3000,
+      "eligible_after_quarantine": 2856,
+      "planned": {
+        "train": 500,
+        "validation": 100,
+        "in_domain_test": 100
+      }
+    },
+    "Adelaide": {
+      "ordered_panorama_count": 3000,
+      "eligible_after_quarantine": 2968,
+      "planned": {
+        "cross_city_test": 400
+      }
+    }
+  },
+  "coordinate_metadata_available_in_current_manifest": false,
+  "proposed_counts": {
+    "train": 2000,
+    "validation": 400,
+    "in_domain_test": 400,
+    "cross_city_test": 400
+  },
+  "required_before_training": [
+    "source-feature alignment spot checks",
+    "original image size distribution",
+    "all selected files readable",
+    "exact and perceptual duplicate audit",
+    "recover geo or sequence grouping where possible; otherwise geographic leakage limitation remains"
+  ],
+  "no_new_training": true,
+  "source_size_spotcheck": {
+    "scope": "first 8 records per city of previous pilot manifest; not whole new dataset",
+    "Austin": {
+      "400x300": 6,
+      "400x400": 2
+    },
+    "Bogota": {
+      "400x400": 8
+    },
+    "Lagos": {
+      "400x400": 8
+    },
+    "London": {
+      "400x400": 8
+    },
+    "Adelaide": {
+      "400x300": 8
+    }
+  }
+}

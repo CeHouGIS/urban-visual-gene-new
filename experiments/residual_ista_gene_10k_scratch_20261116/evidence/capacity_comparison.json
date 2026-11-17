@@ -1,0 +1,61 @@
+{
+  "models": {
+    "single_scale_ista": {
+      "variant": "single_scale_ista",
+      "parameters": 5055564,
+      "dictionary_parameters": 32768,
+      "dictionary_genes": 512,
+      "scale_gene_counts": {
+        "coarse": 512
+      },
+      "scale_grids": {
+        "coarse": 16
+      },
+      "dictionary_kernels": {
+        "coarse": 1
+      },
+      "ista_iterations": 6,
+      "sparsity_policy": "nonnegative L1 proximal inference; no hard coefficient quota",
+      "inference_note": "finite unrolled iterations approximate the sparse-coding optimum",
+      "step_policy": "learned sigmoid fraction of conservative operator Lipschitz bound",
+      "feature_additivity": "exact linear dictionary synthesis within each scale",
+      "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+      "encoder_bypass": false,
+      "prior_checkpoint_loaded": false
+    },
+    "multiscale_residual_ista": {
+      "variant": "multiscale_residual_ista",
+      "parameters": 5218782,
+      "dictionary_parameters": 163840,
+      "dictionary_genes": 512,
+      "scale_gene_counts": {
+        "coarse": 256,
+        "medium": 128,
+        "fine": 128
+      },
+      "scale_grids": {
+        "coarse": 16,
+        "medium": 32,
+        "fine": 64
+      },
+      "dictionary_kernels": {
+        "coarse": 1,
+        "medium": 3,
+        "fine": 3
+      },
+      "ista_iterations": 6,
+      "sparsity_policy": "nonnegative L1 proximal inference; no hard coefficient quota",
+      "inference_note": "finite unrolled iterations approximate the sparse-coding optimum",
+      "step_policy": "learned sigmoid fraction of conservative operator Lipschitz bound",
+      "feature_additivity": "exact linear dictionary synthesis within each scale",
+      "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+      "encoder_bypass": false,
+      "prior_checkpoint_loaded": false
+    }
+  },
+  "multiscale_parameter_increase": 163218,
+  "multiscale_parameter_increase_fraction": 0.03228482519457776,
+  "total_gene_count_matched": true,
+  "parameter_count_matched": false,
+  "causal_scope": "whole design comparison; scale, atom kernel, auxiliary supervision and parameter count are not separately isolated"
+}

@@ -1,0 +1,75 @@
+{
+  "variant": "learned_s42",
+  "checkpoint_step": 7500,
+  "cap": 32,
+  "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/runs/learned_s42/previews/city_confirmation.codes.npz",
+  "images": [
+    {
+      "city": "Chattogram",
+      "country": "Bangladesh",
+      "id": "Chattogram_tE2sj60eGg-zpNp0fK-qCQ_270"
+    },
+    {
+      "city": "Kolkata",
+      "country": "India",
+      "id": "Kolkata_1CfS5nZc5arP5JQuxv--fw_270"
+    }
+  ],
+  "scales": {
+    "coarse": {
+      "shared_gene_ids": [
+        22,
+        42,
+        51,
+        52,
+        55,
+        62,
+        68,
+        97,
+        110,
+        112,
+        150,
+        156,
+        167,
+        232,
+        248,
+        251
+      ],
+      "same_gene_set": true,
+      "genes_with_different_expression_maps": 16,
+      "total_shared_genes": 16
+    },
+    "medium": {
+      "shared_gene_ids": [
+        30,
+        36,
+        43,
+        70,
+        86,
+        93,
+        101,
+        110
+      ],
+      "same_gene_set": true,
+      "genes_with_different_expression_maps": 8,
+      "total_shared_genes": 8
+    },
+    "fine": {
+      "shared_gene_ids": [
+        11,
+        46,
+        55,
+        82,
+        99,
+        107,
+        115,
+        125
+      ],
+      "same_gene_set": true,
+      "genes_with_different_expression_maps": 8,
+      "total_shared_genes": 8
+    }
+  },
+  "total_shared_genes": 32,
+  "genes_with_different_expression_maps": 32
+}

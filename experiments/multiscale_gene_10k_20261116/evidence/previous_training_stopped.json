@@ -1,0 +1,32 @@
+{
+  "queue": {
+    "status": "stopped",
+    "pid": 912030,
+    "completed": [],
+    "failures": {},
+    "max_physical_gpus": 4,
+    "gpus_per_model": 2,
+    "global_batch_per_model": 1024,
+    "gpu_only": true,
+    "active": {},
+    "updated_utc": "2026-11-16T02:20:26.290422+00:00"
+  },
+  "variants": {
+    "sparse_n256_s4": {
+      "status": "stopped",
+      "step": 4338,
+      "images_seen": 6986240,
+      "updated_utc": "2026-11-16T02:20:15.148561+00:00"
+    },
+    "dense_ae": {
+      "status": "stopped",
+      "step": 4275,
+      "images_seen": 6985728,
+      "updated_utc": "2026-11-16T02:20:15.024992+00:00"
+    }
+  },
+  "checkpoints": {
+    "sparse_n256_s4": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/runs/sparse_n256_s4/checkpoint_resume.pt",
+    "dense_ae": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/runs/dense_ae/checkpoint_resume.pt"
+  }
+}

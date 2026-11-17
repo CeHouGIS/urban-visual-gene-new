@@ -1,0 +1,31 @@
+{
+  "checkpoint": "/root/code/urban-visual-gene/experiments/object_centric_pilot/results/k32-refined/model.pt",
+  "checkpoint_sha256": "6c7cd74b73472b40f216c814bd7f8a6e2b77418cc2c1593a2fa5b15186c94324",
+  "source": "existing DINOv3 PCA64 pilot; trained model inference on held-out examples",
+  "warning": "Candidate regions, not validated physical instances or a new model.",
+  "display": "soft maps uint8; hard maps from full precision; vectors rounded to .001; full precision trace.npz",
+  "iterations": 3,
+  "scenes": [
+    {
+      "city": "London",
+      "id": "London_-4wjh8oGUq7BKjAMf1M14A_0",
+      "split": "validation",
+      "trace_equals_checkpoint": true,
+      "default_unit_zero_based": 24
+    },
+    {
+      "city": "Austin",
+      "id": "Austin_82L8p3Vypqbv0z-bj-0r3w_90",
+      "split": "validation",
+      "trace_equals_checkpoint": true,
+      "default_unit_zero_based": 9
+    },
+    {
+      "city": "Adelaide",
+      "id": "Adelaide_fivjf2m9et92FoXrgWcMVg_90",
+      "split": "cross_city",
+      "trace_equals_checkpoint": true,
+      "default_unit_zero_based": 18
+    }
+  ]
+}

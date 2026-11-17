@@ -1,0 +1,37 @@
+seed: 42
+data:
+  root: outputs/data/smoke
+  image_size: 256
+  workers: 0
+  counts:
+    train: 32
+    val_seen: 8
+    test_seen: 8
+    test_unseen_combo: 8
+    test_higher_complexity: 8
+model:
+  latent_channels: 4
+  latent_hw: 32
+  gene_count: 32
+  max_gene_count: 128
+  gene_patch_hw: 8
+  max_instances: 8
+  instance_limit: 32
+  position_grid: 16
+  scale_levels: [0.5, 1.0, 1.5]
+  budget_bits: 128
+  parser_width: 16
+  allow_continuous_scene_residual: false
+ae:
+  width: 8
+  epochs: 3
+  learning_rate: 0.001
+training:
+  loss: latent_l1
+  batch_size: 4
+  learning_rate: 0.0003
+  epochs: 3
+  amp: false
+  cpu_threads: 4
+probe:
+  epochs: 1

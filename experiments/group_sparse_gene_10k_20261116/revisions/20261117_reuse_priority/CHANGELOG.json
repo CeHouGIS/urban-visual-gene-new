@@ -1,0 +1,26 @@
+{
+  "status": "implemented_cpu_verified_gpu_pending",
+  "reason": "User defines composability as additivity and prioritizes reuse above sparsity",
+  "changes": {
+    "primary_cap": 64,
+    "updates_per_cap": {
+      "64": 4000,
+      "32": 2000,
+      "16": 1000,
+      "8": 1000
+    },
+    "explicit_gene_and_byte_prices": 0,
+    "checkpoint_selection": "primary-cap validation RGB objective",
+    "functional_reuse": "fixed-weight deletion of every active gene on all 128 fixed city images; country breadth and continuous reconstruction contribution",
+    "core_architecture": "shared linear multiscale synthesis retained"
+  },
+  "tests": {
+    "tests": 14,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "original_plan_preserved": "before/",
+  "prior_experiment_unmodified": true,
+  "updated_utc": "2026-11-16T17:26:39.417604+00:00"
+}

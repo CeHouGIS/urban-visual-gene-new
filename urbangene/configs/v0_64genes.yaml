@@ -1,0 +1,37 @@
+seed: 42
+data:
+  root: outputs/data/full
+  image_size: 256
+  workers: 2
+  counts:
+    train: 20000
+    val_seen: 2000
+    test_seen: 2000
+    test_unseen_combo: 2000
+    test_higher_complexity: 2000
+model:
+  latent_channels: 8
+  latent_hw: 32
+  gene_count: 64
+  max_gene_count: 128
+  gene_patch_hw: 8
+  max_instances: 16
+  instance_limit: 32
+  position_grid: 16
+  scale_levels: [0.5, 1.0, 1.5]
+  budget_bits: 272
+  parser_width: 48
+  allow_continuous_scene_residual: false
+ae:
+  width: 24
+  epochs: 30
+  learning_rate: 0.0003
+training:
+  loss: latent_l1
+  batch_size: 32
+  learning_rate: 0.0003
+  epochs: 30
+  amp: true
+  cpu_threads: 4
+probe:
+  epochs: 10

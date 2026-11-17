@@ -1,0 +1,45 @@
+{
+  "checkpoint_step": 150,
+  "split": "validation",
+  "inputs": 4,
+  "seeds": [
+    101
+  ],
+  "condition_means": {
+    "correct": {
+      "lpips_alex": 0.8657343536615372,
+      "psnr": 11.02144189816546,
+      "ssim": 0.36271373169503124
+    },
+    "zero": {
+      "lpips_alex": 0.8640368580818176,
+      "psnr": 11.044674852150418,
+      "ssim": 0.365936494476994
+    },
+    "shuffled": {
+      "lpips_alex": 0.8656833171844482,
+      "psnr": 11.021129769732525,
+      "ssim": 0.3627001679181842
+    }
+  },
+  "paired_bootstrap": {
+    "correct_minus_zero_lpips": {
+      "mean": 0.0016974955797195435,
+      "95pct_percentile_ci": [
+        3.267824649810791e-05,
+        0.003313213586807251
+      ],
+      "unit": "input image after averaging noise seeds"
+    },
+    "correct_minus_shuffled_lpips": {
+      "mean": 5.103647708892822e-05,
+      "95pct_percentile_ci": [
+        -0.0009679496288299561,
+        0.0011524111032485962
+      ],
+      "unit": "input image after averaging noise seeds"
+    }
+  },
+  "human_ratings": "not collected",
+  "note": "Numbers alone do not establish naturalness or localized editability."
+}

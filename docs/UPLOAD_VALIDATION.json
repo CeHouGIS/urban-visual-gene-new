@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-11-17T11:59:44.664246+00:00",
+  "python_syntax_files": 372,
+  "python_syntax": "passed",
+  "json_and_toml_parsing": "passed",
+  "source_snapshot_sha256_files": 576,
+  "source_snapshot_sha256": "passed",
+  "credential_pattern_scan": "passed",
+  "hardcoded_credential_literal_scan": "passed",
+  "cpu_test": {
+    "file": "experiments/residual_ista_gene_10k_scratch_20261116/source/tests/test_data_schedule.py",
+    "test": "test_exact_updates_learning_rate_and_resume_protocol",
+    "result": "1 passed"
+  },
+  "gpu_training_or_inference_performed_for_upload": false,
+  "historical_evidence_reexecuted": false,
+  "source_data_or_checkpoint_uploaded": false,
+  "historical_whitespace": "Original Markdown hard breaks and existing EOF whitespace preserved."
+}

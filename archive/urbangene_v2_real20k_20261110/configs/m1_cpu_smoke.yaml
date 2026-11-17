@@ -1,0 +1,22 @@
+seed: 42
+device: cpu
+output: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/m1_cpu_smoke
+train_labels_for_instance_discovery: false
+features:
+  train: /root/code/urban-visual-gene/experiments/gene_quality_v1/data/dino16.npy
+  grid_hw: [16, 16]
+  max_train_items: 16
+model:
+  feature_dim: 1024
+  slot_dim: 32
+  max_slots: 8
+  iterations: 2
+  hidden_dim: 32
+  spatial_strength: 0.1
+  background_slot: true
+training:
+  batch_size: 2
+  epochs: 1
+  max_steps: 2
+  learning_rate: 0.0003
+  gradient_clip: 1.0

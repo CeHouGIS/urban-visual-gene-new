@@ -1,0 +1,58 @@
+{
+  "weights": "size/SHA256 verified against pinned mirror metadata",
+  "data_audit": {
+    "ready_targets": 2400,
+    "ready_features": 3200,
+    "latent_shape": [
+      3200,
+      4,
+      128,
+      128
+    ],
+    "feature_shape": [
+      3200,
+      256,
+      1024
+    ],
+    "test_vae_encoded": 0,
+    "latent_finite": true,
+    "feature_finite": true
+  },
+  "preflight1024": [
+    {
+      "iteration": 0,
+      "seconds": 0.8504157169954851,
+      "loss": 0.9078945517539978,
+      "conditioner_grad": 0.00037779498961754143,
+      "adapter_grad": 0.0017602425068616867,
+      "peakGB": 13.2015616,
+      "prediction_type": "epsilon",
+      "gradient_checkpointing": false
+    },
+    {
+      "iteration": 1,
+      "seconds": 0.3065001049544662,
+      "loss": 0.9060894250869751,
+      "conditioner_grad": 0.0003815225209109485,
+      "adapter_grad": 0.0019874474965035915,
+      "peakGB": 13.211392512,
+      "prediction_type": "epsilon",
+      "gradient_checkpointing": false
+    },
+    {
+      "iteration": 2,
+      "seconds": 0.31549621699377894,
+      "loss": 0.904354989528656,
+      "conditioner_grad": 0.0004041413776576519,
+      "adapter_grad": 0.0017445554258301854,
+      "peakGB": 13.211392512,
+      "prediction_type": "epsilon",
+      "gradient_checkpointing": false
+    }
+  ],
+  "checkpoint_reload": "passed25",
+  "condition_connection": "nonzero gradients and changes at three timesteps; not quality evidence",
+  "resolution_revision": "512 diagnostic stopped;1024 native generator resolution",
+  "test_used_for_selection": false,
+  "runtime": "/root/code/urban-visual-gene/experiments/gene_quality_v1/runtime.json"
+}

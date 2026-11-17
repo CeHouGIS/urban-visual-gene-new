@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "tests": 4,
+  "source": "dense_ae.gpu_tests.xml"
+}

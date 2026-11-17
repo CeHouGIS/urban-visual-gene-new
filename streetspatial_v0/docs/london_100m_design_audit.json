@@ -1,0 +1,240 @@
+{
+  "status": "design_and_metadata_audit_only",
+  "source_manifest": "/host/mnt/nas/urban-visual-gene/streetspatial_v0/data/london_100m_panoramas_3sites/targets.jsonl",
+  "panorama_count": 551,
+  "metadata_fields": [
+    "city",
+    "lat",
+    "lon",
+    "memberships",
+    "month",
+    "panoid",
+    "period",
+    "year"
+  ],
+  "missing_for_geometry": [
+    "camera_orientation",
+    "camera_elevation",
+    "landmark_tracks",
+    "3d_points"
+  ],
+  "time_matching_warning": "GPS-only candidates require pose and unchanged-landmark verification",
+  "sites": [
+    {
+      "sample_id": 207192,
+      "lat": 51.44382919534322,
+      "lon": -0.4752214876879064,
+      "status": "done",
+      "radius_m": 100,
+      "panorama_count": 208,
+      "year_counts": {
+        "2008": 18,
+        "2012": 23,
+        "2015": 18,
+        "2016": 12,
+        "2017": 17,
+        "2018": 26,
+        "2019": 17,
+        "2021": 12,
+        "2022": 24,
+        "2023": 12,
+        "2024": 17,
+        "2025": 12
+      },
+      "capture_month_count": 16,
+      "main_date": "2025-08",
+      "main_count": 12,
+      "main_max_camera_baseline_m": 185.258,
+      "geometry_cohort_counts": {
+        "2025-08": 12,
+        "2024-08": 17,
+        "2012-06": 20
+      },
+      "time_cohorts": [
+        "2019-04",
+        "2025-08"
+      ],
+      "metadata_close_time_pairs": [
+        {
+          "first_panoid": "3LCJSH7skyro3-b6DoVlZw",
+          "second_panoid": "JiUpZkfLmzv9m024ejF0PQ",
+          "metadata_distance_m": 0.366
+        },
+        {
+          "first_panoid": "1ztsyppuFQ-sn8fPXmWrCg",
+          "second_panoid": "cnbeIH5N3DL9Ye3Bftw13Q",
+          "metadata_distance_m": 0.558
+        },
+        {
+          "first_panoid": "IH-5qaDowm4olF6iuNWuAA",
+          "second_panoid": "or8Iz0WKP4aq6qgqMq4ipw",
+          "metadata_distance_m": 0.81
+        },
+        {
+          "first_panoid": "hSkZjSM_XSOz55mXLVK2uA",
+          "second_panoid": "q3WK2rHAztMhnW2D7D6U2w",
+          "metadata_distance_m": 0.99
+        },
+        {
+          "first_panoid": "GlzYpUxmOgl4GMuxVpMEbg",
+          "second_panoid": "Qh7cdX9Xkkxuhr5ofaeVPw",
+          "metadata_distance_m": 1.382
+        },
+        {
+          "first_panoid": "qtnv1Vcmc__zHNPTsxyCSQ",
+          "second_panoid": "7fNXgvZ3raimQsidpUS8Rg",
+          "metadata_distance_m": 1.66
+        },
+        {
+          "first_panoid": "3zz0PqeZtkaylihuq5D47Q",
+          "second_panoid": "-tmkNJi8X7VDUQZA-1tETA",
+          "metadata_distance_m": 1.794
+        },
+        {
+          "first_panoid": "X1-9eFRTnQmMY9kLLEAX5g",
+          "second_panoid": "9AyWZ6UH9CmuOdNq1demyw",
+          "metadata_distance_m": 1.918
+        },
+        {
+          "first_panoid": "4hu5oS4iT0cIox85S2tuMQ",
+          "second_panoid": "ZclY8ZkTwItR7FqJTTaReA",
+          "metadata_distance_m": 1.982
+        }
+      ]
+    },
+    {
+      "sample_id": 262745,
+      "lat": 51.46356669718772,
+      "lon": -0.3088738996830399,
+      "status": "done",
+      "radius_m": 100,
+      "panorama_count": 94,
+      "year_counts": {
+        "2008": 5,
+        "2009": 5,
+        "2012": 10,
+        "2014": 5,
+        "2015": 10,
+        "2016": 5,
+        "2017": 14,
+        "2018": 5,
+        "2019": 5,
+        "2020": 5,
+        "2021": 5,
+        "2022": 10,
+        "2024": 5,
+        "2025": 5
+      },
+      "capture_month_count": 19,
+      "main_date": "2025-06",
+      "main_count": 5,
+      "main_max_camera_baseline_m": 160.81,
+      "geometry_cohort_counts": {
+        "2025-06": 5,
+        "2024-07": 5,
+        "2012-09": 5
+      },
+      "time_cohorts": [
+        "2016-08",
+        "2024-07"
+      ],
+      "metadata_close_time_pairs": [
+        {
+          "first_panoid": "hC_nBV8q4XiHmvZjZeTWkA",
+          "second_panoid": "Fgx6SgGblA6oaCmPGv76Og",
+          "metadata_distance_m": 0.308
+        },
+        {
+          "first_panoid": "hQUlfhWIBMpbfJpAgKlO4A",
+          "second_panoid": "s1i3aSs5HbW85qByYgmJag",
+          "metadata_distance_m": 1.346
+        },
+        {
+          "first_panoid": "ByBT3QQ5Z0TnMsSJ3OSakA",
+          "second_panoid": "KQtjk4L7JzyPZv_CUruaeQ",
+          "metadata_distance_m": 1.545
+        },
+        {
+          "first_panoid": "Uzq0wdt_B8JJ9rM7qkwZ6Q",
+          "second_panoid": "j2oL5UjYYnAiwkZykwI81A",
+          "metadata_distance_m": 1.737
+        },
+        {
+          "first_panoid": "TFfphTEszw8p8c_QzMOb3w",
+          "second_panoid": "XXvBNeMfQQ5a2v-xpmZd6w",
+          "metadata_distance_m": 1.769
+        }
+      ]
+    },
+    {
+      "sample_id": 342355,
+      "lat": 51.49373248668325,
+      "lon": -0.1469680683011089,
+      "status": "done",
+      "radius_m": 100,
+      "panorama_count": 249,
+      "year_counts": {
+        "2008": 9,
+        "2009": 12,
+        "2012": 16,
+        "2014": 21,
+        "2015": 24,
+        "2016": 26,
+        "2017": 29,
+        "2018": 20,
+        "2019": 11,
+        "2020": 13,
+        "2021": 13,
+        "2022": 30,
+        "2023": 3,
+        "2024": 9,
+        "2025": 13
+      },
+      "capture_month_count": 48,
+      "main_date": "2025-10",
+      "main_count": 11,
+      "main_max_camera_baseline_m": 168.485,
+      "geometry_cohort_counts": {
+        "2025-10": 11,
+        "2024-07": 8,
+        "2012-08": 8
+      },
+      "time_cohorts": [
+        "2018-04",
+        "2024-07"
+      ],
+      "metadata_close_time_pairs": [
+        {
+          "first_panoid": "U592ZjGXtWIQhtSw4yOc1Q",
+          "second_panoid": "K6i8WH75kiUBzJAHHf76KQ",
+          "metadata_distance_m": 0.689
+        },
+        {
+          "first_panoid": "A1n--1fjUZNibjYhfYf7Cg",
+          "second_panoid": "qIFJSUsIFjej8JqEG03KmQ",
+          "metadata_distance_m": 0.703
+        },
+        {
+          "first_panoid": "5Rpqeq4Ke50bgDxqVviU4A",
+          "second_panoid": "TlAGI4mUCOmY4VM8nin6iQ",
+          "metadata_distance_m": 0.867
+        },
+        {
+          "first_panoid": "4lLYFrMXuNV1rvh0InwhfA",
+          "second_panoid": "POxRdugJUl6L_avoMs0nVA",
+          "metadata_distance_m": 1.1
+        },
+        {
+          "first_panoid": "96nPYAYct52DPRPaDVhabg",
+          "second_panoid": "fRoEfnjcpaozXF7lfjA4HA",
+          "metadata_distance_m": 1.324
+        }
+      ]
+    }
+  ],
+  "main_panorama_count": 28,
+  "geometry_cohort_panorama_count": 91,
+  "geometry_and_time_union_panorama_count": 117,
+  "proposed_yaw_count": 8,
+  "main_perspective_view_count": 224
+}

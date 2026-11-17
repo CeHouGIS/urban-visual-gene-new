@@ -1,0 +1,558 @@
+{
+  "as_of_beijing": "2026-11-17T01:17:17.626981+08:00",
+  "models": {
+    "learned_s42": {
+      "test": {
+        "count": 1000,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.03342392098903656,
+            "psnr_mean_per_image": 26.520318420410156,
+            "ssim": 0.7753041610717774,
+            "lpips": 0.12738826942443848,
+            "genes_used": 264,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 98.937
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.025340311020612717,
+            "psnr_mean_per_image": 28.559013305664063,
+            "ssim": 0.8373254070281982,
+            "lpips": 0.07554499006271362,
+            "genes_used": 455,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 195.328
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.022415562748908997,
+            "psnr_mean_per_image": 29.272651794433592,
+            "ssim": 0.8593747615814209,
+            "lpips": 0.0587482830286026,
+            "genes_used": 508,
+            "mean_nonzero_coefficients_per_image": 85201.253,
+            "mean_active_genes_per_image": 358.618
+          }
+        }
+      },
+      "city_diagnostic": {
+        "count": 128,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.03631950914859772,
+            "psnr_mean_per_image": 25.945851802825928,
+            "ssim": 0.754366010427475,
+            "lpips": 0.13310515880584717,
+            "genes_used": 219,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 96.9296875
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.02789215464144945,
+            "psnr_mean_per_image": 27.91646432876587,
+            "ssim": 0.8210230618715286,
+            "lpips": 0.0805292408913374,
+            "genes_used": 388,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 194.1796875
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.024779752362519503,
+            "psnr_mean_per_image": 28.631502628326416,
+            "ssim": 0.8448062688112259,
+            "lpips": 0.06315630208700895,
+            "genes_used": 502,
+            "mean_nonzero_coefficients_per_image": 85453.1640625,
+            "mean_active_genes_per_image": 356.296875
+          }
+        }
+      },
+      "progress": {
+        "status": "complete",
+        "step": 6000,
+        "max_updates": 6000,
+        "updated_utc": "2026-11-16T14:09:02.232363+00:00"
+      }
+    },
+    "random_s42": {
+      "test": {
+        "count": 1000,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.03115456199645996,
+            "psnr_mean_per_image": 27.11067706298828,
+            "ssim": 0.7916329536437988,
+            "lpips": 0.11377106833457946,
+            "genes_used": 274,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 55.846999999999994
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.023404305219650267,
+            "psnr_mean_per_image": 29.270444763183594,
+            "ssim": 0.8585200309753418,
+            "lpips": 0.058655324935913085,
+            "genes_used": 475,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 238.426
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.020670582622289657,
+            "psnr_mean_per_image": 30.078666442871093,
+            "ssim": 0.8823674926757813,
+            "lpips": 0.04258878940343857,
+            "genes_used": 505,
+            "mean_nonzero_coefficients_per_image": 85748.835,
+            "mean_active_genes_per_image": 402.997
+          }
+        }
+      },
+      "city_diagnostic": {
+        "count": 128,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.033919828943908215,
+            "psnr_mean_per_image": 26.526499271392822,
+            "ssim": 0.7729810625314713,
+            "lpips": 0.1196491401642561,
+            "genes_used": 210,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 54.9140625
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.025702819228172302,
+            "psnr_mean_per_image": 28.650421619415283,
+            "ssim": 0.8451062738895416,
+            "lpips": 0.06206814385950565,
+            "genes_used": 449,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 238.609375
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.0227965684607625,
+            "psnr_mean_per_image": 29.450069427490234,
+            "ssim": 0.870516762137413,
+            "lpips": 0.04531625937670469,
+            "genes_used": 497,
+            "mean_nonzero_coefficients_per_image": 85734.359375,
+            "mean_active_genes_per_image": 402.6953125
+          }
+        }
+      },
+      "progress": {
+        "status": "complete",
+        "step": 6000,
+        "max_updates": 6000,
+        "updated_utc": "2026-11-16T14:08:52.666405+00:00"
+      }
+    },
+    "dense_s42": {
+      "test": {
+        "count": 1000,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.021228039622306825,
+            "psnr_mean_per_image": 29.52601013183594,
+            "ssim": 0.8611808567047119,
+            "lpips": 0.05748324728012085
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.016334490865468978,
+            "psnr_mean_per_image": 32.06586749267578,
+            "ssim": 0.9163192882537842,
+            "lpips": 0.021456636369228364
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.016165695190429687,
+            "psnr_mean_per_image": 32.162088500976566,
+            "ssim": 0.9178217315673828,
+            "lpips": 0.020328119456768035
+          }
+        }
+      },
+      "city_diagnostic": {
+        "count": 128,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.023633114527910948,
+            "psnr_mean_per_image": 28.856643676757812,
+            "ssim": 0.8462135195732117,
+            "lpips": 0.06238794885575771
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.018222937360405922,
+            "psnr_mean_per_image": 31.35936450958252,
+            "ssim": 0.9071907103061676,
+            "lpips": 0.023349345196038485
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.018035636749118567,
+            "psnr_mean_per_image": 31.455330848693848,
+            "ssim": 0.9088369607925415,
+            "lpips": 0.022193370386958122
+          }
+        }
+      },
+      "progress": {
+        "status": "complete",
+        "step": 6000,
+        "max_updates": 6000,
+        "updated_utc": "2026-11-16T15:34:58.808904+00:00"
+      }
+    },
+    "learned_s137": {
+      "test": {
+        "count": 1000,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.03408643352985382,
+            "psnr_mean_per_image": 26.336533081054686,
+            "ssim": 0.7679678325653077,
+            "lpips": 0.13544013023376464,
+            "genes_used": 236,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 91.577
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.025724003195762634,
+            "psnr_mean_per_image": 28.410519470214844,
+            "ssim": 0.832704948425293,
+            "lpips": 0.07937080073356628,
+            "genes_used": 466,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 183.621
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.022665781319141386,
+            "psnr_mean_per_image": 29.17763848876953,
+            "ssim": 0.8578526725769043,
+            "lpips": 0.06093421149253845,
+            "genes_used": 511,
+            "mean_nonzero_coefficients_per_image": 85567.876,
+            "mean_active_genes_per_image": 369.38300000000004
+          }
+        }
+      },
+      "city_diagnostic": {
+        "count": 128,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.03682414349168539,
+            "psnr_mean_per_image": 25.791476249694824,
+            "ssim": 0.7477508932352066,
+            "lpips": 0.14138628914952278,
+            "genes_used": 201,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 91.2109375
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.028190026991069317,
+            "psnr_mean_per_image": 27.798208713531494,
+            "ssim": 0.8164037466049194,
+            "lpips": 0.08428161218762398,
+            "genes_used": 408,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 183.4296875
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.025020561646670103,
+            "psnr_mean_per_image": 28.544513702392578,
+            "ssim": 0.8432001322507858,
+            "lpips": 0.06572320871055126,
+            "genes_used": 506,
+            "mean_nonzero_coefficients_per_image": 85487.1015625,
+            "mean_active_genes_per_image": 366.9375
+          }
+        }
+      },
+      "progress": {
+        "status": "complete",
+        "step": 6000,
+        "max_updates": 6000,
+        "updated_utc": "2026-11-16T15:58:36.985842+00:00"
+      }
+    },
+    "random_s137": {
+      "test": {
+        "count": 1000,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.032073205173015595,
+            "psnr_mean_per_image": 26.835969360351562,
+            "ssim": 0.7834265975952148,
+            "lpips": 0.12300572896003723,
+            "genes_used": 287,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 59.245
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.02397893315553665,
+            "psnr_mean_per_image": 29.011582214355467,
+            "ssim": 0.8513626384735108,
+            "lpips": 0.06544054758548737,
+            "genes_used": 480,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 234.192
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.021166066944599153,
+            "psnr_mean_per_image": 29.808599487304686,
+            "ssim": 0.8751045227050781,
+            "lpips": 0.04812757402658462,
+            "genes_used": 507,
+            "mean_nonzero_coefficients_per_image": 84767.313,
+            "mean_active_genes_per_image": 402.415
+          }
+        }
+      },
+      "city_diagnostic": {
+        "count": 128,
+        "rates": {
+          "0": {
+            "encoded_bytes_per_image": 32352,
+            "l1": 0.034892029128968716,
+            "psnr_mean_per_image": 26.245667457580566,
+            "ssim": 0.7634179890155792,
+            "lpips": 0.12935243546962738,
+            "genes_used": 228,
+            "mean_nonzero_coefficients_per_image": 5376.0,
+            "mean_active_genes_per_image": 57.859375
+          },
+          "1": {
+            "encoded_bytes_per_image": 129120,
+            "l1": 0.026386686600744724,
+            "psnr_mean_per_image": 28.37871503829956,
+            "ssim": 0.8369459509849548,
+            "lpips": 0.06915898993611336,
+            "genes_used": 451,
+            "mean_nonzero_coefficients_per_image": 21504.0,
+            "mean_active_genes_per_image": 232.890625
+          },
+          "2": {
+            "encoded_bytes_per_image": 516192,
+            "l1": 0.023393073584884405,
+            "psnr_mean_per_image": 29.169694423675537,
+            "ssim": 0.8624517619609833,
+            "lpips": 0.05161611828953028,
+            "genes_used": 498,
+            "mean_nonzero_coefficients_per_image": 84724.0078125,
+            "mean_active_genes_per_image": 401.6875
+          }
+        }
+      },
+      "progress": {
+        "status": "complete",
+        "step": 6000,
+        "max_updates": 6000,
+        "updated_utc": "2026-11-16T17:14:09.267785+00:00"
+      }
+    },
+    "dense_s137": {
+      "progress": {
+        "status": "training",
+        "step": 4520,
+        "max_updates": 6000,
+        "updated_utc": "2026-11-16T17:17:14.466464+00:00"
+      }
+    }
+  },
+  "old_reconstruction": {
+    "count": 128,
+    "mae": {
+      "mean": 0.019409404550970066,
+      "ci95": [
+        0.0181798875273671,
+        0.020664711995596007
+      ],
+      "n": 128
+    },
+    "psnr": {
+      "mean": 30.78013338148594,
+      "ci95": [
+        30.330892130360006,
+        31.225624390691518
+      ],
+      "n": 128
+    },
+    "ssim": {
+      "mean": 0.8967786384746432,
+      "ci95": [
+        0.8907033397466876,
+        0.9031196080963128
+      ],
+      "n": 128
+    },
+    "same_checkpoint_no_training": true
+  },
+  "old_composition": {
+    "metrics": {
+      "gene_group": {
+        "donor_distance_reduction_fraction": {
+          "mean": 0.023524527954244888,
+          "ci95": [
+            0.02211732324694847,
+            0.024930953236516278
+          ],
+          "n": 32
+        },
+        "receiver_outside_mae": {
+          "mean": 0.000202645296440096,
+          "ci95": [
+            0.0001610594923079134,
+            0.0002511790785604262
+          ],
+          "n": 32
+        },
+        "whole_image_change_mae": {
+          "mean": 0.0017943253988050856,
+          "ci95": [
+            0.0016499874144756178,
+            0.0019422462396505578
+          ],
+          "n": 32
+        }
+      },
+      "matched_other_gene_group": {
+        "donor_distance_reduction_fraction": {
+          "mean": 0.02766299407034917,
+          "ci95": [
+            0.02586432701354176,
+            0.029527270127729016
+          ],
+          "n": 32
+        },
+        "receiver_outside_mae": {
+          "mean": 0.00021169786100472265,
+          "ci95": [
+            0.00017485297161101698,
+            0.00025328265471671326
+          ],
+          "n": 32
+        },
+        "whole_image_change_mae": {
+          "mean": 0.001922631203342462,
+          "ci95": [
+            0.0017902890772347746,
+            0.0020563413676427445
+          ],
+          "n": 32
+        }
+      },
+      "all_feature_channels": {
+        "donor_distance_reduction_fraction": {
+          "mean": 0.8882656243365932,
+          "ci95": [
+            0.8726558680922861,
+            0.9016233425982703
+          ],
+          "n": 32
+        },
+        "receiver_outside_mae": {
+          "mean": 0.004319295898312703,
+          "ci95": [
+            0.003361073643100099,
+            0.0053288025506844855
+          ],
+          "n": 32
+        },
+        "whole_image_change_mae": {
+          "mean": 0.04601516603725031,
+          "ci95": [
+            0.04263582803250756,
+            0.04923216616734862
+          ],
+          "n": 32
+        }
+      },
+      "rgb_blend": {
+        "donor_distance_reduction_fraction": {
+          "mean": 0.49999999605450474,
+          "ci95": [
+            0.4999999884371713,
+            0.5000000030328242
+          ],
+          "n": 32
+        },
+        "receiver_outside_mae": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n": 32
+        },
+        "whole_image_change_mae": {
+          "mean": 0.02192232693778351,
+          "ci95": [
+            0.020350690656050573,
+            0.02341753762884764
+          ],
+          "n": 32
+        }
+      }
+    },
+    "n_pairs": 32,
+    "ordinary_dense_AE_control": "pending new from-scratch control training; all_feature_channels here is the original dictionary model, not an ordinary AE",
+    "no_target_or_human_realism_scores": true,
+    "rgb_blend_is_reference_only": true,
+    "known_limitation": "Global GroupNorm and decoder receptive field can propagate edits beyond the mask. Pixel donor proximity does not prove semantic transfer or realism."
+  },
+  "new_queue": {
+    "status": "waiting_for_previous_experiment",
+    "pid": 939129,
+    "completed": [],
+    "pending": [
+      "learned_s42",
+      "random_s42",
+      "learned_s137",
+      "random_s137"
+    ],
+    "failures": {},
+    "max_physical_gpus": 4,
+    "gpus_per_model": 2,
+    "global_batch_per_model": 256,
+    "gpu_only": true,
+    "dependency": {
+      "ready": false,
+      "status": "waiting_for_previous_experiment",
+      "upstream": {
+        "upstream_queue": {
+          "status": "training",
+          "updated_utc": "2026-11-16T17:17:03.753843+00:00"
+        },
+        "upstream_postprocess": {
+          "status": "waiting_for_training",
+          "updated_utc": "2026-11-16T17:17:09.255507+00:00"
+        }
+      }
+    },
+    "active": {},
+    "updated_utc": "2026-11-16T17:17:13.898317+00:00"
+  }
+}

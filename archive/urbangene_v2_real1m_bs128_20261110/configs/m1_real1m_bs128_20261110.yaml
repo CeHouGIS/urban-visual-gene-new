@@ -1,0 +1,48 @@
+seed: 42
+device: cuda
+output: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/m1_real1m_bs128_20261110
+data_root: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real1m_20261110
+train_labels_for_instance_discovery: false
+train_images: 1000000
+validation_images: 4096
+data_shard_size: 2048
+verification_workers: 8
+inventory_root: /host/mnt/nas/huangyj/GoogleSV/urban_visual_gene/formal_city_qc
+excluded_cities: [Adelaide]
+comparison_provenance: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real20k_20261110/provenance.json
+dependency_execution: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/m1_real20k_20261110/execution.json
+backbone:
+  family: dinov3
+  backend: transformers
+  resolution: 448
+  weights: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/models/dinov3-vitl16
+model:
+  feature_dim: 1024
+  slot_dim: 128
+  max_slots: 32
+  iterations: 3
+  hidden_dim: 128
+  spatial_strength: 0.1
+  spatial_initial_scale: 0.18
+  background_slot: true
+extraction:
+  batch_size_per_gpu: 16
+  workers_per_gpu: 4
+  minimum_free_bytes: 2199023255552
+training:
+  effective_batch_size: 128
+  micro_batch_per_gpu: 16
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00003
+  warmup_updates: 2000
+  max_updates: 100000
+  evaluate_every: 1000
+  checkpoint_every: 1000
+  preview_every: 5000
+  gradient_clip: 1.0
+  workers: 4
+  precision: float32
+compute:
+  gpu_only: true
+  max_gpus: 2
+  gpu_poll_seconds: 30

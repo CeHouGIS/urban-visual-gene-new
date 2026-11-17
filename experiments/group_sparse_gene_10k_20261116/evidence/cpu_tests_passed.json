@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "tests": 14,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 0,
+  "revision": "20261117_reuse_priority",
+  "xml": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/cpu_tests.xml",
+  "neural_cpu_execution": false,
+  "updated_utc": "2026-11-16T17:26:38.780929+00:00"
+}

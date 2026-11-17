@@ -1,0 +1,72 @@
+seed: 42
+data:
+  root: /host/mnt/nas/urban-visual-gene/urbangene_v11_20261108/v1_grct/data/full
+  image_size: 256
+  workers: 0
+  counts:
+    train: 20000
+    val_seen: 2000
+    test_seen: 2000
+    test_unseen_combo: 2000
+    test_higher_complexity: 2000
+model:
+  latent_channels: 8
+  latent_hw: 32
+  gene_count: 64
+  max_gene_count: 128
+  gene_patch_hw: 8
+  max_instances: 16
+  instance_limit: 32
+  position_grid: 16
+  scale_levels:
+  - 0.5
+  - 1.0
+  - 1.5
+  budget_bits: 272
+  parser_width: 48
+  allow_continuous_scene_residual: false
+  composer:
+    type: fixed_average
+    instance_dim: 256
+    relational_layers: 6
+    relational_heads: 8
+    spatial_layers: 4
+    spatial_heads: 8
+    ffn_ratio: 4
+    chunk_size: 128
+    use_local_gene_features: true
+    residual_from_fixed_average: true
+    init_output_head_zero: true
+    cnn_width: 64
+    cnn_depth: 4
+  parser_parameter_target: 10337960
+ae:
+  width: 24
+  epochs: 30
+  learning_rate: 0.0003
+training:
+  loss: latent_l1
+  batch_size: 32
+  learning_rate: 0.0003
+  epochs: 30
+  amp: false
+  cpu_threads: 4
+  micro_batch_size: 2
+  gradient_accumulation: 16
+probe:
+  epochs: 10
+evaluation:
+  recombination_samples: 128
+  overlap_threshold: 0.5
+  seeds:
+  - 42
+  - 29
+  - 43
+  ae_psnr_min: 24.0
+  failure_rgb_l1: 0.1
+  validation_samples: 2000
+  evaluation_batch_size: 8
+provenance:
+  version: '1.1'
+  baseline_root: /root/code/urban-visual-gene/urbangene
+  optional_paired_training: false

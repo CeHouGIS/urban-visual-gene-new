@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "python_sources_ast_parsed": 21,
+  "neural_execution": false,
+  "splits": {
+    "train": {
+      "images": 10000,
+      "grids": 500,
+      "cities": 252,
+      "continents": {
+        "Africa": 1680,
+        "Asia": 1660,
+        "Europe": 1680,
+        "North America": 1660,
+        "Oceania": 1660,
+        "South America": 1660
+      },
+      "manifest": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/data/images.train.jsonl",
+      "cache_shape": [
+        10000,
+        256,
+        256,
+        3
+      ]
+    },
+    "validation": {
+      "images": 1000,
+      "grids": 50,
+      "cities": 47,
+      "continents": {
+        "Africa": 160,
+        "Asia": 180,
+        "Europe": 160,
+        "North America": 180,
+        "Oceania": 160,
+        "South America": 160
+      },
+      "manifest": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/data/images.validation.jsonl",
+      "cache_shape": [
+        1000,
+        256,
+        256,
+        3
+      ]
+    },
+    "test": {
+      "images": 1000,
+      "grids": 50,
+      "cities": 46,
+      "continents": {
+        "Africa": 160,
+        "Asia": 180,
+        "Europe": 160,
+        "North America": 160,
+        "Oceania": 160,
+        "South America": 180
+      },
+      "manifest": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/data/images.test.jsonl",
+      "cache_shape": [
+        1000,
+        256,
+        256,
+        3
+      ]
+    }
+  },
+  "intersection_counts": {
+    "train__validation": {
+      "id": 0,
+      "pano": 0,
+      "grid_id": 0,
+      "ucdb_id": 39
+    },
+    "train__test": {
+      "id": 0,
+      "pano": 0,
+      "grid_id": 0,
+      "ucdb_id": 40
+    },
+    "train__city_diagnostic": {
+      "id": 0,
+      "pano": 0,
+      "grid_id": 0,
+      "ucdb_id": 0
+    },
+    "validation__test": {
+      "id": 0,
+      "pano": 0,
+      "grid_id": 0,
+      "ucdb_id": 14
+    },
+    "validation__city_diagnostic": {
+      "id": 0,
+      "pano": 0,
+      "grid_id": 0,
+      "ucdb_id": 0
+    },
+    "test__city_diagnostic": {
+      "id": 0,
+      "pano": 0,
+      "grid_id": 0,
+      "ucdb_id": 0
+    }
+  },
+  "city_diagnostic_images": 128,
+  "city_diagnostic_previously_viewed": true,
+  "source_image_hashing_performed": false,
+  "updated_utc": "2026-11-16T17:26:39.005254+00:00",
+  "revision": "20261117_reuse_priority"
+}

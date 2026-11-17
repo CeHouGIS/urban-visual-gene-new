@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 256,
+  "per_gpu_microbatch": 128,
+  "accumulation_steps": 1,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.36009788513183594,
+    0.35806384682655334,
+    0.35873931646347046,
+    0.33469046652317047,
+    0.2989763766527176,
+    0.27511292695999146,
+    0.2478824257850647,
+    0.24390877783298492,
+    0.23769167810678482,
+    0.23285086452960968,
+    0.22296049445867538,
+    0.23546238988637924,
+    0.327791303396225,
+    0.3208252042531967,
+    0.288631409406662,
+    0.2556842938065529,
+    0.23195446282625198,
+    0.21823284029960632,
+    0.22072125226259232,
+    0.22060471028089523
+  ],
+  "full_global_batch_loss": 0.2800191789865494,
+  "gradient_norm": 0.22731542587280273,
+  "gradient_equivalence_max_abs_error": 2.1653249859809875e-08,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    31384475648,
+    31384475648
+  ],
+  "forward_conv_dictionary_macs_per_image": 17073815552,
+  "weights_discarded": true,
+  "model_spec": {
+    "variant": "multiscale_residual_ista",
+    "parameters": 5218782,
+    "dictionary_parameters": 163840,
+    "dictionary_genes": 512,
+    "scale_gene_counts": {
+      "coarse": 256,
+      "medium": 128,
+      "fine": 128
+    },
+    "scale_grids": {
+      "coarse": 16,
+      "medium": 32,
+      "fine": 64
+    },
+    "dictionary_kernels": {
+      "coarse": 1,
+      "medium": 3,
+      "fine": 3
+    },
+    "ista_iterations": 6,
+    "sparsity_policy": "nonnegative L1 proximal inference; no hard coefficient quota",
+    "inference_note": "finite unrolled iterations approximate the sparse-coding optimum",
+    "step_policy": "learned sigmoid fraction of conservative operator Lipschitz bound",
+    "feature_additivity": "exact linear dictionary synthesis within each scale",
+    "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+    "encoder_bypass": false,
+    "prior_checkpoint_loaded": false
+  },
+  "updated_utc": "2026-11-16T07:25:55.739739+00:00"
+}

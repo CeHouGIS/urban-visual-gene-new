@@ -1,0 +1,46 @@
+seed: 42
+device: cpu
+output: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/m1_real20k_20261110
+dataset_kind: real_google_street_view_photographs
+train_labels_for_instance_discovery: false
+expected_counts:
+  train: 20000
+  validation: 512
+backbone:
+  family: dinov3
+  backend: transformers
+  resolution: 448
+  weights: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/models/dinov3-vitl16
+manifests:
+  train: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real20k_20261110/images.train.jsonl
+  validation: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real20k_20261110/images.validation.jsonl
+features:
+  train: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real20k_20261110/features.train.npy
+  validation: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real20k_20261110/features.validation.npy
+verified_reuse:
+  manifests:
+    train: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real_streets_20261109/images.train.jsonl
+    validation: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real_streets_20261109/images.validation.jsonl
+  features:
+    train: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real_streets_20261109/features.train.npy
+    validation: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real_streets_20261109/features.validation.npy
+model:
+  feature_dim: 1024
+  slot_dim: 128
+  max_slots: 32
+  iterations: 3
+  hidden_dim: 128
+  spatial_strength: 0.1
+  spatial_initial_scale: 0.18
+  background_slot: true
+training:
+  cpu_threads: 4
+  batch_size: 4
+  epochs: 30
+  learning_rate: 0.0003
+  gradient_clip: 1.0
+  milestone_epochs: [1, 5, 10, 20, 30]
+extraction:
+  cpu_threads: 8
+  shard_size: 256
+baseline_metrics: /host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/m1_real_streets_cpu_20261109/validation/metrics.json

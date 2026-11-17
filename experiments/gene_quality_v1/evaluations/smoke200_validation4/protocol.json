@@ -1,0 +1,25 @@
+{
+  "checkpoint": "/root/code/urban-visual-gene/experiments/gene_quality_v1/runs/smoke1024_DV_seed17/checkpoint_000200.pt",
+  "checkpoint_step": 200,
+  "split": "validation",
+  "selected_indices": [
+    500,
+    1200,
+    1900,
+    2600
+  ],
+  "seeds": [
+    101
+  ],
+  "sampling_steps": 30,
+  "cfg": 5.0,
+  "resolution": 1024,
+  "initial_state": "pure random noise",
+  "conditions": [
+    "correct",
+    "zero",
+    "shuffled"
+  ],
+  "test_access": false,
+  "created_at": "2026-10-19T18:03:13Z"
+}

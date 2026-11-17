@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 256,
+  "per_gpu_microbatch": 128,
+  "accumulation_steps": 1,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.3156481981277466,
+    0.3064991533756256,
+    0.31340213119983673,
+    0.33737562596797943,
+    0.3070538192987442,
+    0.28293830156326294,
+    0.2867436110973358,
+    0.29816658794879913,
+    0.2839520424604416,
+    0.27541787922382355,
+    0.2687123566865921,
+    0.2607843279838562,
+    0.2574978172779083,
+    0.23595915734767914,
+    0.26355403661727905,
+    0.22874199599027634,
+    0.22397323697805405,
+    0.2378871887922287,
+    0.22392398864030838,
+    0.20907297730445862
+  ],
+  "full_global_batch_loss": 0.26662884652614594,
+  "gradient_norm": 0.19867847859859467,
+  "gradient_equivalence_max_abs_error": 4.1443854570388794e-08,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    28529171968,
+    28529171968
+  ],
+  "forward_conv_dictionary_macs_per_image": 12095176704,
+  "weights_discarded": true,
+  "model_spec": {
+    "method": "random",
+    "parameters": 5348812,
+    "trainable_parameters": 5184972,
+    "dictionary_genes": 512,
+    "scale_gene_counts": {
+      "coarse": 256,
+      "medium": 128,
+      "fine": 128
+    },
+    "dictionary_kernels": {
+      "coarse": 1,
+      "medium": 3,
+      "fine": 3
+    },
+    "gene_caps": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "per_scale_caps": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        8,
+        4,
+        4
+      ],
+      [
+        16,
+        8,
+        8
+      ],
+      [
+        32,
+        16,
+        16
+      ]
+    ],
+    "expression_grids": {
+      "coarse": 8,
+      "medium": 16,
+      "fine": 32
+    },
+    "expression_quantization": "uint8; global fixed bound 4.0",
+    "gate": "image-conditioned stochastic hard-concrete during training, deterministic at evaluation; TopK cap on entire maps",
+    "expected_cost": "before cap and uint8 rounding; upper bound on expected post-cap TRAINING cost",
+    "encoder_bypass": false,
+    "feature_additivity": true,
+    "rgb_decoder": "nonlinear",
+    "from_scratch": true,
+    "dictionary_frozen": true
+  },
+  "updated_utc": "2026-11-16T17:46:38.631710+00:00"
+}

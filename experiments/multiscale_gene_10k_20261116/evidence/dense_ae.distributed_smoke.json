@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 1024,
+  "per_gpu_microbatch": 128,
+  "accumulation_steps": 4,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.2584269791841507,
+    0.2243238091468811,
+    0.2172403335571289,
+    0.2035110890865326,
+    0.19597741961479187,
+    0.1896425187587738,
+    0.18512146174907684,
+    0.17615409195423126,
+    0.1645207405090332,
+    0.1585696041584015,
+    0.16129017621278763,
+    0.17247357964515686,
+    0.16329224407672882,
+    0.1628151535987854,
+    0.15962795913219452,
+    0.16067258268594742,
+    0.16141152381896973,
+    0.1604810208082199,
+    0.157952718436718,
+    0.15518251061439514
+  ],
+  "full_global_batch_loss": 0.21541896276175976,
+  "gradient_norm": 0.09524305909872055,
+  "gradient_equivalence_max_abs_error": 1.1757947504520416e-08,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    27711716864,
+    27711716864
+  ],
+  "forward_conv_dictionary_macs_per_image": 11653873664,
+  "weights_discarded": true,
+  "model_spec": {
+    "variant": "dense_ae",
+    "parameters": 5021123,
+    "dictionary_parameters": 0,
+    "dictionary_genes": 0,
+    "scale_gene_counts": {},
+    "scale_grids": {
+      "coarse": 16
+    },
+    "scale_coefficient_budgets": {},
+    "coefficient_slots": 0,
+    "maximum_nonzero_coefficients_per_image": 0,
+    "sparsity_policy": "positive TopK across channel and space, separately per scale",
+    "strict_additivity": "per-scale synthesized features",
+    "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+    "encoder_bypass": false
+  },
+  "updated_utc": "2026-11-16T03:39:25.079102+00:00"
+}

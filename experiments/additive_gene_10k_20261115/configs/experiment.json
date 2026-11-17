@@ -1,0 +1,29 @@
+{
+  "name": "additive_gene_10k_20261115",
+  "seed": 42,
+  "root": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115",
+  "source_data": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/data/real1m_20261110",
+  "cache": "/workspace/urban-visual-gene/additive_gene_10k_20261115/cache",
+  "temporary_directory": "/workspace/urban-visual-gene/additive_gene_10k_20261115/tmp",
+  "shared_gpu_leases": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/gpu_leases",
+  "python": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/.venv/bin/python3",
+  "data": {"train": 10000, "validation": 1024, "test": 1024, "resolution": 256, "workers": 8},
+  "model": {"latent_channels": 64, "dictionary_size": 256, "active_per_location": 4},
+  "training": {
+    "max_updates": 6000,
+    "effective_batch_size": 64,
+    "micro_batch_size": 16,
+    "learning_rate": 0.0002,
+    "minimum_learning_rate": 0.00002,
+    "warmup_updates": 200,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "perceptual_weight": 0.1,
+    "evaluate_every": 250,
+    "log_every": 20,
+    "preview_count": 8,
+    "precision": "bfloat16_if_supported"
+  },
+  "variants": ["dense_ae", "sparse_n256_s4"],
+  "compute": {"gpu_only": true, "max_gpus": 2, "poll_seconds": 30, "one_gpu_per_variant": true}
+}

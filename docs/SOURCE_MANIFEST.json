@@ -1,0 +1,3499 @@
+{
+  "created_utc": "2026-11-17T11:57:14.609389+00:00",
+  "repository": "https://github.com/CeHouGIS/urban-visual-gene-new",
+  "scope": "source/configuration/documentation/small historical evidence only",
+  "file_count": 576,
+  "source_bytes": 5329863,
+  "files": [
+    {
+      "path": "urbangene/EXPERIMENT_STEPS.md",
+      "source": "/root/code/urban-visual-gene/urbangene/EXPERIMENT_STEPS.md",
+      "bytes": 16135,
+      "sha256": "db071abfc2fedeea7b9c898f9986496f4dc0291c5f8a15d3376819bd284eeb5d"
+    },
+    {
+      "path": "urbangene/README.md",
+      "source": "/root/code/urban-visual-gene/urbangene/README.md",
+      "bytes": 3823,
+      "sha256": "eeebd1df3e8cdd7a69f2668e1712baef58063585ee004887538060a1509b6b49"
+    },
+    {
+      "path": "urbangene/REQUIREMENTS.md",
+      "source": "/root/code/urban-visual-gene/urbangene/REQUIREMENTS.md",
+      "bytes": 18615,
+      "sha256": "f3277f843de9fab359a62c4f9d066cb6d92b633dffd258808b5bb3b21e9eaefb"
+    },
+    {
+      "path": "urbangene/TRAINING_PLAN.md",
+      "source": "/root/code/urban-visual-gene/urbangene/TRAINING_PLAN.md",
+      "bytes": 6846,
+      "sha256": "c169d7a49c54d451376312b2a155a3b725426969f505daec2dea5760f92e4248"
+    },
+    {
+      "path": "urbangene/pyproject.toml",
+      "source": "/root/code/urban-visual-gene/urbangene/pyproject.toml",
+      "bytes": 461,
+      "sha256": "5c20eccceeb7261d9ae3e8477875f7ea7dfc8a6c7e9dffc2b5d8198ecb3da853"
+    },
+    {
+      "path": "urbangene/configs/smoke.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene/configs/smoke.yaml",
+      "bytes": 637,
+      "sha256": "dcef7701ec61862c674b66121f12b46bcf02f2daea2ff85459cb2c5ef2983fa3"
+    },
+    {
+      "path": "urbangene/configs/v0_64genes.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene/configs/v0_64genes.yaml",
+      "bytes": 657,
+      "sha256": "bd19730138518211cf184ef35cb131c18ea2d19a10def0d2b48f00d9fe177644"
+    },
+    {
+      "path": "urbangene/scripts/run_smoke.py",
+      "source": "/root/code/urban-visual-gene/urbangene/scripts/run_smoke.py",
+      "bytes": 835,
+      "sha256": "4ce4de34f470c0368ba98c47f5f5112919a38c1a70df2ea65626c7538bdb2a2c"
+    },
+    {
+      "path": "urbangene/src/urbangene/__init__.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/__init__.py",
+      "bytes": 71,
+      "sha256": "8e427e7ea9d2b6b2fc1d312e204c2dcee6a02980981c093564e0fab7856bfbcc"
+    },
+    {
+      "path": "urbangene/src/urbangene/budget.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/budget.py",
+      "bytes": 2773,
+      "sha256": "0b4701484400fc0b5aade98ab7c2d209b7aa855fc4796a3f5a217f2f1b5fb9f2"
+    },
+    {
+      "path": "urbangene/src/urbangene/cli.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/cli.py",
+      "bytes": 2727,
+      "sha256": "e5ebc712dae4a7cfb47f350c00ccd8b3dbdd12562fa5a551506d329cfc7964c7"
+    },
+    {
+      "path": "urbangene/src/urbangene/evaluate.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/evaluate.py",
+      "bytes": 8332,
+      "sha256": "1e7c603dee7c72cae18235e3b897f3017faecfbee4aba17977a7c963c3081855"
+    },
+    {
+      "path": "urbangene/src/urbangene/metrics.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/metrics.py",
+      "bytes": 699,
+      "sha256": "d0e29b983b536460fb2a1c507691004c8fdfefe2598839bdd282df7b3512ff62"
+    },
+    {
+      "path": "urbangene/src/urbangene/probe.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/probe.py",
+      "bytes": 4659,
+      "sha256": "4aca94f0684bca78a8d2cf3e2afe302a868f655c6533bf3fc91e164c4b6e5848"
+    },
+    {
+      "path": "urbangene/src/urbangene/schedule.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/schedule.py",
+      "bytes": 8920,
+      "sha256": "ba2fe4acc0ac34548c0bd2221a216dfc76766720bc9342aaf81b806d14a3677b"
+    },
+    {
+      "path": "urbangene/src/urbangene/train.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/train.py",
+      "bytes": 8959,
+      "sha256": "d518ab8125fc3f14cf6cd28df829d2cc860afe2bb0ac9fcab059e2837d882e92"
+    },
+    {
+      "path": "urbangene/src/urbangene/utils.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/utils.py",
+      "bytes": 1823,
+      "sha256": "218006ba29fee4d47a3b19041bf2ef5882953ca3c63d6f51cabb7d04c44e9c76"
+    },
+    {
+      "path": "urbangene/src/urbangene/visualize.py",
+      "source": "/root/code/urban-visual-gene/urbangene/src/urbangene/visualize.py",
+      "bytes": 3978,
+      "sha256": "1d85caab5ac99709548637adb4975ea63254f7f44d6bc74f9d80f150b5ab58a8"
+    },
+    {
+      "path": "urbangene/tests/conftest.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/conftest.py",
+      "bytes": 407,
+      "sha256": "d8cf6389aaea22891a65f136e493a15f371fc69d5743515ef683e86dfbcfbe27"
+    },
+    {
+      "path": "urbangene/tests/test_budget.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/test_budget.py",
+      "bytes": 1241,
+      "sha256": "20ea0a59137d2f2048cae553942979b104dd037edeabf521325d43265ece04a2"
+    },
+    {
+      "path": "urbangene/tests/test_data_splits.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/test_data_splits.py",
+      "bytes": 1139,
+      "sha256": "73dea9165f1cfda2f7d14d98f8bd7d648226164ebf71474e9e177b5827427e73"
+    },
+    {
+      "path": "urbangene/tests/test_no_bypass.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/test_no_bypass.py",
+      "bytes": 1063,
+      "sha256": "15b970773afef94df0dd73621b807759056a7844f1873a1933d74e4cfaefd6bf"
+    },
+    {
+      "path": "urbangene/tests/test_renderer.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/test_renderer.py",
+      "bytes": 2195,
+      "sha256": "62fb5988e864e3fd960f7d47cb15a486c201e02fae11fc1e21c4b6d73d130b1b"
+    },
+    {
+      "path": "urbangene/tests/test_schedule.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/test_schedule.py",
+      "bytes": 1203,
+      "sha256": "119a4b56541d2a4577b5d549bf8a3e93f63972a843ec1f93a9560b04a8c60e7c"
+    },
+    {
+      "path": "urbangene/tests/test_smoke_train.py",
+      "source": "/root/code/urban-visual-gene/urbangene/tests/test_smoke_train.py",
+      "bytes": 760,
+      "sha256": "608ea100f2e9ed103d73d2b465af7f5a50723cf6f9a673a248f9e307f12e3312"
+    },
+    {
+      "path": "urbangene_v11/EXECUTION_STATUS.md",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/EXECUTION_STATUS.md",
+      "bytes": 5281,
+      "sha256": "70050c44eb9c851a7e3b3b3988ffbbb6d39720b6bc9610af88cf266f96eeb06f"
+    },
+    {
+      "path": "urbangene_v11/IMPLEMENTATION_GAP.md",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/IMPLEMENTATION_GAP.md",
+      "bytes": 2874,
+      "sha256": "10e2f047e288cef962a3bd10d497ebe37fb5b3f6879c60c46ee8c0f9b2099491"
+    },
+    {
+      "path": "urbangene_v11/PRD_V1.1.md",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/PRD_V1.1.md",
+      "bytes": 28766,
+      "sha256": "e9fac2a29834ef3d0e96b5cbcb79c7849d0241264526cb328d474c438c89cfac"
+    },
+    {
+      "path": "urbangene_v11/README.md",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/README.md",
+      "bytes": 2669,
+      "sha256": "6c0a05171ad6e9d82d9405f81c09ef457489ad635e525e1bf9216ed2ba7b0c04"
+    },
+    {
+      "path": "urbangene_v11/pyproject.toml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/pyproject.toml",
+      "bytes": 408,
+      "sha256": "44aec6ad1b225109c43586ea30defb5ef59f1b22ad9b64c49ad0850ba1f2337e"
+    },
+    {
+      "path": "urbangene_v11/run.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/run.py",
+      "bytes": 330,
+      "sha256": "409c44437f447c45db8451bda33d2a7d3caf2bf89c94977cd14bfb745da875c0"
+    },
+    {
+      "path": "urbangene_v11/configs/smoke.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/smoke.yaml",
+      "bytes": 1373,
+      "sha256": "240a0213cc9ff4ada1add5dea8f6f6892a6f7c400d77178a5e4c90afe9e3385d"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r0_fixed.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r0_fixed.yaml",
+      "bytes": 1408,
+      "sha256": "8335ece171ade0be631e4a63c8d80d8621c7d891633c5ceac999fdabf78b9941"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r0_parameter_matched.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r0_parameter_matched.yaml",
+      "bytes": 1444,
+      "sha256": "f1094e203222980080bddffcb51ba206e78922aa3cb781a60ae5605bc2137132"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r1_alpha.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r1_alpha.yaml",
+      "bytes": 1406,
+      "sha256": "b19a78da87180040dfb91e4144579ed901a3362d90dacc34deebcf96f36f2a05"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r2_parameter_matched.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r2_parameter_matched.yaml",
+      "bytes": 1408,
+      "sha256": "ec654b366edbffcc799fa360470083106e00d4d563ab69a8c4ec108f0877c9c0"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r2_residual_cnn.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r2_residual_cnn.yaml",
+      "bytes": 1407,
+      "sha256": "a8533b499af4468755b20adb12125f3644091c0c38c78044fd524a5fe7e8d74a"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r3_grct.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r3_grct.yaml",
+      "bytes": 1399,
+      "sha256": "c033003bef4e3611765ea0213d2ec969eae3d771adf9fd525c73ec4922769b03"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r3_no_relation.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r3_no_relation.yaml",
+      "bytes": 1399,
+      "sha256": "96609d149172d9ef5a5be5d15ca1c1d5e8fb724da329e314c8415b603b9b0b7f"
+    },
+    {
+      "path": "urbangene_v11/configs/v1_r3_no_spatial.yaml",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/configs/v1_r3_no_spatial.yaml",
+      "bytes": 1400,
+      "sha256": "862cbdb7a0ab2294a8fe8b07c436a59ba9f4cdfe0473c7672ce58fff84f6fa17"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/__init__.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/__init__.py",
+      "bytes": 79,
+      "sha256": "bc5b2204b690419db748ebe1fdfd28fa309546b171a9381d216077f243ad2d43"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/cli.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/cli.py",
+      "bytes": 5494,
+      "sha256": "4a0e2b4db0c9e1e4b01a309d77a9271223f38c43442334a165c4fc0c8ad11812"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/config.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/config.py",
+      "bytes": 4363,
+      "sha256": "981b7fbff476a498ecd223618eeef68215da80b382cde239fe29a43f5ea7f2d8"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/evaluation.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/evaluation.py",
+      "bytes": 7925,
+      "sha256": "275a7261fa4242992b5149d5bed2fa4a2c150405520e1f9d020d7579f0bbf238"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/model.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/model.py",
+      "bytes": 3295,
+      "sha256": "aaab5306735e5f6c7409fa0c406afa2fcfd3c17f92a031ec9a72d61001c2050f"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/paired_composition.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/paired_composition.py",
+      "bytes": 2636,
+      "sha256": "648b3c9f436442ffb359c4519282c9217818af853d48304f1f53cae32cdb0c74"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/recombination.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/recombination.py",
+      "bytes": 3470,
+      "sha256": "33f09dbeb9a4254f01c862c334f766a3fea60ec8b90cd1945bbffcf8670a93d4"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/schedule.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/schedule.py",
+      "bytes": 11006,
+      "sha256": "a769851f1f5a30aab73b842c8ca46644edc5f467f7483bdee1c03b4760377def"
+    },
+    {
+      "path": "urbangene_v11/src/urbangene_v11/training.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/src/urbangene_v11/training.py",
+      "bytes": 8975,
+      "sha256": "fd7df0f9c662cd8dc9fb3aa38cdec0da5fbdd0474c9aa1c7db08f77bbaccae5f"
+    },
+    {
+      "path": "urbangene_v11/tests/conftest.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/tests/conftest.py",
+      "bytes": 538,
+      "sha256": "455bb7981e5590caa8cd0201889b1bc9267642e2726a807db44e0ba9697c792e"
+    },
+    {
+      "path": "urbangene_v11/tests/test_grct.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/tests/test_grct.py",
+      "bytes": 11868,
+      "sha256": "3b5482432fb912680e217b281544857c67d28437d17d52592ec9b5c316923ec3"
+    },
+    {
+      "path": "urbangene_v11/tests/test_recombination.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/tests/test_recombination.py",
+      "bytes": 3318,
+      "sha256": "9a0d5f9f26d7675a0eded72e2c506cd86eaebdcd71edbb0bab1bf06883a0d039"
+    },
+    {
+      "path": "urbangene_v11/tests/test_schedule.py",
+      "source": "/root/code/urban-visual-gene/urbangene_v11/tests/test_schedule.py",
+      "bytes": 684,
+      "sha256": "5e088838a95633fac805038120876b6fe8b014c850886e5b1676407f1e3827e4"
+    },
+    {
+      "path": "streetspatial_v0/README.md",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/README.md",
+      "bytes": 7157,
+      "sha256": "1d717e1998ccf6b6bf46e9965aec6111bdb69f08cb3506ec818360d81947f81c"
+    },
+    {
+      "path": "streetspatial_v0/requirements.txt",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/requirements.txt",
+      "bytes": 232,
+      "sha256": "53a16c4967cbb494ff988d320a06c0c695803723c62f7a4647d02ca63c71ff04"
+    },
+    {
+      "path": "streetspatial_v0/configs/smoke_review.json",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/configs/smoke_review.json",
+      "bytes": 629,
+      "sha256": "de97830db49c8cc44df3a8e84a3810c79e9ba41c82a73d9884f6454571ecf219"
+    },
+    {
+      "path": "streetspatial_v0/configs/v0.yaml",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/configs/v0.yaml",
+      "bytes": 347,
+      "sha256": "9fd15393ac3dcdf9b04bd95c8614f76291173c83d374e20aec98dd7044950ccc"
+    },
+    {
+      "path": "streetspatial_v0/configs/v0_1.yaml",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/configs/v0_1.yaml",
+      "bytes": 555,
+      "sha256": "d5eb83187b466c97893b27a6a0701923e5bb7031fb5c012f0ace9bceccb4f91e"
+    },
+    {
+      "path": "streetspatial_v0/docs/london_100m_design_audit.json",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/docs/london_100m_design_audit.json",
+      "bytes": 6388,
+      "sha256": "d3d6d89d5f70c966a3038f93fabc4eefa355c1af6b8f7d13cad15f7f6fb8d160"
+    },
+    {
+      "path": "streetspatial_v0/docs/london_100m_experiment_plan_zh.md",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/docs/london_100m_experiment_plan_zh.md",
+      "bytes": 16002,
+      "sha256": "79452155bbe438ddb79adb67c16b328ccd2d522bb5dda5be843dfe1ca981d75a"
+    },
+    {
+      "path": "streetspatial_v0/docs/v02_coordinate_mechanism_plan_zh.md",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/docs/v02_coordinate_mechanism_plan_zh.md",
+      "bytes": 10353,
+      "sha256": "b1c517ca455ee9711c9e40ded525cdbae3f71667356e2d81cfc36f8a6629264b"
+    },
+    {
+      "path": "streetspatial_v0/scripts/run_v0.sh",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/scripts/run_v0.sh",
+      "bytes": 937,
+      "sha256": "2b6fe0ca7c21d36985c483b26734d1443430e4403aab4bbe46d71f6753b3eb93"
+    },
+    {
+      "path": "streetspatial_v0/scripts/run_v0_1.sh",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/scripts/run_v0_1.sh",
+      "bytes": 712,
+      "sha256": "31f4b62633c146561a1ebcb06c2329462099fde87eba72a5d588c6ddabb0db22"
+    },
+    {
+      "path": "streetspatial_v0/src/__init__.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "streetspatial_v0/src/analyze.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/analyze.py",
+      "bytes": 27573,
+      "sha256": "329e255c06f54c4b462d378eda64503b942b5faebe9af2bd12ad58854921391b"
+    },
+    {
+      "path": "streetspatial_v0/src/audit_run.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/audit_run.py",
+      "bytes": 3748,
+      "sha256": "206ef25e8d706415b8c910661d0d4a899c4b26d5934f62d8d9340d38cb373207"
+    },
+    {
+      "path": "streetspatial_v0/src/build_dataset.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/build_dataset.py",
+      "bytes": 13592,
+      "sha256": "1c83f5f89a1e32f358740d3dfaf482b2c2cf9f2db16cc630b72646fd354d5349"
+    },
+    {
+      "path": "streetspatial_v0/src/check_views.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/check_views.py",
+      "bytes": 4045,
+      "sha256": "b00fbac88c409e1a626ad0a1bbab4bcc7bc35adc8afb00d821a0357c219924de"
+    },
+    {
+      "path": "streetspatial_v0/src/curate_pilot.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/curate_pilot.py",
+      "bytes": 4160,
+      "sha256": "028eb00da9aea6f5e75abee9df0377919bce68e82ce2063cec71fddcfbc7f378"
+    },
+    {
+      "path": "streetspatial_v0/src/curate_smoke.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/curate_smoke.py",
+      "bytes": 2217,
+      "sha256": "9b0611c5ee600c1bb0c2d6f836ae46f2d2e7fd0bc76b7a119a74ea00f8245312"
+    },
+    {
+      "path": "streetspatial_v0/src/download_london_100m.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/download_london_100m.py",
+      "bytes": 11527,
+      "sha256": "665a7acea721d415f68ff1fa2fa356ea8ed10abb4ebe4aaae8d7e57dd515d3da"
+    },
+    {
+      "path": "streetspatial_v0/src/download_model.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/download_model.py",
+      "bytes": 3893,
+      "sha256": "f4642257dd76660f92604cbd23e26e3578fdea0d0ed8885378124f7bcd89ccb7"
+    },
+    {
+      "path": "streetspatial_v0/src/download_panoramas.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/download_panoramas.py",
+      "bytes": 13899,
+      "sha256": "76e841c30ba1b5b88aacd371d0f287b8f9e42e7eadb2c5644b61245e0b810b97"
+    },
+    {
+      "path": "streetspatial_v0/src/extract_features.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/extract_features.py",
+      "bytes": 8278,
+      "sha256": "f1fc60596f2fa26df5dc84dfe2efd4fda812c0edba02ecb90cb298034fb1d72d"
+    },
+    {
+      "path": "streetspatial_v0/src/finalize_pilot.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/finalize_pilot.py",
+      "bytes": 4422,
+      "sha256": "43bb4a41df1aa8a6f129a159ff74c1d9a17306fd8a0a548280c1b4f52f513cb6"
+    },
+    {
+      "path": "streetspatial_v0/src/illustrate_coordinate_mechanism.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/illustrate_coordinate_mechanism.py",
+      "bytes": 6542,
+      "sha256": "1276cf185a00b25685489acece244635bccaa749e20c33ae8825c49e12643859"
+    },
+    {
+      "path": "streetspatial_v0/src/illustrate_global_crop.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/illustrate_global_crop.py",
+      "bytes": 5183,
+      "sha256": "a190c42f01f190de271be4e15d9e4e0caab71f9329f8417efbf42490195ed484"
+    },
+    {
+      "path": "streetspatial_v0/src/plan_london_geometry_pilot.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/plan_london_geometry_pilot.py",
+      "bytes": 6819,
+      "sha256": "4eb43bde2c8aa1ba9da5d17ea20b020e6dba77f15455f8cd6fd95c59c3f16cfd"
+    },
+    {
+      "path": "streetspatial_v0/src/project_global_panoramas.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/project_global_panoramas.py",
+      "bytes": 3756,
+      "sha256": "ef8f8504d411acaffb9bca149022c64c43146f9922150427d323291977dd8c88"
+    },
+    {
+      "path": "streetspatial_v0/src/propose_annotations.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/propose_annotations.py",
+      "bytes": 6511,
+      "sha256": "ef6d4641c078a5727b8b5b8885df3a21890a2f41c40a58a75f873eddb6ab8954"
+    },
+    {
+      "path": "streetspatial_v0/src/review_pilot.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/review_pilot.py",
+      "bytes": 1862,
+      "sha256": "05dffe7fbb46e511fb927d78ae7cb4160d6fd78b7b63c5051d35be55d6602aa6"
+    },
+    {
+      "path": "streetspatial_v0/src/sample_global_panoramas.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/sample_global_panoramas.py",
+      "bytes": 5639,
+      "sha256": "68e89967d225c562f6f673cf17643127e88e6626369479d6352596a356122401"
+    },
+    {
+      "path": "streetspatial_v0/src/select_global_annotations.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/select_global_annotations.py",
+      "bytes": 3260,
+      "sha256": "bff76544d4c2b58a0062709925c618114cab44a16975afe2729e96fb5a073f5c"
+    },
+    {
+      "path": "streetspatial_v0/src/select_london_viewpoint_sites.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/select_london_viewpoint_sites.py",
+      "bytes": 12155,
+      "sha256": "c327e6631914cebc3e3933bb1b8223b85f52eaf7f566dd09da5c02d738bfc0f4"
+    },
+    {
+      "path": "streetspatial_v0/src/token_alignment.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/token_alignment.py",
+      "bytes": 3778,
+      "sha256": "6daf3bdba6bea5c060cebf72008bcbe1d8666e2eeb31169944b07ce0a73e601c"
+    },
+    {
+      "path": "streetspatial_v0/src/v01.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/v01.py",
+      "bytes": 31458,
+      "sha256": "286191882918284586aa8beb4e927134759c3bde14c4535c035f3069c9f4b97c"
+    },
+    {
+      "path": "streetspatial_v0/src/v01_case_study.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/v01_case_study.py",
+      "bytes": 4159,
+      "sha256": "286767ffacecdeff69a2a25a6328080e4d59b752b80e5414adda92b4149c3cd1"
+    },
+    {
+      "path": "streetspatial_v0/src/v01_composition.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/v01_composition.py",
+      "bytes": 8347,
+      "sha256": "417a0af347cdcfa286c5247542fd3dfc90f4cd337a320d833e488c4dcf2fee11"
+    },
+    {
+      "path": "streetspatial_v0/src/v01_crop_audit.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/v01_crop_audit.py",
+      "bytes": 7303,
+      "sha256": "45912dcfd0732679e00e114300caf91153b017ba3ab61979941d43e08835f685"
+    },
+    {
+      "path": "streetspatial_v0/src/v01_figures.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/src/v01_figures.py",
+      "bytes": 7194,
+      "sha256": "a26640fa08ba971d43237855bc4c090d19bc40d9a763c4fe36ddf42b6ccfd398"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_analysis.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_analysis.py",
+      "bytes": 2474,
+      "sha256": "d2cd7e2cd26e615f4158e199976a1467e6f3bb7160a5f4757e635e11ec6992c9"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_category_transfer.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_category_transfer.py",
+      "bytes": 364,
+      "sha256": "96adcf94584cc0190fa1395e82c89a364831161859f53027e70373c840d2d494"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_crop_edge_audit.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_crop_edge_audit.py",
+      "bytes": 337,
+      "sha256": "0076e20ac16e64965eb57bda116e36cd36ebdead2441925dd570c67f6923d5c0"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_dataset.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_dataset.py",
+      "bytes": 3356,
+      "sha256": "ec9ddb71d6d3c1ee8a9b1535fa262d57fef52e3e8bfff09e736bf446a39981bd"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_no_scene_leakage.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_no_scene_leakage.py",
+      "bytes": 292,
+      "sha256": "3b6921b60f482ef2da901dc6fe151f903b3fb429374c03fc84a7152e22e464ad"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_panorama_targets.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_panorama_targets.py",
+      "bytes": 3502,
+      "sha256": "5315522d45e337614aa04985c6758609dd1947af8a483e43360416d144131dfa"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_position_baselines.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_position_baselines.py",
+      "bytes": 1298,
+      "sha256": "657a115b9f5fa118dacd76191c7c08b69d62b94f5b1da0f36cfce599b0d9ef7e"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_subspace_train_test_separation.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_subspace_train_test_separation.py",
+      "bytes": 518,
+      "sha256": "62c28cb7864406c71ea3fbd5da15057ac846ff147eabb79e78c7a3ff94dac888"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_token_alignment.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_token_alignment.py",
+      "bytes": 1464,
+      "sha256": "93f18432f691ccd356fd9f6ee4f3a881af5d35bd9fd38860a54d30a98930a198"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_trajectory_transforms.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_trajectory_transforms.py",
+      "bytes": 495,
+      "sha256": "4c0efe45877ddf227e08b3dd82ae075f97f296da5c19368590575a69a3b0c2c6"
+    },
+    {
+      "path": "streetspatial_v0/tests/test_transformation_composition.py",
+      "source": "/root/code/urban-visual-gene/streetspatial_v0/tests/test_transformation_composition.py",
+      "bytes": 461,
+      "sha256": "eb24ab6e9626bf69b6471d755a0cf70554f570d1058a0607e9a6ec098aadd0ac"
+    },
+    {
+      "path": "experiments/object_centric_pilot/README.md",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/README.md",
+      "bytes": 7378,
+      "sha256": "ca7a2b6c3bf58bad1c6d0d67f75d8ecac6de1a6fc82151f2cb5996c2e8fdaa0f"
+    },
+    {
+      "path": "experiments/object_centric_pilot/RESULTS.md",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/RESULTS.md",
+      "bytes": 6358,
+      "sha256": "05bf53860c3f82cb21813f7b8469b7b4ee05d6b64ad0b029cd5f781847d6cd4b"
+    },
+    {
+      "path": "experiments/object_centric_pilot/environment.json",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/environment.json",
+      "bytes": 137,
+      "sha256": "d6a2f3d1fcd14aaa543fe2fba8f5d46cb06c0fc7be3954d1db4b24dc7f029cba"
+    },
+    {
+      "path": "experiments/object_centric_pilot/evaluate_pilot.py",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/evaluate_pilot.py",
+      "bytes": 13452,
+      "sha256": "ec067c867534843149d4f292470e961c2ce1288ff7765a9798d850010033faf3"
+    },
+    {
+      "path": "experiments/object_centric_pilot/model.py",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/model.py",
+      "bytes": 5667,
+      "sha256": "6b9e0f4e6626d3e6ae916f5bac72234c545af26d6e4c5bd7ca4138fda17bb734"
+    },
+    {
+      "path": "experiments/object_centric_pilot/prepare.py",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/prepare.py",
+      "bytes": 6113,
+      "sha256": "a310d36477fc48adfc4ab491c2c35dceaa0fcd647ff2ca81efa75e8514b547b3"
+    },
+    {
+      "path": "experiments/object_centric_pilot/run.py",
+      "source": "/root/code/urban-visual-gene/experiments/object_centric_pilot/run.py",
+      "bytes": 9124,
+      "sha256": "fe76fda7f48c2c3f6921add17e40e451cff9270a053eb3391ada387b7f399a42"
+    },
+    {
+      "path": "experiments/unit_construction/README.md",
+      "source": "/root/code/urban-visual-gene/experiments/unit_construction/README.md",
+      "bytes": 3307,
+      "sha256": "de79c48502281f94cf6f2edeefb009b36e9bea6ce192898a062730f01e6abb1d"
+    },
+    {
+      "path": "experiments/unit_construction/browser-preview.html",
+      "source": "/root/code/urban-visual-gene/experiments/unit_construction/browser-preview.html",
+      "bytes": 899501,
+      "sha256": "d3205dfb9f469c823eda5eafeabf16016ed32876aa0e1428effdd70040e23351"
+    },
+    {
+      "path": "experiments/unit_construction/export_trace.py",
+      "source": "/root/code/urban-visual-gene/experiments/unit_construction/export_trace.py",
+      "bytes": 6256,
+      "sha256": "c8739862239edc9dec7e939138c4e35d8b97dc7c3f34006332683a828a7a2743"
+    },
+    {
+      "path": "experiments/unit_construction/interaction-check.js",
+      "source": "/root/code/urban-visual-gene/experiments/unit_construction/interaction-check.js",
+      "bytes": 9615,
+      "sha256": "bbe74834d6d2c329c12d1794d37c86ac75f6f12636db1b508a2880e570767da1"
+    },
+    {
+      "path": "experiments/unit_construction/provenance.json",
+      "source": "/root/code/urban-visual-gene/experiments/unit_construction/provenance.json",
+      "bytes": 1096,
+      "sha256": "fa30bc3d2a94d6521fa69c3b43d6d7e79de1b6d3c6e29edac57ee16a69003ede"
+    },
+    {
+      "path": "experiments/dinov3_generation_revision/DESIGN.md",
+      "source": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/DESIGN.md",
+      "bytes": 11746,
+      "sha256": "2cdcd424cf7718637a345e88ccd2f88c0ce516b10cfcbf11f7fa765191ac0084"
+    },
+    {
+      "path": "experiments/dinov3_generation_revision/QUALITY_FIRST_PROTOCOL.md",
+      "source": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/QUALITY_FIRST_PROTOCOL.md",
+      "bytes": 11602,
+      "sha256": "fbab2ed005f94fdc885ac23321a0fc61ed186c7892af915c283d82c0aab8a5b6"
+    },
+    {
+      "path": "experiments/dinov3_generation_revision/README.md",
+      "source": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/README.md",
+      "bytes": 1746,
+      "sha256": "8b65d0caacfffa581583b8587c72b8e66babda29b8e0415e2bde3738c48e14ab"
+    },
+    {
+      "path": "experiments/dinov3_generation_revision/RESULTS.md",
+      "source": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/RESULTS.md",
+      "bytes": 2440,
+      "sha256": "9d617db1c3dec3dc81c40e127b1abcf2523622264cae61f49a2e027b9a432ba1"
+    },
+    {
+      "path": "experiments/dinov3_generation_revision/download_vae.py",
+      "source": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/download_vae.py",
+      "bytes": 2570,
+      "sha256": "992749f777fa4d70b727d6e86f77499eee8df4da0363ec9b2ce82f237151c2fb"
+    },
+    {
+      "path": "experiments/dinov3_generation_revision/vae_diagnostic.py",
+      "source": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/vae_diagnostic.py",
+      "bytes": 6749,
+      "sha256": "7657ae70eaf5acb7c3fca1ca8f0b1c9cd6962268dc1eb29eeee47645d26dab71"
+    },
+    {
+      "path": "experiments/gene_quality_v1/EXECUTION.md",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/EXECUTION.md",
+      "bytes": 4654,
+      "sha256": "2607a8f105f55591a3d6fd2654b4b8257c1b8dd8c41e20130102818c673a10c4"
+    },
+    {
+      "path": "experiments/gene_quality_v1/EXPERIMENT.md",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/EXPERIMENT.md",
+      "bytes": 16627,
+      "sha256": "f32a03196bc4fcc4d4bd83cc8aa287c8cc4c2f30ff9573b144381801ae7b4d9e"
+    },
+    {
+      "path": "experiments/gene_quality_v1/RESULTS.md",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/RESULTS.md",
+      "bytes": 2513,
+      "sha256": "46b58ff78f28bcda8f323c02adb8a0241e7933e2ac58cad2bf532d0989250dca"
+    },
+    {
+      "path": "experiments/gene_quality_v1/RUNNING.md",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/RUNNING.md",
+      "bytes": 1835,
+      "sha256": "8f9bedd882924cacb1304c15cbd11b66c39ce803e6205ee095d7e1514075acf4"
+    },
+    {
+      "path": "experiments/gene_quality_v1/cache_latents.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/cache_latents.py",
+      "bytes": 4667,
+      "sha256": "370c8bb279db2c5e1ddd4ce5f7c1d07fea5521ccf400475554c1e9e0c5269037"
+    },
+    {
+      "path": "experiments/gene_quality_v1/config.design_512.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/config.design_512.json",
+      "bytes": 6206,
+      "sha256": "2693882a9749d3838b67ad35fa3179fb1025be06e97b069fd2ba16c694165253"
+    },
+    {
+      "path": "experiments/gene_quality_v1/config.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/config.json",
+      "bytes": 6484,
+      "sha256": "8b5fa3622caee9a49f21f69f04eb9bf2894c3da01a8a4528bf476b607c79c07f"
+    },
+    {
+      "path": "experiments/gene_quality_v1/data_inventory.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/data_inventory.json",
+      "bytes": 2040,
+      "sha256": "97998cb51a58152807d43c94ab69e9ce9d677d6488ad1f4f41d99846365a7b3a"
+    },
+    {
+      "path": "experiments/gene_quality_v1/distill_gene.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/distill_gene.py",
+      "bytes": 5327,
+      "sha256": "8c02ae19d09c3e2f3c083a5f4b7c5f0e0e31c7189afac061c6e6bdfdbafe17ed"
+    },
+    {
+      "path": "experiments/gene_quality_v1/download_model.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/download_model.py",
+      "bytes": 3070,
+      "sha256": "fee731d3abd8af2a78a625dc132e7f2a4b179b1d094d45a2f05e88c5d9656f21"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluate.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluate.py",
+      "bytes": 8916,
+      "sha256": "9997bbfc46f5856df2f56a8a7be7d05c66d993f26573805fd12eb049daf133dc"
+    },
+    {
+      "path": "experiments/gene_quality_v1/lpips_weights.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/lpips_weights.json",
+      "bytes": 250,
+      "sha256": "a6219ecb3174fdda3b9393948204681d6eeb400d880f0a9020fc5fb98b94ca67"
+    },
+    {
+      "path": "experiments/gene_quality_v1/model.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/model.py",
+      "bytes": 5798,
+      "sha256": "ea76ad3f653824739e73124cc3a8dddc5e5baf628fc0858b63410d71ff47e433"
+    },
+    {
+      "path": "experiments/gene_quality_v1/preflight.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/preflight.json",
+      "bytes": 1641,
+      "sha256": "e1827395178a8a05b8624a5898a738a14eef32d4248475b69ad264de012af910"
+    },
+    {
+      "path": "experiments/gene_quality_v1/prepare_data.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/prepare_data.py",
+      "bytes": 7565,
+      "sha256": "ddeb618489a02f4ff9c30399b6d7a5e18246107276d6e101964ad612ded68833"
+    },
+    {
+      "path": "experiments/gene_quality_v1/report.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/report.py",
+      "bytes": 3546,
+      "sha256": "cbd69fc7ab1092f7801e531660165d2afbe2f11d61b74fc33ddd40f673049542"
+    },
+    {
+      "path": "experiments/gene_quality_v1/runtime.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/runtime.json",
+      "bytes": 481,
+      "sha256": "a4fd063111b7ad949e622696b53725aff151ebabbfd3e34a1718740e8ad287de"
+    },
+    {
+      "path": "experiments/gene_quality_v1/sdxl_repo_files.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/sdxl_repo_files.json",
+      "bytes": 26116,
+      "sha256": "901e47ca0ac9c3bfeca12845638df8f081b5eb83c4dee9d032c811976e0b17a7"
+    },
+    {
+      "path": "experiments/gene_quality_v1/train.py",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/train.py",
+      "bytes": 23944,
+      "sha256": "b26cd342190d59f631d85bd48db877db867496c8e7ef5ae3c888f1b6a0c20807"
+    },
+    {
+      "path": "experiments/gene_quality_v1/vae1024_check.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/vae1024_check.json",
+      "bytes": 231,
+      "sha256": "e548fc683159a0b38f735e8affdda374d4dd82d98360955fdf3334b77cf0caef"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluations/smoke150_validation4/protocol.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluations/smoke150_validation4/protocol.json",
+      "bytes": 497,
+      "sha256": "bda4611c7e5b997cf7c054e02336000ac5066a701a1260e364ea66b7bb718936"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluations/smoke150_validation4/status.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluations/smoke150_validation4/status.json",
+      "bytes": 65,
+      "sha256": "73f73efaa644437806d1a07db08cb988cb34258eaa415bc6fc639f5b214dc4d6"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluations/smoke150_validation4/summary.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluations/smoke150_validation4/summary.json",
+      "bytes": 1131,
+      "sha256": "7c2bccd218f5b5be4e481f4086f1744111faf7bbff217b9e4827898173998eee"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluations/smoke200_validation4/protocol.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluations/smoke200_validation4/protocol.json",
+      "bytes": 497,
+      "sha256": "260cf159d18f22eae08f0957ff1eb944b6037533a66abfa4fa1b4d99a2df5ddf"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluations/smoke200_validation4/status.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluations/smoke200_validation4/status.json",
+      "bytes": 65,
+      "sha256": "2153211e15b706c36a62579643998a685cffb196109b06c1aff2bc8d6db2cef3"
+    },
+    {
+      "path": "experiments/gene_quality_v1/evaluations/smoke200_validation4/summary.json",
+      "source": "/root/code/urban-visual-gene/experiments/gene_quality_v1/evaluations/smoke200_validation4/summary.json",
+      "bytes": 1131,
+      "sha256": "89f52a98ce52e3de72a585c516bd04855db92134da5b14c1c381a3e54d8aa83a"
+    },
+    {
+      "path": "urbangene_v2/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/README.md",
+      "bytes": 6548,
+      "sha256": "e1ca5860947af61fbd05caf8ea6f83f1c1136bbc37658b53701c1ae942813984"
+    },
+    {
+      "path": "urbangene_v2/pyproject.toml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/pyproject.toml",
+      "bytes": 531,
+      "sha256": "033987ab5182d0929565a733f6464e555757c4002bbf9c80d35bffe1b61b34e4"
+    },
+    {
+      "path": "urbangene_v2/run.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/run.py",
+      "bytes": 175,
+      "sha256": "d5fb7200b777614cdae87d002aa39e24fa758fe0b5680c7d5cbd10c932825e2e"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_cpu_smoke.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_cpu_smoke.yaml",
+      "bytes": 520,
+      "sha256": "94d3f33ebecef8b94a09d1b520c93d8e7c9c5e6f787b706282c95f7297645740"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_dinov3.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_dinov3.yaml",
+      "bytes": 748,
+      "sha256": "d126acadd4960225055222f111ac280cb01725e6025b9eb79520e9f20de15153"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_dinov3_cpu_screen_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_dinov3_cpu_screen_20261109.yaml",
+      "bytes": 637,
+      "sha256": "0cd6239327306649b9840fa530626deae0c25acf6ae479a4e1cfd933d9776737"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_dinov3_cpu_spatial_seed_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_dinov3_cpu_spatial_seed_20261109.yaml",
+      "bytes": 673,
+      "sha256": "fb275e093631dc8884468b5a6096fb5e25ee7459d5d3ce6dcf2f0ef83ecef4dd"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_dinov3_gpu2.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_dinov3_gpu2.yaml",
+      "bytes": 619,
+      "sha256": "452eddc681f1a75deebf0dbe3d65621bd8161f6b29c0f2dd0dd38cf454096c54"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_real1m_bs128_20261110.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_real1m_bs128_20261110.yaml",
+      "bytes": 1482,
+      "sha256": "27b94890fea7b39771b8b050700bca34283d85b96d04fdc95bf955fdf869f8ed"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_real20k_20261110.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_real20k_20261110.yaml",
+      "bytes": 1956,
+      "sha256": "8e3cbce0975312d0002d6781e034c09153f7a31a9c6aea9797d3d4201028ae05"
+    },
+    {
+      "path": "urbangene_v2/configs/m1_real_streets_cpu_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/m1_real_streets_cpu_20261109.yaml",
+      "bytes": 1178,
+      "sha256": "25b48701dd4c7154e33b3a94c83ade9e83cf9d9ec723de5ead0c45ef21ee68c8"
+    },
+    {
+      "path": "urbangene_v2/configs/synthetic_data.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/configs/synthetic_data.yaml",
+      "bytes": 360,
+      "sha256": "f345a0bb17689b9dc5a02006f8e0decf2de7a4433c653a2538315ef88fc56e43"
+    },
+    {
+      "path": "urbangene_v2/docs/ADDITIVE_FEATURE_AE_EXPERIMENT_20261115.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/ADDITIVE_FEATURE_AE_EXPERIMENT_20261115.md",
+      "bytes": 518,
+      "sha256": "ebe03e0eeb893eec88ea25c37d17d35a9c1ce4ea2a7b1befdec7e06f656a7f5a"
+    },
+    {
+      "path": "urbangene_v2/docs/COMPUTE_POLICY.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/COMPUTE_POLICY.md",
+      "bytes": 477,
+      "sha256": "3cd226e53b92eac08da120d76efd4540c07f7b3dd7cdac7cb35486e14cdb1b25"
+    },
+    {
+      "path": "urbangene_v2/docs/DATASET_SHARED_ADDITIVE_GENE_EXPERIMENT_20261115.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/DATASET_SHARED_ADDITIVE_GENE_EXPERIMENT_20261115.md",
+      "bytes": 11315,
+      "sha256": "aa2b1dff40fee1827cbe4be0f36dbaf54270850f6fc7b2c91b73358f85f248b9"
+    },
+    {
+      "path": "urbangene_v2/docs/EXPERIMENT_PROTOCOL.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/EXPERIMENT_PROTOCOL.md",
+      "bytes": 1694,
+      "sha256": "7b8baae0bcfe4b5b03789242c113886abe1d1e4fdb563ee0ef78851584486ed8"
+    },
+    {
+      "path": "urbangene_v2/docs/LOCAL_FEATURE_CACHE_20261112.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/LOCAL_FEATURE_CACHE_20261112.md",
+      "bytes": 3483,
+      "sha256": "b2ea7ae28ce76f545d86aebfc22d0b77a0da295982d76c3c90cf14ae78e7dbd3"
+    },
+    {
+      "path": "urbangene_v2/docs/M1_EXPERIMENT_REPORT_20261109.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/M1_EXPERIMENT_REPORT_20261109.md",
+      "bytes": 4787,
+      "sha256": "04fa096eb12ed7105d057480a50e9811b9623a97ddbf0bed20614943fb112292"
+    },
+    {
+      "path": "urbangene_v2/docs/REAL1M_PROTOCOL_20261110.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/REAL1M_PROTOCOL_20261110.md",
+      "bytes": 5205,
+      "sha256": "8f8583bf8f6374e4d829335c1ead815a4413bba7290af86f00ceff52d23b654b"
+    },
+    {
+      "path": "urbangene_v2/docs/REAL20K_PROTOCOL_20261110.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/REAL20K_PROTOCOL_20261110.md",
+      "bytes": 4923,
+      "sha256": "b0dc025aad24799e23c583fe93cccadc7bba1e862bdce5f46e20a75f0ddd98a9"
+    },
+    {
+      "path": "urbangene_v2/docs/REAL_STREET_PROTOCOL_20261109.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/REAL_STREET_PROTOCOL_20261109.md",
+      "bytes": 2932,
+      "sha256": "b4e25030320ef13f16cddb2268ba7f8576e058db8bb7469d3d6a4c0c5dea8826"
+    },
+    {
+      "path": "urbangene_v2/docs/RESULTS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/RESULTS.md",
+      "bytes": 11185,
+      "sha256": "6e0ebd055e1285c50e17a01cbe4d0e82cc8457d5d07edce90770fcfcb43c867a"
+    },
+    {
+      "path": "urbangene_v2/docs/SLOT_COMPOSITION_20261112.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/SLOT_COMPOSITION_20261112.md",
+      "bytes": 5195,
+      "sha256": "da008301215c2410b6ec7cf94699f21518808f05de1259947bb89ebfbb8b474d"
+    },
+    {
+      "path": "urbangene_v2/docs/SLOT_RGB_PROBE_20261112.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/SLOT_RGB_PROBE_20261112.md",
+      "bytes": 3569,
+      "sha256": "2c246de964e82b67bf9a8a0cd0a71107391a31eb9d57723ac59f1a9d93d66ca4"
+    },
+    {
+      "path": "urbangene_v2/docs/STATUS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/STATUS.md",
+      "bytes": 11408,
+      "sha256": "f4e6aae4963f5eb37f4e08456ab0ccaa4ec098c43f2351e0984a101119c8b5e0"
+    },
+    {
+      "path": "urbangene_v2/docs/V2_DECISIONS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/V2_DECISIONS.md",
+      "bytes": 3049,
+      "sha256": "4d49d4b871d7ea5f8e255809daa1dfaf78f50e02648b2638648c19997ea08a52"
+    },
+    {
+      "path": "urbangene_v2/docs/WHOLE_SCENE_ADDITIVE_AE_EXPERIMENT_20261115.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/docs/WHOLE_SCENE_ADDITIVE_AE_EXPERIMENT_20261115.md",
+      "bytes": 17589,
+      "sha256": "c70ee31c59a88442fef8772bf19bf83b9e8e55e9ca61c8c4cba8ee4a19fa7cde"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/__init__.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/__init__.py",
+      "bytes": 73,
+      "sha256": "b8f043ed512401e5e4a90cb1e711ec653e5526b3784fcf2e5a3e9af0560068c6"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/backbone.py",
+      "bytes": 5071,
+      "sha256": "1fcfebd212e4bd99e7d0407aa683ca67602db1b0a8bbd2d9d66ef16e2b3bb53e"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/cli.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/cli.py",
+      "bytes": 3466,
+      "sha256": "943d5f07f1795460c2f40b390a967d15ee5218a6d0c887806e4838f9d8d64790"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/common.py",
+      "bytes": 1402,
+      "sha256": "73ab022d95b643617894265658aa1003941db6d8b0da59f01dba2e516a1e0e0c"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/composition.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/composition.py",
+      "bytes": 8799,
+      "sha256": "63307c93ba3b552a7c87f2b4d923a455a75911e6c4a0f136114d84d316abc537"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/data.py",
+      "bytes": 5283,
+      "sha256": "2f00dc66709869eac9a2bd9e90e01092e9957cc3be04d345adfb2dc8448efbb9"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/discovery.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/discovery.py",
+      "bytes": 8947,
+      "sha256": "27be2c3ee210d447e7da45567b41eb6b7be1aabed5adbfa612f57da141530d49"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/extract.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/extract.py",
+      "bytes": 3363,
+      "sha256": "a7ee7e7b0319f747498d35e63a6cb90adf982077604a8457f628954bf75cd259"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/metrics.py",
+      "bytes": 3440,
+      "sha256": "843db31335ffa54dcd5a9c31d96f02d4f56fa636a5b3f673b93c3992ed6a4728"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/million.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/million.py",
+      "bytes": 5548,
+      "sha256": "93b97836092ff8836f9b6cdf071cc880831d5b4e3f7f212b0355b347bd33a1f0"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/rgb_probe.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/rgb_probe.py",
+      "bytes": 4113,
+      "sha256": "121c2899e7528ee97c3d8fce46fa6898305e433ac61edbc0e0e38da26917997f"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/scaling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/scaling.py",
+      "bytes": 10246,
+      "sha256": "ec92201397df906e78bb7a884d28bb25d1f7d9bcf5decb44f8445806e42643cb"
+    },
+    {
+      "path": "urbangene_v2/src/urbangene_v2/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/src/urbangene_v2/train.py",
+      "bytes": 15763,
+      "sha256": "5fcf7ab9dbd1bd51786835644cf63d3a70e64211955d1003c85ccebb25c67243"
+    },
+    {
+      "path": "urbangene_v2/tests/test_composition.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_composition.py",
+      "bytes": 4572,
+      "sha256": "6d85277f3beb169c27801828ff05cf8070f591e8f9e617435103f21830b09cdb"
+    },
+    {
+      "path": "urbangene_v2/tests/test_data_backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_data_backbone.py",
+      "bytes": 5920,
+      "sha256": "dc6c05ae72283b0e4eb2bf41a48532f915a07861834b19923e5bec3fc1fbe4af"
+    },
+    {
+      "path": "urbangene_v2/tests/test_discovery.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_discovery.py",
+      "bytes": 5458,
+      "sha256": "089c71bb4b66163d610fac89ff4f8dba2945d58982136ff5324ac069baecb391"
+    },
+    {
+      "path": "urbangene_v2/tests/test_local_feature_cache.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_local_feature_cache.py",
+      "bytes": 6225,
+      "sha256": "74b813085c78a691ecaac21f6aa3fe6011767c6e94a2be5fc42b0c551cd92eeb"
+    },
+    {
+      "path": "urbangene_v2/tests/test_metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_metrics.py",
+      "bytes": 1517,
+      "sha256": "8dd9e5c0acdd7678f5a05dd85a557d19757c0c6646ffa72f5afd49d4e6d38434"
+    },
+    {
+      "path": "urbangene_v2/tests/test_million.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_million.py",
+      "bytes": 5129,
+      "sha256": "a34161e47937139afc0f64fc78db7f8a8daf508837244fb992bc88becaa5b02d"
+    },
+    {
+      "path": "urbangene_v2/tests/test_rgb_probe.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_rgb_probe.py",
+      "bytes": 2154,
+      "sha256": "a01a861915bf4620e02a60bd38310b80a5a8a5dcc8e207ddcdd46f1dca86564d"
+    },
+    {
+      "path": "urbangene_v2/tests/test_scaling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tests/test_scaling.py",
+      "bytes": 3828,
+      "sha256": "c3d1300832350897f15f27dbcdf9386b9a55ff93c5be7ee962cd364036b5166c"
+    },
+    {
+      "path": "urbangene_v2/tools/cache_real1m_local.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/cache_real1m_local.py",
+      "bytes": 10073,
+      "sha256": "961187371aa3323ca1caffdc8c70abe1d9d5407093940f44a3ecbb4a894048db"
+    },
+    {
+      "path": "urbangene_v2/tools/compare_m1_screens.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/compare_m1_screens.py",
+      "bytes": 8990,
+      "sha256": "d91ddcec3264f5682351708701f57ae76db92ca04c92dedf2e422a323b3a1e05"
+    },
+    {
+      "path": "urbangene_v2/tools/diagnose_m1_transforms.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/diagnose_m1_transforms.py",
+      "bytes": 3880,
+      "sha256": "a1aba12c2e69d171055badc066f05876769b0881d9d892ae893ae1a720882903"
+    },
+    {
+      "path": "urbangene_v2/tools/diagnose_m1_tree_separation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/diagnose_m1_tree_separation.py",
+      "bytes": 3650,
+      "sha256": "f6fa4b0bd7361e50eab65538b45c7edc2666a69d5e95123811289024edd2d2f0"
+    },
+    {
+      "path": "urbangene_v2/tools/download_dinov3.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/download_dinov3.py",
+      "bytes": 4754,
+      "sha256": "971fb865eb795af865faa60a3dd95a48673fcb10aabed20c3e252f0263b04e56"
+    },
+    {
+      "path": "urbangene_v2/tools/download_dinov3_modelscope.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/download_dinov3_modelscope.py",
+      "bytes": 7182,
+      "sha256": "5676539a4ecbe869a287afaa7ae273ea12219c0e38b0f0a9f5071de9a7578df8"
+    },
+    {
+      "path": "urbangene_v2/tools/explain_m1_result.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/explain_m1_result.py",
+      "bytes": 2372,
+      "sha256": "bfdef3ad0616aa2075ecc047963fa28c7da586523ac3705a7d5591132de257ff"
+    },
+    {
+      "path": "urbangene_v2/tools/explain_real_result.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/explain_real_result.py",
+      "bytes": 2647,
+      "sha256": "8daab14ae4caf6bb1ea73cdfccce26d9e433677364bd886c972cf5b2154b57a1"
+    },
+    {
+      "path": "urbangene_v2/tools/inspect_slot_code.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/inspect_slot_code.py",
+      "bytes": 4918,
+      "sha256": "7a68563a519da0358466692557f0a32f3e98a5ec993ce1bb279d155a1a257548"
+    },
+    {
+      "path": "urbangene_v2/tools/plot_training_loss.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/plot_training_loss.py",
+      "bytes": 4365,
+      "sha256": "442ced89db5ba88df295111d39679a6e6b3b22a32e948f83651161ad09f1fbe4"
+    },
+    {
+      "path": "urbangene_v2/tools/prepare_real1m.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/prepare_real1m.py",
+      "bytes": 12557,
+      "sha256": "f3476a86116c5990af09fc103348de583368f0afbfa51a590eef0362c17d1757"
+    },
+    {
+      "path": "urbangene_v2/tools/prepare_real20k.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/prepare_real20k.py",
+      "bytes": 7857,
+      "sha256": "70660e291aef3ea79e05067fdc6cc8461f83a23ed74e2176c050e681eb1469f2"
+    },
+    {
+      "path": "urbangene_v2/tools/prepare_real_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/prepare_real_streets.py",
+      "bytes": 4498,
+      "sha256": "9f9d679639594c3e49eaa34ba9900161cdc4c975e4118c8b95e0f75547ed7f7c"
+    },
+    {
+      "path": "urbangene_v2/tools/prepare_ten_tree_diagnostic.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/prepare_ten_tree_diagnostic.py",
+      "bytes": 3134,
+      "sha256": "78089cc22fea903e83d52a4e4128aa188221dcc6a49fe817b9175246002d0b2b"
+    },
+    {
+      "path": "urbangene_v2/tools/render_all_slot_regions.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/render_all_slot_regions.py",
+      "bytes": 7890,
+      "sha256": "eb58a86a4b12e17bb4c30b11d4232f9bead8b87cf6c9412957fff32ef62c37b9"
+    },
+    {
+      "path": "urbangene_v2/tools/render_grouping_rgb_figure.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/render_grouping_rgb_figure.py",
+      "bytes": 7602,
+      "sha256": "96c2270eb3f595b130bb511853027be41eb31025d8c96a6668b78834e77d5f69"
+    },
+    {
+      "path": "urbangene_v2/tools/render_slot_rgb.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/render_slot_rgb.py",
+      "bytes": 2639,
+      "sha256": "0b0b5de90edc5caf3d21a1b7ffc181c7a056bdb6b8e7ff05906c100ca8431b16"
+    },
+    {
+      "path": "urbangene_v2/tools/report_m1_validation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/report_m1_validation.py",
+      "bytes": 7297,
+      "sha256": "ddcc943d0b4d49dcdca78f7e999e23e298499f953a19f2dc6cbf40d93c5eaf9d"
+    },
+    {
+      "path": "urbangene_v2/tools/report_real_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/report_real_streets.py",
+      "bytes": 9487,
+      "sha256": "52dc1a050b6da7dc64bd55792d259651a4375f69e730e5647af9a893a0ab2860"
+    },
+    {
+      "path": "urbangene_v2/tools/resume_real1m_local.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/resume_real1m_local.py",
+      "bytes": 13616,
+      "sha256": "a2759de5c2c679d5ddabbf64afff0dad1a3666182ca31a966a9bc143d58de2e6"
+    },
+    {
+      "path": "urbangene_v2/tools/run_m1_validation_screen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/run_m1_validation_screen.py",
+      "bytes": 5372,
+      "sha256": "a68e692b7d24e37833d3ab4fbde7415db4db0b0616f846a6cd6bf0abc45647cf"
+    },
+    {
+      "path": "urbangene_v2/tools/run_real1m.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/run_real1m.py",
+      "bytes": 16333,
+      "sha256": "f305b8000d51f34c532267d703a88b5d1f6695c8563729805ff5a8c293830487"
+    },
+    {
+      "path": "urbangene_v2/tools/run_real20k.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/run_real20k.py",
+      "bytes": 14758,
+      "sha256": "b9e7ad4554af226b78fadc7b1a8be63527f4904f0a5fa77a6e09655b3fc40327"
+    },
+    {
+      "path": "urbangene_v2/tools/run_real_street_screen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/run_real_street_screen.py",
+      "bytes": 5291,
+      "sha256": "dc13cabaca047b32e1ec4b5c5a470aec3d08c7c77676a429fb96b73b5e13eb55"
+    },
+    {
+      "path": "urbangene_v2/tools/run_slot_composition.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/run_slot_composition.py",
+      "bytes": 16823,
+      "sha256": "a2413e57c7aabd1a532c5a2471d190c0809ef343455e39e1e29f9f120d1c6d4a"
+    },
+    {
+      "path": "urbangene_v2/tools/run_slot_rgb_probe.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/run_slot_rgb_probe.py",
+      "bytes": 23785,
+      "sha256": "7fe77c63df2ade92616f16dd4914db32da352bef3ba351827ef5bf4ccf2aa98b"
+    },
+    {
+      "path": "urbangene_v2/tools/train_real1m.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source/tools/train_real1m.py",
+      "bytes": 11114,
+      "sha256": "87ec5168b784d2a6fb5b92c7a280d77472c691f3fc798753cf69cfe42e11b3e7"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/README.md",
+      "bytes": 5901,
+      "sha256": "703dea38d817d96ccde41bd06ae266b37cba1bb8e136b5e451fb7ddc8f3043fe"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/pyproject.toml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/pyproject.toml",
+      "bytes": 531,
+      "sha256": "033987ab5182d0929565a733f6464e555757c4002bbf9c80d35bffe1b61b34e4"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/run.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/run.py",
+      "bytes": 175,
+      "sha256": "d5fb7200b777614cdae87d002aa39e24fa758fe0b5680c7d5cbd10c932825e2e"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_cpu_smoke.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_cpu_smoke.yaml",
+      "bytes": 520,
+      "sha256": "94d3f33ebecef8b94a09d1b520c93d8e7c9c5e6f787b706282c95f7297645740"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_dinov3.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_dinov3.yaml",
+      "bytes": 748,
+      "sha256": "d126acadd4960225055222f111ac280cb01725e6025b9eb79520e9f20de15153"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_dinov3_cpu_screen_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_dinov3_cpu_screen_20261109.yaml",
+      "bytes": 637,
+      "sha256": "0cd6239327306649b9840fa530626deae0c25acf6ae479a4e1cfd933d9776737"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_dinov3_cpu_spatial_seed_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_dinov3_cpu_spatial_seed_20261109.yaml",
+      "bytes": 673,
+      "sha256": "fb275e093631dc8884468b5a6096fb5e25ee7459d5d3ce6dcf2f0ef83ecef4dd"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_dinov3_gpu2.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_dinov3_gpu2.yaml",
+      "bytes": 619,
+      "sha256": "452eddc681f1a75deebf0dbe3d65621bd8161f6b29c0f2dd0dd38cf454096c54"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_real20k_20261110.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_real20k_20261110.yaml",
+      "bytes": 1956,
+      "sha256": "8e3cbce0975312d0002d6781e034c09153f7a31a9c6aea9797d3d4201028ae05"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/m1_real_streets_cpu_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/m1_real_streets_cpu_20261109.yaml",
+      "bytes": 1178,
+      "sha256": "25b48701dd4c7154e33b3a94c83ade9e83cf9d9ec723de5ead0c45ef21ee68c8"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/configs/synthetic_data.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/configs/synthetic_data.yaml",
+      "bytes": 360,
+      "sha256": "f345a0bb17689b9dc5a02006f8e0decf2de7a4433c653a2538315ef88fc56e43"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/COMPUTE_POLICY.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/COMPUTE_POLICY.md",
+      "bytes": 477,
+      "sha256": "3cd226e53b92eac08da120d76efd4540c07f7b3dd7cdac7cb35486e14cdb1b25"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/EXPERIMENT_PROTOCOL.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/EXPERIMENT_PROTOCOL.md",
+      "bytes": 1694,
+      "sha256": "7b8baae0bcfe4b5b03789242c113886abe1d1e4fdb563ee0ef78851584486ed8"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/M1_EXPERIMENT_REPORT_20261109.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/M1_EXPERIMENT_REPORT_20261109.md",
+      "bytes": 4787,
+      "sha256": "04fa096eb12ed7105d057480a50e9811b9623a97ddbf0bed20614943fb112292"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/REAL20K_PROTOCOL_20261110.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/REAL20K_PROTOCOL_20261110.md",
+      "bytes": 4923,
+      "sha256": "b0dc025aad24799e23c583fe93cccadc7bba1e862bdce5f46e20a75f0ddd98a9"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/REAL_STREET_PROTOCOL_20261109.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/REAL_STREET_PROTOCOL_20261109.md",
+      "bytes": 2932,
+      "sha256": "b4e25030320ef13f16cddb2268ba7f8576e058db8bb7469d3d6a4c0c5dea8826"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/RESULTS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/RESULTS.md",
+      "bytes": 10030,
+      "sha256": "985d28b7e54f55ef58ed03319c47930997da95f50d34f703ae737fd93b2edc57"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/STATUS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/STATUS.md",
+      "bytes": 6635,
+      "sha256": "b9869eb93f365e3ecc12099a207f7a7429c02dd40deeaef7719984c17cd103c9"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/docs/V2_DECISIONS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/docs/V2_DECISIONS.md",
+      "bytes": 3049,
+      "sha256": "4d49d4b871d7ea5f8e255809daa1dfaf78f50e02648b2638648c19997ea08a52"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/__init__.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/__init__.py",
+      "bytes": 73,
+      "sha256": "b8f043ed512401e5e4a90cb1e711ec653e5526b3784fcf2e5a3e9af0560068c6"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/backbone.py",
+      "bytes": 5071,
+      "sha256": "1fcfebd212e4bd99e7d0407aa683ca67602db1b0a8bbd2d9d66ef16e2b3bb53e"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/cli.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/cli.py",
+      "bytes": 3466,
+      "sha256": "943d5f07f1795460c2f40b390a967d15ee5218a6d0c887806e4838f9d8d64790"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/common.py",
+      "bytes": 1402,
+      "sha256": "73ab022d95b643617894265658aa1003941db6d8b0da59f01dba2e516a1e0e0c"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/data.py",
+      "bytes": 5283,
+      "sha256": "2f00dc66709869eac9a2bd9e90e01092e9957cc3be04d345adfb2dc8448efbb9"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/discovery.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/discovery.py",
+      "bytes": 8947,
+      "sha256": "27be2c3ee210d447e7da45567b41eb6b7be1aabed5adbfa612f57da141530d49"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/extract.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/extract.py",
+      "bytes": 3363,
+      "sha256": "a7ee7e7b0319f747498d35e63a6cb90adf982077604a8457f628954bf75cd259"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/metrics.py",
+      "bytes": 3440,
+      "sha256": "843db31335ffa54dcd5a9c31d96f02d4f56fa636a5b3f673b93c3992ed6a4728"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/scaling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/scaling.py",
+      "bytes": 10246,
+      "sha256": "ec92201397df906e78bb7a884d28bb25d1f7d9bcf5decb44f8445806e42643cb"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/src/urbangene_v2/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/src/urbangene_v2/train.py",
+      "bytes": 15763,
+      "sha256": "5fcf7ab9dbd1bd51786835644cf63d3a70e64211955d1003c85ccebb25c67243"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tests/test_data_backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tests/test_data_backbone.py",
+      "bytes": 5920,
+      "sha256": "dc6c05ae72283b0e4eb2bf41a48532f915a07861834b19923e5bec3fc1fbe4af"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tests/test_discovery.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tests/test_discovery.py",
+      "bytes": 5458,
+      "sha256": "089c71bb4b66163d610fac89ff4f8dba2945d58982136ff5324ac069baecb391"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tests/test_metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tests/test_metrics.py",
+      "bytes": 1517,
+      "sha256": "8dd9e5c0acdd7678f5a05dd85a557d19757c0c6646ffa72f5afd49d4e6d38434"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tests/test_scaling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tests/test_scaling.py",
+      "bytes": 2813,
+      "sha256": "f04b29b33aaa72cdf4ae29d6e0111bbe357b5d7c6c894426bf0b11a1696bcc83"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/compare_m1_screens.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/compare_m1_screens.py",
+      "bytes": 8990,
+      "sha256": "d91ddcec3264f5682351708701f57ae76db92ca04c92dedf2e422a323b3a1e05"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/diagnose_m1_transforms.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/diagnose_m1_transforms.py",
+      "bytes": 3880,
+      "sha256": "a1aba12c2e69d171055badc066f05876769b0881d9d892ae893ae1a720882903"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/diagnose_m1_tree_separation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/diagnose_m1_tree_separation.py",
+      "bytes": 3650,
+      "sha256": "f6fa4b0bd7361e50eab65538b45c7edc2666a69d5e95123811289024edd2d2f0"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/download_dinov3.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/download_dinov3.py",
+      "bytes": 4754,
+      "sha256": "971fb865eb795af865faa60a3dd95a48673fcb10aabed20c3e252f0263b04e56"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/download_dinov3_modelscope.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/download_dinov3_modelscope.py",
+      "bytes": 7182,
+      "sha256": "5676539a4ecbe869a287afaa7ae273ea12219c0e38b0f0a9f5071de9a7578df8"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/explain_m1_result.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/explain_m1_result.py",
+      "bytes": 2372,
+      "sha256": "bfdef3ad0616aa2075ecc047963fa28c7da586523ac3705a7d5591132de257ff"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/explain_real_result.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/explain_real_result.py",
+      "bytes": 2647,
+      "sha256": "8daab14ae4caf6bb1ea73cdfccce26d9e433677364bd886c972cf5b2154b57a1"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/prepare_real20k.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/prepare_real20k.py",
+      "bytes": 7857,
+      "sha256": "70660e291aef3ea79e05067fdc6cc8461f83a23ed74e2176c050e681eb1469f2"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/prepare_real_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/prepare_real_streets.py",
+      "bytes": 4498,
+      "sha256": "9f9d679639594c3e49eaa34ba9900161cdc4c975e4118c8b95e0f75547ed7f7c"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/prepare_ten_tree_diagnostic.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/prepare_ten_tree_diagnostic.py",
+      "bytes": 3134,
+      "sha256": "78089cc22fea903e83d52a4e4128aa188221dcc6a49fe817b9175246002d0b2b"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/report_m1_validation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/report_m1_validation.py",
+      "bytes": 7297,
+      "sha256": "ddcc943d0b4d49dcdca78f7e999e23e298499f953a19f2dc6cbf40d93c5eaf9d"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/report_real_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/report_real_streets.py",
+      "bytes": 9487,
+      "sha256": "52dc1a050b6da7dc64bd55792d259651a4375f69e730e5647af9a893a0ab2860"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/run_m1_validation_screen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/run_m1_validation_screen.py",
+      "bytes": 5372,
+      "sha256": "a68e692b7d24e37833d3ab4fbde7415db4db0b0616f846a6cd6bf0abc45647cf"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/run_real20k.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/run_real20k.py",
+      "bytes": 14758,
+      "sha256": "b9e7ad4554af226b78fadc7b1a8be63527f4904f0a5fa77a6e09655b3fc40327"
+    },
+    {
+      "path": "archive/urbangene_v2_real20k_20261110/tools/run_real_street_screen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real20k_20261110/tools/run_real_street_screen.py",
+      "bytes": 5291,
+      "sha256": "dc13cabaca047b32e1ec4b5c5a470aec3d08c7c77676a429fb96b73b5e13eb55"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/README.md",
+      "bytes": 6328,
+      "sha256": "cc00360b67b4f393f9ba1011d79027893f842aa414f1323842fb5c55af70bd58"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/pyproject.toml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/pyproject.toml",
+      "bytes": 531,
+      "sha256": "033987ab5182d0929565a733f6464e555757c4002bbf9c80d35bffe1b61b34e4"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/run.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/run.py",
+      "bytes": 175,
+      "sha256": "d5fb7200b777614cdae87d002aa39e24fa758fe0b5680c7d5cbd10c932825e2e"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_cpu_smoke.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_cpu_smoke.yaml",
+      "bytes": 520,
+      "sha256": "94d3f33ebecef8b94a09d1b520c93d8e7c9c5e6f787b706282c95f7297645740"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_dinov3.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_dinov3.yaml",
+      "bytes": 748,
+      "sha256": "d126acadd4960225055222f111ac280cb01725e6025b9eb79520e9f20de15153"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_dinov3_cpu_screen_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_dinov3_cpu_screen_20261109.yaml",
+      "bytes": 637,
+      "sha256": "0cd6239327306649b9840fa530626deae0c25acf6ae479a4e1cfd933d9776737"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_dinov3_cpu_spatial_seed_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_dinov3_cpu_spatial_seed_20261109.yaml",
+      "bytes": 673,
+      "sha256": "fb275e093631dc8884468b5a6096fb5e25ee7459d5d3ce6dcf2f0ef83ecef4dd"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_dinov3_gpu2.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_dinov3_gpu2.yaml",
+      "bytes": 619,
+      "sha256": "452eddc681f1a75deebf0dbe3d65621bd8161f6b29c0f2dd0dd38cf454096c54"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_real1m_bs128_20261110.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_real1m_bs128_20261110.yaml",
+      "bytes": 1482,
+      "sha256": "27b94890fea7b39771b8b050700bca34283d85b96d04fdc95bf955fdf869f8ed"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_real20k_20261110.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_real20k_20261110.yaml",
+      "bytes": 1956,
+      "sha256": "8e3cbce0975312d0002d6781e034c09153f7a31a9c6aea9797d3d4201028ae05"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/m1_real_streets_cpu_20261109.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/m1_real_streets_cpu_20261109.yaml",
+      "bytes": 1178,
+      "sha256": "25b48701dd4c7154e33b3a94c83ade9e83cf9d9ec723de5ead0c45ef21ee68c8"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/configs/synthetic_data.yaml",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/configs/synthetic_data.yaml",
+      "bytes": 360,
+      "sha256": "f345a0bb17689b9dc5a02006f8e0decf2de7a4433c653a2538315ef88fc56e43"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/COMPUTE_POLICY.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/COMPUTE_POLICY.md",
+      "bytes": 477,
+      "sha256": "3cd226e53b92eac08da120d76efd4540c07f7b3dd7cdac7cb35486e14cdb1b25"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/EXPERIMENT_PROTOCOL.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/EXPERIMENT_PROTOCOL.md",
+      "bytes": 1694,
+      "sha256": "7b8baae0bcfe4b5b03789242c113886abe1d1e4fdb563ee0ef78851584486ed8"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/M1_EXPERIMENT_REPORT_20261109.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/M1_EXPERIMENT_REPORT_20261109.md",
+      "bytes": 4787,
+      "sha256": "04fa096eb12ed7105d057480a50e9811b9623a97ddbf0bed20614943fb112292"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/REAL1M_PROTOCOL_20261110.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/REAL1M_PROTOCOL_20261110.md",
+      "bytes": 5205,
+      "sha256": "8f8583bf8f6374e4d829335c1ead815a4413bba7290af86f00ceff52d23b654b"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/REAL20K_PROTOCOL_20261110.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/REAL20K_PROTOCOL_20261110.md",
+      "bytes": 4923,
+      "sha256": "b0dc025aad24799e23c583fe93cccadc7bba1e862bdce5f46e20a75f0ddd98a9"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/REAL_STREET_PROTOCOL_20261109.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/REAL_STREET_PROTOCOL_20261109.md",
+      "bytes": 2932,
+      "sha256": "b4e25030320ef13f16cddb2268ba7f8576e058db8bb7469d3d6a4c0c5dea8826"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/RESULTS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/RESULTS.md",
+      "bytes": 10490,
+      "sha256": "c6c47b3bc54f845d284de84bf6118e763805eda729d0877f4c8789f8a9fcede8"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/STATUS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/STATUS.md",
+      "bytes": 8254,
+      "sha256": "5a5f634d3aa4249486a934b1ae0184a4d0b1adbc887e644faa878834557c4f26"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/docs/V2_DECISIONS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/docs/V2_DECISIONS.md",
+      "bytes": 3049,
+      "sha256": "4d49d4b871d7ea5f8e255809daa1dfaf78f50e02648b2638648c19997ea08a52"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/__init__.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/__init__.py",
+      "bytes": 73,
+      "sha256": "b8f043ed512401e5e4a90cb1e711ec653e5526b3784fcf2e5a3e9af0560068c6"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/backbone.py",
+      "bytes": 5071,
+      "sha256": "1fcfebd212e4bd99e7d0407aa683ca67602db1b0a8bbd2d9d66ef16e2b3bb53e"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/cli.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/cli.py",
+      "bytes": 3466,
+      "sha256": "943d5f07f1795460c2f40b390a967d15ee5218a6d0c887806e4838f9d8d64790"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/common.py",
+      "bytes": 1402,
+      "sha256": "73ab022d95b643617894265658aa1003941db6d8b0da59f01dba2e516a1e0e0c"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/data.py",
+      "bytes": 5283,
+      "sha256": "2f00dc66709869eac9a2bd9e90e01092e9957cc3be04d345adfb2dc8448efbb9"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/discovery.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/discovery.py",
+      "bytes": 8947,
+      "sha256": "27be2c3ee210d447e7da45567b41eb6b7be1aabed5adbfa612f57da141530d49"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/extract.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/extract.py",
+      "bytes": 3363,
+      "sha256": "a7ee7e7b0319f747498d35e63a6cb90adf982077604a8457f628954bf75cd259"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/metrics.py",
+      "bytes": 3440,
+      "sha256": "843db31335ffa54dcd5a9c31d96f02d4f56fa636a5b3f673b93c3992ed6a4728"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/million.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/million.py",
+      "bytes": 5548,
+      "sha256": "93b97836092ff8836f9b6cdf071cc880831d5b4e3f7f212b0355b347bd33a1f0"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/scaling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/scaling.py",
+      "bytes": 10246,
+      "sha256": "ec92201397df906e78bb7a884d28bb25d1f7d9bcf5decb44f8445806e42643cb"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/src/urbangene_v2/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/src/urbangene_v2/train.py",
+      "bytes": 15763,
+      "sha256": "5fcf7ab9dbd1bd51786835644cf63d3a70e64211955d1003c85ccebb25c67243"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tests/test_data_backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tests/test_data_backbone.py",
+      "bytes": 5920,
+      "sha256": "dc6c05ae72283b0e4eb2bf41a48532f915a07861834b19923e5bec3fc1fbe4af"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tests/test_discovery.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tests/test_discovery.py",
+      "bytes": 5458,
+      "sha256": "089c71bb4b66163d610fac89ff4f8dba2945d58982136ff5324ac069baecb391"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tests/test_metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tests/test_metrics.py",
+      "bytes": 1517,
+      "sha256": "8dd9e5c0acdd7678f5a05dd85a557d19757c0c6646ffa72f5afd49d4e6d38434"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tests/test_million.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tests/test_million.py",
+      "bytes": 5129,
+      "sha256": "a34161e47937139afc0f64fc78db7f8a8daf508837244fb992bc88becaa5b02d"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tests/test_scaling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tests/test_scaling.py",
+      "bytes": 3828,
+      "sha256": "c3d1300832350897f15f27dbcdf9386b9a55ff93c5be7ee962cd364036b5166c"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/compare_m1_screens.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/compare_m1_screens.py",
+      "bytes": 8990,
+      "sha256": "d91ddcec3264f5682351708701f57ae76db92ca04c92dedf2e422a323b3a1e05"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/diagnose_m1_transforms.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/diagnose_m1_transforms.py",
+      "bytes": 3880,
+      "sha256": "a1aba12c2e69d171055badc066f05876769b0881d9d892ae893ae1a720882903"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/diagnose_m1_tree_separation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/diagnose_m1_tree_separation.py",
+      "bytes": 3650,
+      "sha256": "f6fa4b0bd7361e50eab65538b45c7edc2666a69d5e95123811289024edd2d2f0"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/download_dinov3.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/download_dinov3.py",
+      "bytes": 4754,
+      "sha256": "971fb865eb795af865faa60a3dd95a48673fcb10aabed20c3e252f0263b04e56"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/download_dinov3_modelscope.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/download_dinov3_modelscope.py",
+      "bytes": 7182,
+      "sha256": "5676539a4ecbe869a287afaa7ae273ea12219c0e38b0f0a9f5071de9a7578df8"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/explain_m1_result.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/explain_m1_result.py",
+      "bytes": 2372,
+      "sha256": "bfdef3ad0616aa2075ecc047963fa28c7da586523ac3705a7d5591132de257ff"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/explain_real_result.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/explain_real_result.py",
+      "bytes": 2647,
+      "sha256": "8daab14ae4caf6bb1ea73cdfccce26d9e433677364bd886c972cf5b2154b57a1"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/plot_training_loss.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/plot_training_loss.py",
+      "bytes": 4365,
+      "sha256": "442ced89db5ba88df295111d39679a6e6b3b22a32e948f83651161ad09f1fbe4"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/prepare_real1m.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/prepare_real1m.py",
+      "bytes": 12557,
+      "sha256": "f3476a86116c5990af09fc103348de583368f0afbfa51a590eef0362c17d1757"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/prepare_real20k.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/prepare_real20k.py",
+      "bytes": 7857,
+      "sha256": "70660e291aef3ea79e05067fdc6cc8461f83a23ed74e2176c050e681eb1469f2"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/prepare_real_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/prepare_real_streets.py",
+      "bytes": 4498,
+      "sha256": "9f9d679639594c3e49eaa34ba9900161cdc4c975e4118c8b95e0f75547ed7f7c"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/prepare_ten_tree_diagnostic.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/prepare_ten_tree_diagnostic.py",
+      "bytes": 3134,
+      "sha256": "78089cc22fea903e83d52a4e4128aa188221dcc6a49fe817b9175246002d0b2b"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/report_m1_validation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/report_m1_validation.py",
+      "bytes": 7297,
+      "sha256": "ddcc943d0b4d49dcdca78f7e999e23e298499f953a19f2dc6cbf40d93c5eaf9d"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/report_real_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/report_real_streets.py",
+      "bytes": 9487,
+      "sha256": "52dc1a050b6da7dc64bd55792d259651a4375f69e730e5647af9a893a0ab2860"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/run_m1_validation_screen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/run_m1_validation_screen.py",
+      "bytes": 5372,
+      "sha256": "a68e692b7d24e37833d3ab4fbde7415db4db0b0616f846a6cd6bf0abc45647cf"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/run_real1m.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/run_real1m.py",
+      "bytes": 16333,
+      "sha256": "f305b8000d51f34c532267d703a88b5d1f6695c8563729805ff5a8c293830487"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/run_real20k.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/run_real20k.py",
+      "bytes": 14758,
+      "sha256": "b9e7ad4554af226b78fadc7b1a8be63527f4904f0a5fa77a6e09655b3fc40327"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/run_real_street_screen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/run_real_street_screen.py",
+      "bytes": 5291,
+      "sha256": "dc13cabaca047b32e1ec4b5c5a470aec3d08c7c77676a429fb96b73b5e13eb55"
+    },
+    {
+      "path": "archive/urbangene_v2_real1m_bs128_20261110/tools/train_real1m.py",
+      "source": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/source_real1m_bs128_20261110/tools/train_real1m.py",
+      "bytes": 11114,
+      "sha256": "87ec5168b784d2a6fb5b92c7a280d77472c691f3fc798753cf69cfe42e11b3e7"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/common.py",
+      "bytes": 1165,
+      "sha256": "cee9a60b0431dc5758c5da383271a2e8ac52e09657dacd163e8b3aca94b9892f"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/data.py",
+      "bytes": 1227,
+      "sha256": "ed14256972ed92d3335e3cf176fd507b635c170c22a88f85e12816f69b814919"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/evaluate_unseen.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/evaluate_unseen.py",
+      "bytes": 17482,
+      "sha256": "ac4b9debd5378c24703170b861c679807fb6053667701d281846e617392fcd5d"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/model.py",
+      "bytes": 4101,
+      "sha256": "deb96c806fd8802dc9f8d242699a56ddde950ebbc1257e0643780044f398ab42"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/prepare_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/prepare_data.py",
+      "bytes": 8795,
+      "sha256": "3a01857b3a453a8256a11da75add7807ed19538b0e51b03a21d936bb6f669afa"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/render_gene_atlas.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/render_gene_atlas.py",
+      "bytes": 26709,
+      "sha256": "4488aa715c78495d02553d6e971a9635ed8c27a7916df53dd0465b62bbfe055e"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/report.py",
+      "bytes": 2966,
+      "sha256": "3042ccfb9b84fe3543a30bdce559be73f09a0d364858f83b494860840c927862"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/train.py",
+      "bytes": 17627,
+      "sha256": "56e94e3d05c2047b38027310712737e04ff52a27ca07edeade86d6fe68764161"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/tests/test_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/tests/test_data.py",
+      "bytes": 1910,
+      "sha256": "b4bfea395b3102706afb1e1da18dc9b194a8cf069d6b68a05c020d404da7dd94"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/tests/test_model_gpu.py",
+      "bytes": 2897,
+      "sha256": "b171c29c8486ce99b5102a8196eaf5c50284626ec676c86309c83147ecfe62fe"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/source/tests/test_queue.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/source/tests/test_queue.py",
+      "bytes": 2545,
+      "sha256": "81450b2040fc016d77a0295a6ae319301c36b62a48f9b56cfa6e1810379370ee"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/configs/experiment.json",
+      "bytes": 1323,
+      "sha256": "59d5ce06dd57e4b0c30d0194e13f9b1649507917a514b847eb96abe62bf6ed78"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/README.md",
+      "bytes": 4742,
+      "sha256": "7b4febae12fe1467aafbdd29000f72ebaba53e1b6afabeed3bb6de186be6b8fa"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/RESULTS_20261115.md",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/RESULTS_20261115.md",
+      "bytes": 3141,
+      "sha256": "ac68d0a8f9144afe9b5a6223f6d448ae47108f17693ea4b9333e248ee62161aa"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/comparison_metrics.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/comparison_metrics.json",
+      "bytes": 3608,
+      "sha256": "26c46be502cd4005fb4430345386be03f645cc3b1a4c943b6a7771967303f124"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/dense_ae.gpu_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/dense_ae.gpu_smoke.json",
+      "bytes": 832,
+      "sha256": "ed1fac3f0680d9d8d7bf22784031264924aa2466e184f6d3c1e2f5b277eb0e8d"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/dense_ae.gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/dense_ae.gpu_tests_passed.json",
+      "bytes": 77,
+      "sha256": "d6d2b5789e7ab8a7766a338edb58d853f061ee46d659a79570ee103417648335"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/preflight.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/preflight.json",
+      "bytes": 1249,
+      "sha256": "5de26e174f1819c1173e76d0dc5eeb28decebe81f358957e283a553ba876d3df"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/sparse_n256_s4.gpu_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/sparse_n256_s4.gpu_smoke.json",
+      "bytes": 847,
+      "sha256": "0349db0db5807ba24c219455baf0efaaeca3ba833b5e469bbab1f001e20a7b8b"
+    },
+    {
+      "path": "experiments/additive_gene_10k_20261115/evidence/sparse_n256_s4.gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_10k_20261115/reports/sparse_n256_s4.gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "75fcdb0ca81b8e4a9105389861075309dd77ebf4e1a1f5add5223acfc27c12a7"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/bootstrap.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/bootstrap.py",
+      "bytes": 2649,
+      "sha256": "0f7e3b5c2250af5875915536c8b70b8d1c90687152250d167ae383c9bd12780b"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/common.py",
+      "bytes": 1165,
+      "sha256": "cee9a60b0431dc5758c5da383271a2e8ac52e09657dacd163e8b3aca94b9892f"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/data.py",
+      "bytes": 4551,
+      "sha256": "799efb4ba1ff5115d9be06bb1a0b9b1b77ca7610417ff3836ebd16473db392ab"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/fetch_ghsl.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/fetch_ghsl.py",
+      "bytes": 4050,
+      "sha256": "47f39a8e3d98b07d79059899025bfa1c5cd18eeef58e23fa88bd077774d73057"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/model.py",
+      "bytes": 4101,
+      "sha256": "deb96c806fd8802dc9f8d242699a56ddde950ebbc1257e0643780044f398ab42"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/prepare_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/prepare_data.py",
+      "bytes": 8795,
+      "sha256": "3a01857b3a453a8256a11da75add7807ed19538b0e51b03a21d936bb6f669afa"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/prepare_million.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/prepare_million.py",
+      "bytes": 9376,
+      "sha256": "2b502a0879c0ee8d1af59e5d52929f2f4de4aa2ab53d08a3e0bd9a2fc35a1288"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/report.py",
+      "bytes": 2966,
+      "sha256": "3042ccfb9b84fe3543a30bdce559be73f09a0d364858f83b494860840c927862"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/sampling_report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/sampling_report.py",
+      "bytes": 6856,
+      "sha256": "8be4123d44d73a6866f5454b2a668847b89151a0de89ea926e4b3b057badd2ad"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/spatial_balance.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/spatial_balance.py",
+      "bytes": 1978,
+      "sha256": "3e87a825b34d85445bffbc6197296963ce208fe5807647035d210e90581dbea4"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/spatial_catalog.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/spatial_catalog.py",
+      "bytes": 4889,
+      "sha256": "9e7e445f24d6485bbc53980aa55d7769e5daff210bb3d4407122d59e28283959"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/spatial_sampling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/spatial_sampling.py",
+      "bytes": 21787,
+      "sha256": "455ca47d5861f01b545a3eefd949b091aa4fcde26b3516118551c315b2f6f6d3"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/train.py",
+      "bytes": 18925,
+      "sha256": "00668c17597afdbf1a1371e23a3320d6725a77e8a646cfbe7cb81bfb99cc2a2b"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/tests/test_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/tests/test_data.py",
+      "bytes": 1910,
+      "sha256": "b4bfea395b3102706afb1e1da18dc9b194a8cf069d6b68a05c020d404da7dd94"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/tests/test_million_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/tests/test_million_data.py",
+      "bytes": 3183,
+      "sha256": "ddcd967820f6b6a8dab4d4060515d7be1b29d403ac9d4adcef8982a0f79cf8e1"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/tests/test_model_gpu.py",
+      "bytes": 2897,
+      "sha256": "b171c29c8486ce99b5102a8196eaf5c50284626ec676c86309c83147ecfe62fe"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/tests/test_queue.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/tests/test_queue.py",
+      "bytes": 2545,
+      "sha256": "81450b2040fc016d77a0295a6ae319301c36b62a48f9b56cfa6e1810379370ee"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/source/tests/test_spatial_sampling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/source/tests/test_spatial_sampling.py",
+      "bytes": 6657,
+      "sha256": "be81e8b21dccd167d50a3215916edee3b0ef52cc4ede02bf9e24e3aade881b4f"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/configs/experiment.json",
+      "bytes": 3486,
+      "sha256": "9f21899c551538f46e69caaa508a18de81d56c6377d3ec9cf1cc7656cd93d1c4"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/README.md",
+      "bytes": 6252,
+      "sha256": "50e1f895ec127065e392e0a7fd956a165ed1fd12ab4838d159b2fb393dc7c12f"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/evidence/dense_ae.gpu_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/reports/dense_ae.gpu_smoke.json",
+      "bytes": 918,
+      "sha256": "98fa27f68d7ec9f346ecff49c45126760f197bc704788f52156a4974ae1c551f"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/evidence/dense_ae.gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/reports/dense_ae.gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "d80b40dae12f66c4157e960bb7b2900273fc69beb393a3da119df6844ab84664"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/evidence/sparse_n256_s4.gpu_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/reports/sparse_n256_s4.gpu_smoke.json",
+      "bytes": 929,
+      "sha256": "744508f5c7369c2b4662556796842abdc96e866342069c4c714febb13a07039a"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115/evidence/sparse_n256_s4.gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115/reports/sparse_n256_s4.gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "0e35aba860e3e1d7a71fda7258603cca16e396c631aa199f92b70a96c906ca1d"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/bootstrap.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/bootstrap.py",
+      "bytes": 2649,
+      "sha256": "0f7e3b5c2250af5875915536c8b70b8d1c90687152250d167ae383c9bd12780b"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/common.py",
+      "bytes": 1265,
+      "sha256": "f3b725451cde87298a76c65086816780f153bddcf2a1129f4123795f4a2886fd"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/data.py",
+      "bytes": 4551,
+      "sha256": "799efb4ba1ff5115d9be06bb1a0b9b1b77ca7610417ff3836ebd16473db392ab"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/distributed_schedule.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/distributed_schedule.py",
+      "bytes": 1473,
+      "sha256": "46c91df8f7469403fb01603e66694944f9a440182f6e774c1ede68ff2aac1046"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/fetch_ghsl.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/fetch_ghsl.py",
+      "bytes": 4050,
+      "sha256": "47f39a8e3d98b07d79059899025bfa1c5cd18eeef58e23fa88bd077774d73057"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/model.py",
+      "bytes": 4101,
+      "sha256": "deb96c806fd8802dc9f8d242699a56ddde950ebbc1257e0643780044f398ab42"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/prepare_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/prepare_data.py",
+      "bytes": 8795,
+      "sha256": "3a01857b3a453a8256a11da75add7807ed19538b0e51b03a21d936bb6f669afa"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/prepare_million.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/prepare_million.py",
+      "bytes": 9376,
+      "sha256": "2b502a0879c0ee8d1af59e5d52929f2f4de4aa2ab53d08a3e0bd9a2fc35a1288"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/report.py",
+      "bytes": 2966,
+      "sha256": "3042ccfb9b84fe3543a30bdce559be73f09a0d364858f83b494860840c927862"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/sampling_report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/sampling_report.py",
+      "bytes": 6856,
+      "sha256": "8be4123d44d73a6866f5454b2a668847b89151a0de89ea926e4b3b057badd2ad"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/spatial_balance.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/spatial_balance.py",
+      "bytes": 1978,
+      "sha256": "3e87a825b34d85445bffbc6197296963ce208fe5807647035d210e90581dbea4"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/spatial_catalog.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/spatial_catalog.py",
+      "bytes": 4889,
+      "sha256": "9e7e445f24d6485bbc53980aa55d7769e5daff210bb3d4407122d59e28283959"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/spatial_sampling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/spatial_sampling.py",
+      "bytes": 21787,
+      "sha256": "455ca47d5861f01b545a3eefd949b091aa4fcde26b3516118551c315b2f6f6d3"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/supervisor_distributed.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/supervisor_distributed.py",
+      "bytes": 5087,
+      "sha256": "d6115b98c6352ae0ac43114a48406db85d06fc87867448105963715da96b4069"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/train.py",
+      "bytes": 18925,
+      "sha256": "00668c17597afdbf1a1371e23a3320d6725a77e8a646cfbe7cb81bfb99cc2a2b"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/train_distributed.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/train_distributed.py",
+      "bytes": 19669,
+      "sha256": "d24230a37477288d8263efc945f5ff1fae21ee479b3db54d557e38693a7bbbfe"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_data.py",
+      "bytes": 1910,
+      "sha256": "b4bfea395b3102706afb1e1da18dc9b194a8cf069d6b68a05c020d404da7dd94"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_distributed_schedule.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_distributed_schedule.py",
+      "bytes": 3381,
+      "sha256": "86358da80fa820f371245ac23e55bb9f5fa365304847d69f65c9447b70381784"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_million_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_million_data.py",
+      "bytes": 3183,
+      "sha256": "ddcd967820f6b6a8dab4d4060515d7be1b29d403ac9d4adcef8982a0f79cf8e1"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_model_gpu.py",
+      "bytes": 2897,
+      "sha256": "b171c29c8486ce99b5102a8196eaf5c50284626ec676c86309c83147ecfe62fe"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_queue.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_queue.py",
+      "bytes": 2545,
+      "sha256": "81450b2040fc016d77a0295a6ae319301c36b62a48f9b56cfa6e1810379370ee"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_spatial_sampling.py",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/source/tests/test_spatial_sampling.py",
+      "bytes": 6657,
+      "sha256": "be81e8b21dccd167d50a3215916edee3b0ef52cc4ede02bf9e24e3aade881b4f"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/configs/experiment.json",
+      "bytes": 3750,
+      "sha256": "f6265e133fb45fdef68f04ea836b4e46da7bcd466ea905a09527376fd4447509"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/README.md",
+      "bytes": 4064,
+      "sha256": "14722aec69e7efe2d3b167ed50a20361cbd18e573f61b3bb044a821a5ee860b8"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/evidence/dense_ae.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/reports/dense_ae.distributed_smoke.json",
+      "bytes": 1052,
+      "sha256": "0846ee7ba9a74b8dd96c6f4811cdc3110fdbabd27d3e6151721ab505c47b47e3"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/evidence/sparse_n256_s4.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/reports/sparse_n256_s4.distributed_smoke.json",
+      "bytes": 1048,
+      "sha256": "00056b38aadc07a1934231ef9b35b4c1b4caab8efb322d9a369acd336160d014"
+    },
+    {
+      "path": "experiments/additive_gene_1m_20261115_4gpu_bs1024/evidence/stop_for_multiscale_20261116.json",
+      "source": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115_4gpu_bs1024/reports/stop_for_multiscale_20261116.json",
+      "bytes": 2292,
+      "sha256": "8bd7bf204d10629e79aa7a11a708ce50bd6abb5813e561e0b9f6f36a0ca06324"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/common.py",
+      "bytes": 2228,
+      "sha256": "01346ec943664962307e03d05dc2f9f0f01ec0dbb5e4f46d95b42829c62b516d"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/compare_legacy_additive.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/compare_legacy_additive.py",
+      "bytes": 23917,
+      "sha256": "6e53d75be9ae132ac91d889f14e71fd7135db78d320aacd95eff17e0ef594230"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/data.py",
+      "bytes": 2399,
+      "sha256": "4b0bdbee3f297a817829987c4347574c1ebcc200f3b8b8164472aacdf2f05791"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/diagnose_additive_gap.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/diagnose_additive_gap.py",
+      "bytes": 8549,
+      "sha256": "d47c9ec5557e4834779953037c53c5ed84adc86c93429c1e898efd757b552e04"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/legacy_model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/legacy_model.py",
+      "bytes": 4101,
+      "sha256": "deb96c806fd8802dc9f8d242699a56ddde950ebbc1257e0643780044f398ab42"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/model.py",
+      "bytes": 8220,
+      "sha256": "7a097bf592816bf7a0eab6276f7d18066e4087a8c49b3a3e972601d24370fca2"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/prepare_data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/prepare_data.py",
+      "bytes": 5039,
+      "sha256": "ed12eb1282c7b135979126385a65e153a7dd7e2e67df8487f056c9e58102bb48"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/preview.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/preview.py",
+      "bytes": 6050,
+      "sha256": "d722c3e9575e7942bbeda0a2e7d5db6ba6cba7a51149c44e1ec623ca2f77932e"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/profile_batch.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/profile_batch.py",
+      "bytes": 5166,
+      "sha256": "3f502efe402568c76e2c991d03d068193589ba7ef0f0b35362fde896f5229966"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/report.py",
+      "bytes": 3195,
+      "sha256": "16aa4e58ac8909d3cc59ffe1950d51ec8fd46d88a10e9af6dd8dcf2656395cad"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/run_batch_profiles.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/run_batch_profiles.py",
+      "bytes": 1547,
+      "sha256": "53c184efe115e7ae204c71cf88b8dfefe6bc407be1096b4ea211ff241b64f117"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/spatial_balance.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/spatial_balance.py",
+      "bytes": 1978,
+      "sha256": "3e87a825b34d85445bffbc6197296963ce208fe5807647035d210e90581dbea4"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/supervisor.py",
+      "bytes": 6789,
+      "sha256": "0f9d1735c0c2a8e6e40b4d6df117c2f8b3825860aa38970f11da6f61880809b8"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/train.py",
+      "bytes": 22655,
+      "sha256": "752dc3597088f97074fcb30168c876db723f7e450e9859700d3fe5f4b43e1e43"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/common.py",
+      "bytes": 1265,
+      "sha256": "f3b725451cde87298a76c65086816780f153bddcf2a1129f4123795f4a2886fd"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/data.py",
+      "bytes": 4551,
+      "sha256": "799efb4ba1ff5115d9be06bb1a0b9b1b77ca7610417ff3836ebd16473db392ab"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/distributed_schedule.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/distributed_schedule.py",
+      "bytes": 1473,
+      "sha256": "46c91df8f7469403fb01603e66694944f9a440182f6e774c1ede68ff2aac1046"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/model.py",
+      "bytes": 4101,
+      "sha256": "deb96c806fd8802dc9f8d242699a56ddde950ebbc1257e0643780044f398ab42"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/supervisor_distributed.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/supervisor_distributed.py",
+      "bytes": 5087,
+      "sha256": "d6115b98c6352ae0ac43114a48406db85d06fc87867448105963715da96b4069"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/reference/train_distributed.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/reference/train_distributed.py",
+      "bytes": 19669,
+      "sha256": "d24230a37477288d8263efc945f5ff1fae21ee479b3db54d557e38693a7bbbfe"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/tests/conftest.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/tests/conftest.py",
+      "bytes": 98,
+      "sha256": "8659c4f6af34a32f61ecc29774fd873cf628e7e0828ce9ff04773418357a6cc6"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/tests/test_data_schedule.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/tests/test_data_schedule.py",
+      "bytes": 3338,
+      "sha256": "9ba549753e7c540aabe89d0f505e18212c415047d8904d221912d7863a4b4305"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/source/tests/test_model_gpu.py",
+      "bytes": 3733,
+      "sha256": "83a4d63bb2a17e5e4e7d966af995463902a8e13bd6eed161362fd2e75a56495c"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/configs/experiment.json",
+      "bytes": 2449,
+      "sha256": "8654b282ff50c1feeeea641a910a872305ff00ab59543ee63ec8e2b76acf4079"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/README.md",
+      "bytes": 11757,
+      "sha256": "c9ce523bfb3f9f8cb10734e03da029b50b2f2dd99db72add34a0a33ca6183a15"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/comparison_metrics.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/comparison_metrics.json",
+      "bytes": 24086,
+      "sha256": "6b76ddf7a5a66985b239a284c9bc40a2d6cc7bbf42b3b69f97fcf02efd7c876c"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/dense_ae.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/dense_ae.distributed_smoke.json",
+      "bytes": 1666,
+      "sha256": "cbf224ee2a90e2343130c03f3b3cae3da7e731bcb946a123b4d6330cae1f2318"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "6355be2fb989fdd4b50562309edc8746288e6983888741fc215de08c540a30f3"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/multiscale_conv.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/multiscale_conv.distributed_smoke.json",
+      "bytes": 1856,
+      "sha256": "276aaa047b608886023a2f182b7cc1ef4fca3dfe6773e80354d349a189532067"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/multiscale_vector.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/multiscale_vector.distributed_smoke.json",
+      "bytes": 1856,
+      "sha256": "18736e32035287e116f379b5ce2544425bb43843a460276cf2c8e4d895d39ce5"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/previous_training_stopped.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/previous_training_stopped.json",
+      "bytes": 914,
+      "sha256": "764df3e0141be22b25600d14bebd8489f22f2fc268f1befeb47b2131cf5b6af7"
+    },
+    {
+      "path": "experiments/multiscale_gene_10k_20261116/evidence/single_vector.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/multiscale_gene_10k_20261116/reports/single_vector.distributed_smoke.json",
+      "bytes": 1739,
+      "sha256": "b1243a3b35ce0966974bf85d0de424a21f9d71537664b3cfa77a0be8b285885b"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/animate_gene_addition.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/animate_gene_addition.py",
+      "bytes": 13436,
+      "sha256": "eebdefda06555e91ea94aa6ffcc5b87fa6695dc7e6456e2b47d6ee4e4977f7a1"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/backbone.py",
+      "bytes": 1535,
+      "sha256": "420e1d7f91425901c95aac956d28f058a64e54f797d95f59b173958d6e682e92"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/common.py",
+      "bytes": 1830,
+      "sha256": "17fba0edc4450a0025ce02c7c24254228b2968dc6d20eaa0760f526ed3419bf1"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/data.py",
+      "bytes": 3153,
+      "sha256": "0cc93c598b61f873cebb5f95f4978683501de83d15d274b8271ff56a2986150a"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/diagnose_white_noise_inputs.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/diagnose_white_noise_inputs.py",
+      "bytes": 8922,
+      "sha256": "a125992d9e8bae4c4e3a55fc14e3cd124e387b4aae8d9577ff75e0f5119177d6"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/export_all_gene_cards.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/export_all_gene_cards.py",
+      "bytes": 17951,
+      "sha256": "16685974b521bbbdc48487b6f9614f545e818a9c68d0d5419689ee3b5b765d3a"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/inspect_features.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/inspect_features.py",
+      "bytes": 7228,
+      "sha256": "904b2679c8ac512a9665bc642498111af5897487beeaa15fd12e68ca27d2a3db"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/inspect_five_street_expressions.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/inspect_five_street_expressions.py",
+      "bytes": 12387,
+      "sha256": "5f793911d81c7e0ae5203f41d8f6b0781c310f9b43277215480b2d7353335afd"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/losses.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/losses.py",
+      "bytes": 1851,
+      "sha256": "053e56982ab59c1ddef611b4f6b8f5aa6ebc8989e0e619c583fd7959b464f081"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/model.py",
+      "bytes": 9662,
+      "sha256": "3a38a23f1911499cf38c197b39ae4ddd42665f15cf0ee0167c021107954a8552"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/plot_all_gene_responses_five_streets.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/plot_all_gene_responses_five_streets.py",
+      "bytes": 10893,
+      "sha256": "388fc8f7595550a065a41f458fc179541bd4cc6a6fd7cf3bd65772787526961e"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/preview.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/preview.py",
+      "bytes": 3924,
+      "sha256": "04bc72b3bf0207eebc8446a161b5585a20bb709b8f4a7fa1558ea7462414face"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/reconstruct_example.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/reconstruct_example.py",
+      "bytes": 5685,
+      "sha256": "eb6e33e673203753d3a0a84ef81a922bce187932858a833697a88cce21fd3517"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/reconstruct_random_examples.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/reconstruct_random_examples.py",
+      "bytes": 11368,
+      "sha256": "13cd4af70aa5e86f2ec1008665b7cd471cbd35727ff95675ef29127f3fb191d0"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/render_saved_previews.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/render_saved_previews.py",
+      "bytes": 2514,
+      "sha256": "63729033ffde0eb62da710eb745988ca4141fe1fbe31e3802926df6e339d5f39"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/report.py",
+      "bytes": 3218,
+      "sha256": "d8acdf0f18f3c7a57f0d8897553655964d38c909d520f1623e276460bb6f850d"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/supervisor.py",
+      "bytes": 6825,
+      "sha256": "9a9862cd2d0a20feccfabc5d98915ea5395655aea9e0113f89984a82135f42df"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/train.py",
+      "bytes": 24302,
+      "sha256": "739d0b5cd0f20cf22f8a41db174591aae365f36767e702199d34ab4a1b2ea1d8"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/visualize_gene_weights_and_effects.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/visualize_gene_weights_and_effects.py",
+      "bytes": 12980,
+      "sha256": "5bcd8a3e0dd26a7a293cf9c77540930af15e6d2cc8bd76644afc1a7d46092df3"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/reference/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/reference/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/tests/conftest.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/tests/conftest.py",
+      "bytes": 98,
+      "sha256": "8659c4f6af34a32f61ecc29774fd873cf628e7e0828ce9ff04773418357a6cc6"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/tests/test_data_schedule.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/tests/test_data_schedule.py",
+      "bytes": 2209,
+      "sha256": "7e9484241509d73e71a89d7db0eae1bcb504da5c62c5b2be7547fd727662143c"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/source/tests/test_model_gpu.py",
+      "bytes": 4369,
+      "sha256": "c322b7f1aa147edc4e1181518c1de051f76a405ddf517fd5329d60a34aeff92a"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/configs/experiment.json",
+      "bytes": 2753,
+      "sha256": "1b926ccd485e9a8c5ab039fa29bb0ebbf97006a8df135ec50999f79ecb9a4371"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/README.md",
+      "bytes": 5795,
+      "sha256": "19ed65ad950d91392241a13059f863bcfb98a08aaa3de5538207b60b9b8214ca"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/capacity_comparison.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/capacity_comparison.json",
+      "bytes": 2214,
+      "sha256": "eddd421b2d23caee9a78b884e2db25ac2f47edd1b669a37fd88f8e5fdb0fd27d"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/comparison_metrics.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/comparison_metrics.json",
+      "bytes": 35438,
+      "sha256": "040aa1bddcd74016d7f7ee56cffec9d000e80fda77278f5b6396a83077d8a601"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/cpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/cpu_tests_passed.json",
+      "bytes": 122,
+      "sha256": "d2812465d91a078b12618f3200d52ce846d7ea0360bde2029f74fd81c89de63e"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "eae1a79a8b920fee76c8ab2e68ceae2eea68fa002253ea108433bc73aab37fa5"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/multiscale_residual_ista.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/multiscale_residual_ista.distributed_smoke.json",
+      "bytes": 2032,
+      "sha256": "9004a92d63df5053071dd5ad170835b0b9e60a27b9d2ebfe93521f7b3d1d9c72"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/single_scale_ista.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/single_scale_ista.distributed_smoke.json",
+      "bytes": 1906,
+      "sha256": "acfa3ce8e78304ac8f8044603bd2a42d6c09fe31c7278a668867ec0dc1e0dc06"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/backbone.py",
+      "bytes": 1535,
+      "sha256": "420e1d7f91425901c95aac956d28f058a64e54f797d95f59b173958d6e682e92"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/codec.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/codec.py",
+      "bytes": 1944,
+      "sha256": "cc9d75b2b9c27028ea8a1747e57cbd2ca46388ba429c5b71a3154837b6c135f8"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/common.py",
+      "bytes": 3982,
+      "sha256": "5bdf95bcf8c7511ccffbcbaaa254be871e59a373698dbc197a88635e9f41961f"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/data.py",
+      "bytes": 3346,
+      "sha256": "113e8626f91f07295ad726897daf928fb84cf8fec189b207a8eb879a4a50508a"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/dependencies.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/dependencies.py",
+      "bytes": 1030,
+      "sha256": "9ea15ac177487c1daa092647303b98af52f82d175ad886ec80133980b763cc5d"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/diagnose_constant_expression.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/diagnose_constant_expression.py",
+      "bytes": 7377,
+      "sha256": "34c3def6d14f8058abe649caf97a80bd965d983dd0a2ab78ef274add5aa29fb3"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/diagnose_ones_image_input.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/diagnose_ones_image_input.py",
+      "bytes": 8498,
+      "sha256": "375ce985161fb41240139c67be71d8cc19905dde36d0b318cde85f0df0c673fd"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/final_evaluation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/final_evaluation.py",
+      "bytes": 7503,
+      "sha256": "b0ca4180428c63c08e2d61f6b469748846a2f2d8d33bdeedaadd38092994812d"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/losses.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/losses.py",
+      "bytes": 1202,
+      "sha256": "1a811fb8cfd93f1535fdf560b157017660e5de03cad7592efc3f58586d35d5dc"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/model.py",
+      "bytes": 8539,
+      "sha256": "3e162c9feb6a56f98d57265ac9b6d634c5565c0366833596154cf0d0877203b3"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/plot_gene_pair_expressions.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/plot_gene_pair_expressions.py",
+      "bytes": 11675,
+      "sha256": "bf00fed09c17dc3e1058f999e6ba817243a51242fbe3bf105514cc859a335190"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/plot_mae_gene_count.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/plot_mae_gene_count.py",
+      "bytes": 3667,
+      "sha256": "7c503d6c332c1bc33f5321f374076c298ccc601d6a792d25e405bcfa327a00e5"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/plot_old_vs_current_reconstruction.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/plot_old_vs_current_reconstruction.py",
+      "bytes": 6699,
+      "sha256": "985b32143b6694f3b172538d24c6a8ac4face46552ef24ea3672cdb3d83c019a"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/plot_real_street_cap64.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/plot_real_street_cap64.py",
+      "bytes": 4301,
+      "sha256": "43fe4a15fe66e89746b6e923d366834586851ab0661b157cb7302e8ec802472d"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/preview.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/preview.py",
+      "bytes": 2405,
+      "sha256": "164d7e4df60c3eeea9d7c8b8c3d6d86968874e110e38db98488d7ee9c41ec96b"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/reference_model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/reference_model.py",
+      "bytes": 9662,
+      "sha256": "3a38a23f1911499cf38c197b39ae4ddd42665f15cf0ee0167c021107954a8552"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/report.py",
+      "bytes": 3986,
+      "sha256": "26ad80fb09a4ca45b91bb52362f13b3c55ef64e9432df06f99868b17e53e4e1b"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/reuse_audit.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/reuse_audit.py",
+      "bytes": 3454,
+      "sha256": "104401822dcb58582ecc04d8efc7b5cbdd37d58ec202210825f57aa6ef098868"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/reuse_metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/reuse_metrics.py",
+      "bytes": 3610,
+      "sha256": "ba8366c1456b164be6a000b06b8b40b8713175444665520d4a89db37306d898e"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/supervisor.py",
+      "bytes": 8217,
+      "sha256": "5815c130698304854f09074a53c29109d3b972453feb8e94f95d09dfd33671f5"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/train.py",
+      "bytes": 25808,
+      "sha256": "a01c7ec084f1209e64a0a9d5477121b6b94ed68de4f096d3b64a994260343b71"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/visualize_scale_genes.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/visualize_scale_genes.py",
+      "bytes": 8321,
+      "sha256": "bf884cf3d19dc1dd9d7eb90468b136641f3b5e1d760754eead22dd64195a7c75"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/reference/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/reference/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/tests/test_dependencies_cpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/tests/test_dependencies_cpu.py",
+      "bytes": 962,
+      "sha256": "db1d60c7947fe6b360185c12135f9a533091be31e3b4b2bf12169c96a47de93e"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/tests/test_model_gpu.py",
+      "bytes": 6232,
+      "sha256": "41e34e774602eb468498dde0964711bbc05f6987dfbd0ead92108b34fc9613de"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/tests/test_protocol_cpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/tests/test_protocol_cpu.py",
+      "bytes": 2895,
+      "sha256": "6c6bced850e516e92dbec9bdc602c4fa10e56d674da79205608721e157dd9d47"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/source/tests/test_reuse_cpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/source/tests/test_reuse_cpu.py",
+      "bytes": 2277,
+      "sha256": "3815524eed40bf15b629df175ccd3ccec74bc2d2fa064e1d290a0c36f90c97bf"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/configs/experiment.json",
+      "bytes": 5909,
+      "sha256": "7f4506aa0628992df2d1635fa80cebf9264a421a2263db3094582ff6c66d3e30"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/CHANGELOG.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/CHANGELOG.json",
+      "bytes": 851,
+      "sha256": "19d9c5092904d30b10868f161a09d47745acabe9de5f507161c2825e941170a6"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/PROTOCOL.md",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/PROTOCOL.md",
+      "bytes": 9772,
+      "sha256": "34b7e6d7d465b02b0b54cd0c6ade6f240ed032f7f55201a4d64112de63af1ed8"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/README.md",
+      "bytes": 738,
+      "sha256": "b8c461335faba971d98cb0e4b3a685fa6a2c1f04a40bcefb797af04c857dfcbd"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/configs/experiment.json",
+      "bytes": 4850,
+      "sha256": "3b48b1675f7d17a7db87d2d83a78e1dfa7a9cda28b153d8ea6ff777afd7fdfd4"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/backbone.py",
+      "bytes": 1535,
+      "sha256": "420e1d7f91425901c95aac956d28f058a64e54f797d95f59b173958d6e682e92"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/codec.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/codec.py",
+      "bytes": 1944,
+      "sha256": "cc9d75b2b9c27028ea8a1747e57cbd2ca46388ba429c5b71a3154837b6c135f8"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/common.py",
+      "bytes": 3018,
+      "sha256": "52d8a6123af168bbdfc097c2a5e472a92852a217796ad81be1afac40b5aa836c"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/data.py",
+      "bytes": 3346,
+      "sha256": "113e8626f91f07295ad726897daf928fb84cf8fec189b207a8eb879a4a50508a"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/dependencies.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/dependencies.py",
+      "bytes": 1030,
+      "sha256": "9ea15ac177487c1daa092647303b98af52f82d175ad886ec80133980b763cc5d"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/final_evaluation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/final_evaluation.py",
+      "bytes": 6266,
+      "sha256": "f1d19b1f8095888ee9faf6a4ade5402dddbe275239f694e27b501a1f20f1b8ed"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/losses.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/losses.py",
+      "bytes": 1202,
+      "sha256": "1a811fb8cfd93f1535fdf560b157017660e5de03cad7592efc3f58586d35d5dc"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/model.py",
+      "bytes": 8453,
+      "sha256": "5a2a0e509b1c87832efa59a724fc08b65e154c5c1bd50ccfcde6c015c376a297"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/preview.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/preview.py",
+      "bytes": 2405,
+      "sha256": "164d7e4df60c3eeea9d7c8b8c3d6d86968874e110e38db98488d7ee9c41ec96b"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/reference_model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/reference_model.py",
+      "bytes": 9662,
+      "sha256": "3a38a23f1911499cf38c197b39ae4ddd42665f15cf0ee0167c021107954a8552"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/report.py",
+      "bytes": 3616,
+      "sha256": "cf643219a8601206f05ffc4780c54dcb2e2ec98373b079ffd2c1c7db4b71aff5"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/supervisor.py",
+      "bytes": 8217,
+      "sha256": "5815c130698304854f09074a53c29109d3b972453feb8e94f95d09dfd33671f5"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/train.py",
+      "bytes": 25557,
+      "sha256": "f7c7f252a154d0cfe302b77ee64f3e0f64556b20c5a9222fac467d370cca2031"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/reference/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/reference/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/tests/test_dependencies_cpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/tests/test_dependencies_cpu.py",
+      "bytes": 962,
+      "sha256": "db1d60c7947fe6b360185c12135f9a533091be31e3b4b2bf12169c96a47de93e"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/tests/test_model_gpu.py",
+      "bytes": 4687,
+      "sha256": "b630a76e2fae88df3e84b7cbece43a285affc01775fd8042edb10551e333565e"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/tests/test_protocol_cpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/source/tests/test_protocol_cpu.py",
+      "bytes": 2895,
+      "sha256": "6c6bced850e516e92dbec9bdc602c4fa10e56d674da79205608721e157dd9d47"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/PROTOCOL.md",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/PROTOCOL.md",
+      "bytes": 12612,
+      "sha256": "8f42476f93f11ff66813eb6ece6fb2c4dd119da7d1dd0f9098ec459718252fa7"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/README.md",
+      "bytes": 1098,
+      "sha256": "627936a8e1cdbeaebd174bac88650a091ee0f7b328ae47d366f116507d3eb794"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/RESULTS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/RESULTS.md",
+      "bytes": 2806,
+      "sha256": "927a9c1fa7d86a8689325fcfaf304b3b1a954b9ce27dc6c97cf191ef7cf527cb"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/cap32_shared_gene_pair_chattogram_kolkata.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/cap32_shared_gene_pair_chattogram_kolkata.json",
+      "bytes": 1445,
+      "sha256": "fcc29d7357667448beb9f081e5ef3b81843358d2d81c5e44e2bc138d09df062c"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/comparison_metrics.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/comparison_metrics.json",
+      "bytes": 732917,
+      "sha256": "4a44b05179c51fe662c021c2db627d129da0430c0adb1617f5a59cd116c9c867"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/cpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/cpu_tests_passed.json",
+      "bytes": 312,
+      "sha256": "f4ce8c2033e9363c6c94d54a803c4d965a3bf57158bb8b547e1f8f2fe468ff2f"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/final_audit_status.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/final_audit_status.json",
+      "bytes": 80,
+      "sha256": "4db05dc644d3245d7ab7a288a9d85ef062966f57431cd02b488fe708a1c89103"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "f041550852157fc676ac5432170706db71950f5b5794cd0e88231fd4a907a63a"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/learned_s137.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/learned_s137.distributed_smoke.json",
+      "bytes": 2237,
+      "sha256": "649efeb721f8b41aea1ad8d1a43debc565ce3c3b01107c9e7df4a44873271658"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/learned_s42.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/learned_s42.distributed_smoke.json",
+      "bytes": 2241,
+      "sha256": "928c132e02e3a1f8bb175f1a05403c79fdd4cb300fc3bea9bc62f920a58800f5"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/preparation_checks.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/preparation_checks.json",
+      "bytes": 2369,
+      "sha256": "7894e5c431f281d0535e6ba75efc7286b88742ad57e81df5180d454fdb76e654"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/random_s137.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/random_s137.distributed_smoke.json",
+      "bytes": 2240,
+      "sha256": "76f019d40ab95a7c74a85acfc1e3a7e537259eaf6347ef359fd772a837991967"
+    },
+    {
+      "path": "experiments/group_sparse_gene_10k_20261116/evidence/random_s42.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/reports/random_s42.distributed_smoke.json",
+      "bytes": 2244,
+      "sha256": "513efd51dbdb26a539c2737fa837a723427824a6092793325f19362c21c7768c"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/backbone.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/backbone.py",
+      "bytes": 1535,
+      "sha256": "420e1d7f91425901c95aac956d28f058a64e54f797d95f59b173958d6e682e92"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/base_model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/base_model.py",
+      "bytes": 9662,
+      "sha256": "3a38a23f1911499cf38c197b39ae4ddd42665f15cf0ee0167c021107954a8552"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/codec.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/codec.py",
+      "bytes": 1531,
+      "sha256": "cc977c4a764a8274041a6d825098fa09b7d638ae7aab11683ac5db5a2ba654e4"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/common.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/common.py",
+      "bytes": 1830,
+      "sha256": "17fba0edc4450a0025ce02c7c24254228b2968dc6d20eaa0760f526ed3419bf1"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/data.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/data.py",
+      "bytes": 3346,
+      "sha256": "113e8626f91f07295ad726897daf928fb84cf8fec189b207a8eb879a4a50508a"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/diagnose_genes.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/diagnose_genes.py",
+      "bytes": 17327,
+      "sha256": "4b649b371593a4a37ffc400c9d7a7315a3a0c2de7a24a3343c6e9f158c20a73b"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/losses.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/losses.py",
+      "bytes": 830,
+      "sha256": "92421329f324de595f0b32df3701f6842dee2a00c50cceaa2fdd0dd9b39c31b0"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/metrics.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/metrics.py",
+      "bytes": 629,
+      "sha256": "e863a89392a97b2dfecdddba07677fed4909eb6fa37c33f31c2aa104bf58d9b9"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/model.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/model.py",
+      "bytes": 3447,
+      "sha256": "4b9f6fc78261a8afdb7d3f7d6cb3589705412069436ab004a897069595010f69"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/postprocess_controls.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/postprocess_controls.py",
+      "bytes": 11094,
+      "sha256": "37a7409a2f8a7541a2b573da5d7c7bd12fdcb626f2b525ca7fc00fa246006412"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/prepare_confirmation.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/prepare_confirmation.py",
+      "bytes": 3150,
+      "sha256": "e3eb204e7f54dcdca7c9ffe0e11d1db0414b3d414e15d3ff8719ba6bfb214a5c"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/preview.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/preview.py",
+      "bytes": 3971,
+      "sha256": "5543f964d25f1149606d51f6edd8ac9de31e234639f733c6f2a63c2de431acd2"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/report.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/report.py",
+      "bytes": 3218,
+      "sha256": "d8acdf0f18f3c7a57f0d8897553655964d38c909d520f1623e276460bb6f850d"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/summarize_results.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/summarize_results.py",
+      "bytes": 10216,
+      "sha256": "84d6ec09fc1b599eec3158631f41af9a52018bd4cce699613a13544aeb9ea203"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/supervisor.py",
+      "bytes": 6825,
+      "sha256": "9a9862cd2d0a20feccfabc5d98915ea5395655aea9e0113f89984a82135f42df"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/train.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/train.py",
+      "bytes": 25656,
+      "sha256": "eabf668faff6713a5bad873e130aa10dc9ba97aa6a77dd1344f818a676151746"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/reference/supervisor.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/reference/supervisor.py",
+      "bytes": 7483,
+      "sha256": "0f0955b65ef5eb59871908abe54f3e7f64c162d5ffd35284725caa2995bce0fe"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/tests/test_codec.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/tests/test_codec.py",
+      "bytes": 934,
+      "sha256": "56213684a26d295cd4fb4ff6cb43334a99f1b879d61e3d4bcc41e3f2dc888968"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/source/tests/test_model_gpu.py",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/source/tests/test_model_gpu.py",
+      "bytes": 2468,
+      "sha256": "43baa71d2fef629bc93d9d13622a99b3aac563fd9021fc83469e50484b8bdd58"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/configs/experiment.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/configs/experiment.json",
+      "bytes": 3721,
+      "sha256": "bde844089a4524aa0ac3857bb024693f2dbcdfc5d146a59369d00e1579bc790c"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/PROTOCOL.md",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/PROTOCOL.md",
+      "bytes": 9934,
+      "sha256": "c222dd9ae57622e711a18061966c2997997a989a7f9ab7c7a41b56caa8078118"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/RESULTS.md",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/RESULTS.md",
+      "bytes": 6801,
+      "sha256": "cb43afb3cc1f6169add046d39bcaa826b89557a0552b185c0ed39b07f6fb13d7"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/RESULTS_SUMMARY_20261117_011717.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/RESULTS_SUMMARY_20261117_011717.json",
+      "bytes": 17566,
+      "sha256": "0f1f37de9e6b2025952e1af18641851d173860d238a6de0ed0198056aedd0c12"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/RESULTS_SUMMARY_20261117_011717.md",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/RESULTS_SUMMARY_20261117_011717.md",
+      "bytes": 4675,
+      "sha256": "aaeb1517721236ea982b8a7c594696a5a075920b4e4fb19ea58908d089023bfd"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/comparison_metrics.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/comparison_metrics.json",
+      "bytes": 261441,
+      "sha256": "f0ed6641b9acfb553d20e2610cb38fc3e94c52b4e7150cbf94f6b84313720a2e"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/dense_s137.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/dense_s137.distributed_smoke.json",
+      "bytes": 1735,
+      "sha256": "2e2bf1217acaeb66a09b6f084a51477167dfa4eb9f572909ec602882ec4a29cb"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/dense_s42.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/dense_s42.distributed_smoke.json",
+      "bytes": 1739,
+      "sha256": "120827b31ade9cf377eb04d071802232d26fca7f1c62512106e77efbe7cf574b"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/gpu_tests_passed.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/gpu_tests_passed.json",
+      "bytes": 78,
+      "sha256": "ee14b4c3921eebd77a2c5e5f8911b920c6b6e61504900a5631c4857c7ff9f874"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/learned_s137.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/learned_s137.distributed_smoke.json",
+      "bytes": 1744,
+      "sha256": "556539687fc74e09b9178df47cbdf72ba267af81138dd5bb140accd0e6c369d2"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/learned_s42.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/learned_s42.distributed_smoke.json",
+      "bytes": 1744,
+      "sha256": "426f49abb440445c3d97820bc4bc3299adc6bf327bcc10dc4d9af5ec0ed0774f"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/postprocess_status.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/postprocess_status.json",
+      "bytes": 80,
+      "sha256": "6eb322c1b6f6d35e2c6182c9332b54329c65449178b11e68ba09d882ef52925d"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/random_s137.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/random_s137.distributed_smoke.json",
+      "bytes": 1744,
+      "sha256": "4c0829858b1f42507ce47423ecd592d2206c59bacffb7c5de5dbeea901291a65"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/random_s42.distributed_smoke.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/random_s42.distributed_smoke.json",
+      "bytes": 1746,
+      "sha256": "5dfb151473cc8b060997eb18aff1fd4e7b6aa20f13bd0d4a7403cf5a302b0953"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/rate_distortion_controls.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/rate_distortion_controls.json",
+      "bytes": 196739,
+      "sha256": "0217d14b7977feb6ff2e6c94ac5b0d6701e71de292ed4648695622107b8b57c5"
+    },
+    {
+      "path": "experiments/gene_validation_three_tests_20261116/evidence/trained_composition_controls.json",
+      "source": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/trained_composition_controls.json",
+      "bytes": 103020,
+      "sha256": "0ad7e1745ac3a0ca8cdc7dc9f8b5013ffa0de9511357d79c14f8d88f22ff37bc"
+    },
+    {
+      "path": "docs/research/20261116_multiscale_csc/UrbanGene_MUSC_integration_assessment.md",
+      "source": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/UrbanGene_MUSC_integration_assessment.md",
+      "bytes": 9647,
+      "sha256": "3b53aea2b55d41ddda9df47b6ced043b74140338790c016877208c5571ba3678"
+    },
+    {
+      "path": "docs/original_requirements/UrbanGene_Project_Requirements.md",
+      "source": "/root/.codex/attachments/3afdeec5-a288-473c-9ddf-fd55c5577869/UrbanGene_Project_Requirements.md",
+      "bytes": 18615,
+      "sha256": "f3277f843de9fab359a62c4f9d066cb6d92b633dffd258808b5bb3b21e9eaefb"
+    },
+    {
+      "path": "docs/original_requirements/UrbanGene_V1_Composition_Improvement_PRD_v1.0_Archived.md",
+      "source": "/root/.codex/attachments/6a9ba17c-9fa8-445c-b1ce-a3ced3636a89/UrbanGene_V1_Composition_Improvement_PRD_v1.0_Archived.md",
+      "bytes": 28766,
+      "sha256": "e9fac2a29834ef3d0e96b5cbcb79c7849d0241264526cb328d474c438c89cfac"
+    },
+    {
+      "path": "docs/original_requirements/UrbanGene_V2_Hierarchical_Compositional_Gene_PRD.md",
+      "source": "/root/.codex/attachments/918f610f-cce0-4338-a96b-3fb3efe79e36/UrbanGene_V2_Hierarchical_Compositional_Gene_PRD.md",
+      "bytes": 32784,
+      "sha256": "25cefccc22f80bc8b387e90348111b60e399142726fd9f5d06b04e45cfc79afe"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/five_street_expressions_20261117_062418/metadata.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/five_street_expressions_20261117_062418/metadata.json",
+      "bytes": 16403,
+      "sha256": "9583e403ebb986d5fdb013887152178d6dcac349c385c673409fdce4272a819d"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/five_street_expressions_20261117_062418/status.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/five_street_expressions_20261117_062418/status.json",
+      "bytes": 27,
+      "sha256": "c53e9111a25e1bc7a3e3d99467432279ee5267848114b84deb069d59b0f8429d"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/all_512_gene_responses_20261117_064243/metadata.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/all_512_gene_responses_20261117_064243/metadata.json",
+      "bytes": 3736,
+      "sha256": "f5a259aa7208373364072b1da539c4272f592a472aad4d890c8a17911c7832a0"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/all_512_gene_cards_20261117_100042/README.md",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/all_512_gene_cards_20261117_100042/README.md",
+      "bytes": 1194,
+      "sha256": "574bfe68a5a8e26351d9d7801edc32c9c55851e4640d0abdd2a37df80ad41e0a"
+    },
+    {
+      "path": "experiments/residual_ista_gene_10k_scratch_20261116/evidence/all_512_gene_cards_20261117_100042/metadata.json",
+      "source": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/all_512_gene_cards_20261117_100042/metadata.json",
+      "bytes": 79482,
+      "sha256": "29eb1b6424106161e2c75dad54dd34ac1a4d6161f6df5878760e1343a05cb530"
+    }
+  ],
+  "excluded_special_files": [
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116/revisions/20261117_reuse_priority/before/queue_status.json",
+      "reason": "runtime queue state"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/Liu_2022_paper.html",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/Liu_2022_paper_clean.txt",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/Liu_2022_pdf_extract.txt",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/official_repository.html",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/official_code/musc/nn/dictionary.py",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/official_code/musc/nn/pl_musc.py",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    },
+    {
+      "path": "/host/mnt/nas/urban-visual-gene/research/20261116_multiscale_csc/official_code/musc/nn/sparse_coder.py",
+      "reason": "third-party downloaded research material; retain project integration assessment only"
+    }
+  ]
+}

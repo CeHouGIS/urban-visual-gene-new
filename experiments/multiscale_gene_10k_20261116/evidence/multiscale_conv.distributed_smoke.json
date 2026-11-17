@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 1024,
+  "per_gpu_microbatch": 64,
+  "accumulation_steps": 8,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.26711617410182953,
+    0.29180119931697845,
+    0.2704561948776245,
+    0.2537168562412262,
+    0.2442079856991768,
+    0.2177487462759018,
+    0.21332503855228424,
+    0.2009146362543106,
+    0.19999761134386063,
+    0.19605591893196106,
+    0.19395890831947327,
+    0.19235441088676453,
+    0.18868739157915115,
+    0.1840478628873825,
+    0.18113510310649872,
+    0.1792466938495636,
+    0.17671505361795425,
+    0.17420083284378052,
+    0.17160151898860931,
+    0.16982705146074295
+  ],
+  "full_global_batch_loss": 0.23200408089905977,
+  "gradient_norm": 0.23496408760547638,
+  "gradient_equivalence_max_abs_error": 1.9792933017015457e-05,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    14080576512,
+    14080576512
+  ],
+  "forward_conv_dictionary_macs_per_image": 11981029376,
+  "weights_discarded": true,
+  "model_spec": {
+    "variant": "multiscale_conv",
+    "parameters": 5207171,
+    "dictionary_parameters": 147456,
+    "dictionary_genes": 256,
+    "scale_gene_counts": {
+      "coarse": 96,
+      "medium": 80,
+      "fine": 80
+    },
+    "scale_grids": {
+      "coarse": 16,
+      "medium": 32,
+      "fine": 64
+    },
+    "scale_coefficient_budgets": {
+      "coarse": 512,
+      "medium": 256,
+      "fine": 256
+    },
+    "coefficient_slots": 434176,
+    "maximum_nonzero_coefficients_per_image": 1024,
+    "sparsity_policy": "positive TopK across channel and space, separately per scale",
+    "strict_additivity": "per-scale synthesized features",
+    "rgb_decode": "nonlinear; isolated RGB contributions need not sum",
+    "encoder_bypass": false
+  },
+  "updated_utc": "2026-11-16T02:34:49.036793+00:00"
+}

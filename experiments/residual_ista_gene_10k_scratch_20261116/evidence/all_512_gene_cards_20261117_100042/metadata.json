@@ -1,0 +1,3643 @@
+{
+  "status": "complete",
+  "gene_count": 512,
+  "individual_png_count": 512,
+  "pdf_pages": 64,
+  "source_arrays": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/five_street_expressions_20261117_062418/five_street_expression_arrays.npz",
+  "checkpoint": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/runs/multiscale_residual_ista/checkpoint_best.pt",
+  "checkpoint_step": 6000,
+  "checkpoint_verification": {
+    "all_state_tensors_equal_checkpoint": true,
+    "known_test_index": 199,
+    "known_reconstruction_psnr": 29.532630920410156
+  },
+  "display_limits": {
+    "coarse": {
+      "weights": 0.4581484794616699,
+      "expression": 0.5750659108161926
+    },
+    "medium": {
+      "weights": 0.206856369972229,
+      "expression": 0.1351436823606491
+    },
+    "fine": {
+      "weights": 0.19514179229736328,
+      "expression": 0.11908003687858582
+    }
+  },
+  "samples": [
+    {
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "test_index": 347
+    },
+    {
+      "city": "Tallinn",
+      "country": "Estonia",
+      "test_index": 384
+    },
+    {
+      "city": "Tauranga",
+      "country": "New Zealand",
+      "test_index": 809
+    },
+    {
+      "city": "Cancún",
+      "country": "México",
+      "test_index": 613
+    },
+    {
+      "city": "Santo Domingo",
+      "country": "Dominican Republic",
+      "test_index": 561
+    }
+  ],
+  "entries": [
+    {
+      "global_id": 0,
+      "scale": "coarse",
+      "gene_id": 0,
+      "path": "coarse/gene_000.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 1,
+      "scale": "coarse",
+      "gene_id": 1,
+      "path": "coarse/gene_001.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 2,
+      "scale": "coarse",
+      "gene_id": 2,
+      "path": "coarse/gene_002.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 3,
+      "scale": "coarse",
+      "gene_id": 3,
+      "path": "coarse/gene_003.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 4,
+      "scale": "coarse",
+      "gene_id": 4,
+      "path": "coarse/gene_004.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 5,
+      "scale": "coarse",
+      "gene_id": 5,
+      "path": "coarse/gene_005.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 6,
+      "scale": "coarse",
+      "gene_id": 6,
+      "path": "coarse/gene_006.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 7,
+      "scale": "coarse",
+      "gene_id": 7,
+      "path": "coarse/gene_007.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 8,
+      "scale": "coarse",
+      "gene_id": 8,
+      "path": "coarse/gene_008.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 9,
+      "scale": "coarse",
+      "gene_id": 9,
+      "path": "coarse/gene_009.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 10,
+      "scale": "coarse",
+      "gene_id": 10,
+      "path": "coarse/gene_010.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 11,
+      "scale": "coarse",
+      "gene_id": 11,
+      "path": "coarse/gene_011.png",
+      "responded_image_count": 3
+    },
+    {
+      "global_id": 12,
+      "scale": "coarse",
+      "gene_id": 12,
+      "path": "coarse/gene_012.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 13,
+      "scale": "coarse",
+      "gene_id": 13,
+      "path": "coarse/gene_013.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 14,
+      "scale": "coarse",
+      "gene_id": 14,
+      "path": "coarse/gene_014.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 15,
+      "scale": "coarse",
+      "gene_id": 15,
+      "path": "coarse/gene_015.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 16,
+      "scale": "coarse",
+      "gene_id": 16,
+      "path": "coarse/gene_016.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 17,
+      "scale": "coarse",
+      "gene_id": 17,
+      "path": "coarse/gene_017.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 18,
+      "scale": "coarse",
+      "gene_id": 18,
+      "path": "coarse/gene_018.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 19,
+      "scale": "coarse",
+      "gene_id": 19,
+      "path": "coarse/gene_019.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 20,
+      "scale": "coarse",
+      "gene_id": 20,
+      "path": "coarse/gene_020.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 21,
+      "scale": "coarse",
+      "gene_id": 21,
+      "path": "coarse/gene_021.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 22,
+      "scale": "coarse",
+      "gene_id": 22,
+      "path": "coarse/gene_022.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 23,
+      "scale": "coarse",
+      "gene_id": 23,
+      "path": "coarse/gene_023.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 24,
+      "scale": "coarse",
+      "gene_id": 24,
+      "path": "coarse/gene_024.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 25,
+      "scale": "coarse",
+      "gene_id": 25,
+      "path": "coarse/gene_025.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 26,
+      "scale": "coarse",
+      "gene_id": 26,
+      "path": "coarse/gene_026.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 27,
+      "scale": "coarse",
+      "gene_id": 27,
+      "path": "coarse/gene_027.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 28,
+      "scale": "coarse",
+      "gene_id": 28,
+      "path": "coarse/gene_028.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 29,
+      "scale": "coarse",
+      "gene_id": 29,
+      "path": "coarse/gene_029.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 30,
+      "scale": "coarse",
+      "gene_id": 30,
+      "path": "coarse/gene_030.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 31,
+      "scale": "coarse",
+      "gene_id": 31,
+      "path": "coarse/gene_031.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 32,
+      "scale": "coarse",
+      "gene_id": 32,
+      "path": "coarse/gene_032.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 33,
+      "scale": "coarse",
+      "gene_id": 33,
+      "path": "coarse/gene_033.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 34,
+      "scale": "coarse",
+      "gene_id": 34,
+      "path": "coarse/gene_034.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 35,
+      "scale": "coarse",
+      "gene_id": 35,
+      "path": "coarse/gene_035.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 36,
+      "scale": "coarse",
+      "gene_id": 36,
+      "path": "coarse/gene_036.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 37,
+      "scale": "coarse",
+      "gene_id": 37,
+      "path": "coarse/gene_037.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 38,
+      "scale": "coarse",
+      "gene_id": 38,
+      "path": "coarse/gene_038.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 39,
+      "scale": "coarse",
+      "gene_id": 39,
+      "path": "coarse/gene_039.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 40,
+      "scale": "coarse",
+      "gene_id": 40,
+      "path": "coarse/gene_040.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 41,
+      "scale": "coarse",
+      "gene_id": 41,
+      "path": "coarse/gene_041.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 42,
+      "scale": "coarse",
+      "gene_id": 42,
+      "path": "coarse/gene_042.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 43,
+      "scale": "coarse",
+      "gene_id": 43,
+      "path": "coarse/gene_043.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 44,
+      "scale": "coarse",
+      "gene_id": 44,
+      "path": "coarse/gene_044.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 45,
+      "scale": "coarse",
+      "gene_id": 45,
+      "path": "coarse/gene_045.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 46,
+      "scale": "coarse",
+      "gene_id": 46,
+      "path": "coarse/gene_046.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 47,
+      "scale": "coarse",
+      "gene_id": 47,
+      "path": "coarse/gene_047.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 48,
+      "scale": "coarse",
+      "gene_id": 48,
+      "path": "coarse/gene_048.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 49,
+      "scale": "coarse",
+      "gene_id": 49,
+      "path": "coarse/gene_049.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 50,
+      "scale": "coarse",
+      "gene_id": 50,
+      "path": "coarse/gene_050.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 51,
+      "scale": "coarse",
+      "gene_id": 51,
+      "path": "coarse/gene_051.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 52,
+      "scale": "coarse",
+      "gene_id": 52,
+      "path": "coarse/gene_052.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 53,
+      "scale": "coarse",
+      "gene_id": 53,
+      "path": "coarse/gene_053.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 54,
+      "scale": "coarse",
+      "gene_id": 54,
+      "path": "coarse/gene_054.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 55,
+      "scale": "coarse",
+      "gene_id": 55,
+      "path": "coarse/gene_055.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 56,
+      "scale": "coarse",
+      "gene_id": 56,
+      "path": "coarse/gene_056.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 57,
+      "scale": "coarse",
+      "gene_id": 57,
+      "path": "coarse/gene_057.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 58,
+      "scale": "coarse",
+      "gene_id": 58,
+      "path": "coarse/gene_058.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 59,
+      "scale": "coarse",
+      "gene_id": 59,
+      "path": "coarse/gene_059.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 60,
+      "scale": "coarse",
+      "gene_id": 60,
+      "path": "coarse/gene_060.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 61,
+      "scale": "coarse",
+      "gene_id": 61,
+      "path": "coarse/gene_061.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 62,
+      "scale": "coarse",
+      "gene_id": 62,
+      "path": "coarse/gene_062.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 63,
+      "scale": "coarse",
+      "gene_id": 63,
+      "path": "coarse/gene_063.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 64,
+      "scale": "coarse",
+      "gene_id": 64,
+      "path": "coarse/gene_064.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 65,
+      "scale": "coarse",
+      "gene_id": 65,
+      "path": "coarse/gene_065.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 66,
+      "scale": "coarse",
+      "gene_id": 66,
+      "path": "coarse/gene_066.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 67,
+      "scale": "coarse",
+      "gene_id": 67,
+      "path": "coarse/gene_067.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 68,
+      "scale": "coarse",
+      "gene_id": 68,
+      "path": "coarse/gene_068.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 69,
+      "scale": "coarse",
+      "gene_id": 69,
+      "path": "coarse/gene_069.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 70,
+      "scale": "coarse",
+      "gene_id": 70,
+      "path": "coarse/gene_070.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 71,
+      "scale": "coarse",
+      "gene_id": 71,
+      "path": "coarse/gene_071.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 72,
+      "scale": "coarse",
+      "gene_id": 72,
+      "path": "coarse/gene_072.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 73,
+      "scale": "coarse",
+      "gene_id": 73,
+      "path": "coarse/gene_073.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 74,
+      "scale": "coarse",
+      "gene_id": 74,
+      "path": "coarse/gene_074.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 75,
+      "scale": "coarse",
+      "gene_id": 75,
+      "path": "coarse/gene_075.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 76,
+      "scale": "coarse",
+      "gene_id": 76,
+      "path": "coarse/gene_076.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 77,
+      "scale": "coarse",
+      "gene_id": 77,
+      "path": "coarse/gene_077.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 78,
+      "scale": "coarse",
+      "gene_id": 78,
+      "path": "coarse/gene_078.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 79,
+      "scale": "coarse",
+      "gene_id": 79,
+      "path": "coarse/gene_079.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 80,
+      "scale": "coarse",
+      "gene_id": 80,
+      "path": "coarse/gene_080.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 81,
+      "scale": "coarse",
+      "gene_id": 81,
+      "path": "coarse/gene_081.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 82,
+      "scale": "coarse",
+      "gene_id": 82,
+      "path": "coarse/gene_082.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 83,
+      "scale": "coarse",
+      "gene_id": 83,
+      "path": "coarse/gene_083.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 84,
+      "scale": "coarse",
+      "gene_id": 84,
+      "path": "coarse/gene_084.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 85,
+      "scale": "coarse",
+      "gene_id": 85,
+      "path": "coarse/gene_085.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 86,
+      "scale": "coarse",
+      "gene_id": 86,
+      "path": "coarse/gene_086.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 87,
+      "scale": "coarse",
+      "gene_id": 87,
+      "path": "coarse/gene_087.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 88,
+      "scale": "coarse",
+      "gene_id": 88,
+      "path": "coarse/gene_088.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 89,
+      "scale": "coarse",
+      "gene_id": 89,
+      "path": "coarse/gene_089.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 90,
+      "scale": "coarse",
+      "gene_id": 90,
+      "path": "coarse/gene_090.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 91,
+      "scale": "coarse",
+      "gene_id": 91,
+      "path": "coarse/gene_091.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 92,
+      "scale": "coarse",
+      "gene_id": 92,
+      "path": "coarse/gene_092.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 93,
+      "scale": "coarse",
+      "gene_id": 93,
+      "path": "coarse/gene_093.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 94,
+      "scale": "coarse",
+      "gene_id": 94,
+      "path": "coarse/gene_094.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 95,
+      "scale": "coarse",
+      "gene_id": 95,
+      "path": "coarse/gene_095.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 96,
+      "scale": "coarse",
+      "gene_id": 96,
+      "path": "coarse/gene_096.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 97,
+      "scale": "coarse",
+      "gene_id": 97,
+      "path": "coarse/gene_097.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 98,
+      "scale": "coarse",
+      "gene_id": 98,
+      "path": "coarse/gene_098.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 99,
+      "scale": "coarse",
+      "gene_id": 99,
+      "path": "coarse/gene_099.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 100,
+      "scale": "coarse",
+      "gene_id": 100,
+      "path": "coarse/gene_100.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 101,
+      "scale": "coarse",
+      "gene_id": 101,
+      "path": "coarse/gene_101.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 102,
+      "scale": "coarse",
+      "gene_id": 102,
+      "path": "coarse/gene_102.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 103,
+      "scale": "coarse",
+      "gene_id": 103,
+      "path": "coarse/gene_103.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 104,
+      "scale": "coarse",
+      "gene_id": 104,
+      "path": "coarse/gene_104.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 105,
+      "scale": "coarse",
+      "gene_id": 105,
+      "path": "coarse/gene_105.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 106,
+      "scale": "coarse",
+      "gene_id": 106,
+      "path": "coarse/gene_106.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 107,
+      "scale": "coarse",
+      "gene_id": 107,
+      "path": "coarse/gene_107.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 108,
+      "scale": "coarse",
+      "gene_id": 108,
+      "path": "coarse/gene_108.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 109,
+      "scale": "coarse",
+      "gene_id": 109,
+      "path": "coarse/gene_109.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 110,
+      "scale": "coarse",
+      "gene_id": 110,
+      "path": "coarse/gene_110.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 111,
+      "scale": "coarse",
+      "gene_id": 111,
+      "path": "coarse/gene_111.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 112,
+      "scale": "coarse",
+      "gene_id": 112,
+      "path": "coarse/gene_112.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 113,
+      "scale": "coarse",
+      "gene_id": 113,
+      "path": "coarse/gene_113.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 114,
+      "scale": "coarse",
+      "gene_id": 114,
+      "path": "coarse/gene_114.png",
+      "responded_image_count": 3
+    },
+    {
+      "global_id": 115,
+      "scale": "coarse",
+      "gene_id": 115,
+      "path": "coarse/gene_115.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 116,
+      "scale": "coarse",
+      "gene_id": 116,
+      "path": "coarse/gene_116.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 117,
+      "scale": "coarse",
+      "gene_id": 117,
+      "path": "coarse/gene_117.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 118,
+      "scale": "coarse",
+      "gene_id": 118,
+      "path": "coarse/gene_118.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 119,
+      "scale": "coarse",
+      "gene_id": 119,
+      "path": "coarse/gene_119.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 120,
+      "scale": "coarse",
+      "gene_id": 120,
+      "path": "coarse/gene_120.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 121,
+      "scale": "coarse",
+      "gene_id": 121,
+      "path": "coarse/gene_121.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 122,
+      "scale": "coarse",
+      "gene_id": 122,
+      "path": "coarse/gene_122.png",
+      "responded_image_count": 3
+    },
+    {
+      "global_id": 123,
+      "scale": "coarse",
+      "gene_id": 123,
+      "path": "coarse/gene_123.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 124,
+      "scale": "coarse",
+      "gene_id": 124,
+      "path": "coarse/gene_124.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 125,
+      "scale": "coarse",
+      "gene_id": 125,
+      "path": "coarse/gene_125.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 126,
+      "scale": "coarse",
+      "gene_id": 126,
+      "path": "coarse/gene_126.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 127,
+      "scale": "coarse",
+      "gene_id": 127,
+      "path": "coarse/gene_127.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 128,
+      "scale": "coarse",
+      "gene_id": 128,
+      "path": "coarse/gene_128.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 129,
+      "scale": "coarse",
+      "gene_id": 129,
+      "path": "coarse/gene_129.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 130,
+      "scale": "coarse",
+      "gene_id": 130,
+      "path": "coarse/gene_130.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 131,
+      "scale": "coarse",
+      "gene_id": 131,
+      "path": "coarse/gene_131.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 132,
+      "scale": "coarse",
+      "gene_id": 132,
+      "path": "coarse/gene_132.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 133,
+      "scale": "coarse",
+      "gene_id": 133,
+      "path": "coarse/gene_133.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 134,
+      "scale": "coarse",
+      "gene_id": 134,
+      "path": "coarse/gene_134.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 135,
+      "scale": "coarse",
+      "gene_id": 135,
+      "path": "coarse/gene_135.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 136,
+      "scale": "coarse",
+      "gene_id": 136,
+      "path": "coarse/gene_136.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 137,
+      "scale": "coarse",
+      "gene_id": 137,
+      "path": "coarse/gene_137.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 138,
+      "scale": "coarse",
+      "gene_id": 138,
+      "path": "coarse/gene_138.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 139,
+      "scale": "coarse",
+      "gene_id": 139,
+      "path": "coarse/gene_139.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 140,
+      "scale": "coarse",
+      "gene_id": 140,
+      "path": "coarse/gene_140.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 141,
+      "scale": "coarse",
+      "gene_id": 141,
+      "path": "coarse/gene_141.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 142,
+      "scale": "coarse",
+      "gene_id": 142,
+      "path": "coarse/gene_142.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 143,
+      "scale": "coarse",
+      "gene_id": 143,
+      "path": "coarse/gene_143.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 144,
+      "scale": "coarse",
+      "gene_id": 144,
+      "path": "coarse/gene_144.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 145,
+      "scale": "coarse",
+      "gene_id": 145,
+      "path": "coarse/gene_145.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 146,
+      "scale": "coarse",
+      "gene_id": 146,
+      "path": "coarse/gene_146.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 147,
+      "scale": "coarse",
+      "gene_id": 147,
+      "path": "coarse/gene_147.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 148,
+      "scale": "coarse",
+      "gene_id": 148,
+      "path": "coarse/gene_148.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 149,
+      "scale": "coarse",
+      "gene_id": 149,
+      "path": "coarse/gene_149.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 150,
+      "scale": "coarse",
+      "gene_id": 150,
+      "path": "coarse/gene_150.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 151,
+      "scale": "coarse",
+      "gene_id": 151,
+      "path": "coarse/gene_151.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 152,
+      "scale": "coarse",
+      "gene_id": 152,
+      "path": "coarse/gene_152.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 153,
+      "scale": "coarse",
+      "gene_id": 153,
+      "path": "coarse/gene_153.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 154,
+      "scale": "coarse",
+      "gene_id": 154,
+      "path": "coarse/gene_154.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 155,
+      "scale": "coarse",
+      "gene_id": 155,
+      "path": "coarse/gene_155.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 156,
+      "scale": "coarse",
+      "gene_id": 156,
+      "path": "coarse/gene_156.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 157,
+      "scale": "coarse",
+      "gene_id": 157,
+      "path": "coarse/gene_157.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 158,
+      "scale": "coarse",
+      "gene_id": 158,
+      "path": "coarse/gene_158.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 159,
+      "scale": "coarse",
+      "gene_id": 159,
+      "path": "coarse/gene_159.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 160,
+      "scale": "coarse",
+      "gene_id": 160,
+      "path": "coarse/gene_160.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 161,
+      "scale": "coarse",
+      "gene_id": 161,
+      "path": "coarse/gene_161.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 162,
+      "scale": "coarse",
+      "gene_id": 162,
+      "path": "coarse/gene_162.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 163,
+      "scale": "coarse",
+      "gene_id": 163,
+      "path": "coarse/gene_163.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 164,
+      "scale": "coarse",
+      "gene_id": 164,
+      "path": "coarse/gene_164.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 165,
+      "scale": "coarse",
+      "gene_id": 165,
+      "path": "coarse/gene_165.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 166,
+      "scale": "coarse",
+      "gene_id": 166,
+      "path": "coarse/gene_166.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 167,
+      "scale": "coarse",
+      "gene_id": 167,
+      "path": "coarse/gene_167.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 168,
+      "scale": "coarse",
+      "gene_id": 168,
+      "path": "coarse/gene_168.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 169,
+      "scale": "coarse",
+      "gene_id": 169,
+      "path": "coarse/gene_169.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 170,
+      "scale": "coarse",
+      "gene_id": 170,
+      "path": "coarse/gene_170.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 171,
+      "scale": "coarse",
+      "gene_id": 171,
+      "path": "coarse/gene_171.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 172,
+      "scale": "coarse",
+      "gene_id": 172,
+      "path": "coarse/gene_172.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 173,
+      "scale": "coarse",
+      "gene_id": 173,
+      "path": "coarse/gene_173.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 174,
+      "scale": "coarse",
+      "gene_id": 174,
+      "path": "coarse/gene_174.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 175,
+      "scale": "coarse",
+      "gene_id": 175,
+      "path": "coarse/gene_175.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 176,
+      "scale": "coarse",
+      "gene_id": 176,
+      "path": "coarse/gene_176.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 177,
+      "scale": "coarse",
+      "gene_id": 177,
+      "path": "coarse/gene_177.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 178,
+      "scale": "coarse",
+      "gene_id": 178,
+      "path": "coarse/gene_178.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 179,
+      "scale": "coarse",
+      "gene_id": 179,
+      "path": "coarse/gene_179.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 180,
+      "scale": "coarse",
+      "gene_id": 180,
+      "path": "coarse/gene_180.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 181,
+      "scale": "coarse",
+      "gene_id": 181,
+      "path": "coarse/gene_181.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 182,
+      "scale": "coarse",
+      "gene_id": 182,
+      "path": "coarse/gene_182.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 183,
+      "scale": "coarse",
+      "gene_id": 183,
+      "path": "coarse/gene_183.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 184,
+      "scale": "coarse",
+      "gene_id": 184,
+      "path": "coarse/gene_184.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 185,
+      "scale": "coarse",
+      "gene_id": 185,
+      "path": "coarse/gene_185.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 186,
+      "scale": "coarse",
+      "gene_id": 186,
+      "path": "coarse/gene_186.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 187,
+      "scale": "coarse",
+      "gene_id": 187,
+      "path": "coarse/gene_187.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 188,
+      "scale": "coarse",
+      "gene_id": 188,
+      "path": "coarse/gene_188.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 189,
+      "scale": "coarse",
+      "gene_id": 189,
+      "path": "coarse/gene_189.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 190,
+      "scale": "coarse",
+      "gene_id": 190,
+      "path": "coarse/gene_190.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 191,
+      "scale": "coarse",
+      "gene_id": 191,
+      "path": "coarse/gene_191.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 192,
+      "scale": "coarse",
+      "gene_id": 192,
+      "path": "coarse/gene_192.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 193,
+      "scale": "coarse",
+      "gene_id": 193,
+      "path": "coarse/gene_193.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 194,
+      "scale": "coarse",
+      "gene_id": 194,
+      "path": "coarse/gene_194.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 195,
+      "scale": "coarse",
+      "gene_id": 195,
+      "path": "coarse/gene_195.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 196,
+      "scale": "coarse",
+      "gene_id": 196,
+      "path": "coarse/gene_196.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 197,
+      "scale": "coarse",
+      "gene_id": 197,
+      "path": "coarse/gene_197.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 198,
+      "scale": "coarse",
+      "gene_id": 198,
+      "path": "coarse/gene_198.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 199,
+      "scale": "coarse",
+      "gene_id": 199,
+      "path": "coarse/gene_199.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 200,
+      "scale": "coarse",
+      "gene_id": 200,
+      "path": "coarse/gene_200.png",
+      "responded_image_count": 4
+    },
+    {
+      "global_id": 201,
+      "scale": "coarse",
+      "gene_id": 201,
+      "path": "coarse/gene_201.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 202,
+      "scale": "coarse",
+      "gene_id": 202,
+      "path": "coarse/gene_202.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 203,
+      "scale": "coarse",
+      "gene_id": 203,
+      "path": "coarse/gene_203.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 204,
+      "scale": "coarse",
+      "gene_id": 204,
+      "path": "coarse/gene_204.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 205,
+      "scale": "coarse",
+      "gene_id": 205,
+      "path": "coarse/gene_205.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 206,
+      "scale": "coarse",
+      "gene_id": 206,
+      "path": "coarse/gene_206.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 207,
+      "scale": "coarse",
+      "gene_id": 207,
+      "path": "coarse/gene_207.png",
+      "responded_image_count": 3
+    },
+    {
+      "global_id": 208,
+      "scale": "coarse",
+      "gene_id": 208,
+      "path": "coarse/gene_208.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 209,
+      "scale": "coarse",
+      "gene_id": 209,
+      "path": "coarse/gene_209.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 210,
+      "scale": "coarse",
+      "gene_id": 210,
+      "path": "coarse/gene_210.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 211,
+      "scale": "coarse",
+      "gene_id": 211,
+      "path": "coarse/gene_211.png",
+      "responded_image_count": 3
+    },
+    {
+      "global_id": 212,
+      "scale": "coarse",
+      "gene_id": 212,
+      "path": "coarse/gene_212.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 213,
+      "scale": "coarse",
+      "gene_id": 213,
+      "path": "coarse/gene_213.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 214,
+      "scale": "coarse",
+      "gene_id": 214,
+      "path": "coarse/gene_214.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 215,
+      "scale": "coarse",
+      "gene_id": 215,
+      "path": "coarse/gene_215.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 216,
+      "scale": "coarse",
+      "gene_id": 216,
+      "path": "coarse/gene_216.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 217,
+      "scale": "coarse",
+      "gene_id": 217,
+      "path": "coarse/gene_217.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 218,
+      "scale": "coarse",
+      "gene_id": 218,
+      "path": "coarse/gene_218.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 219,
+      "scale": "coarse",
+      "gene_id": 219,
+      "path": "coarse/gene_219.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 220,
+      "scale": "coarse",
+      "gene_id": 220,
+      "path": "coarse/gene_220.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 221,
+      "scale": "coarse",
+      "gene_id": 221,
+      "path": "coarse/gene_221.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 222,
+      "scale": "coarse",
+      "gene_id": 222,
+      "path": "coarse/gene_222.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 223,
+      "scale": "coarse",
+      "gene_id": 223,
+      "path": "coarse/gene_223.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 224,
+      "scale": "coarse",
+      "gene_id": 224,
+      "path": "coarse/gene_224.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 225,
+      "scale": "coarse",
+      "gene_id": 225,
+      "path": "coarse/gene_225.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 226,
+      "scale": "coarse",
+      "gene_id": 226,
+      "path": "coarse/gene_226.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 227,
+      "scale": "coarse",
+      "gene_id": 227,
+      "path": "coarse/gene_227.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 228,
+      "scale": "coarse",
+      "gene_id": 228,
+      "path": "coarse/gene_228.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 229,
+      "scale": "coarse",
+      "gene_id": 229,
+      "path": "coarse/gene_229.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 230,
+      "scale": "coarse",
+      "gene_id": 230,
+      "path": "coarse/gene_230.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 231,
+      "scale": "coarse",
+      "gene_id": 231,
+      "path": "coarse/gene_231.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 232,
+      "scale": "coarse",
+      "gene_id": 232,
+      "path": "coarse/gene_232.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 233,
+      "scale": "coarse",
+      "gene_id": 233,
+      "path": "coarse/gene_233.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 234,
+      "scale": "coarse",
+      "gene_id": 234,
+      "path": "coarse/gene_234.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 235,
+      "scale": "coarse",
+      "gene_id": 235,
+      "path": "coarse/gene_235.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 236,
+      "scale": "coarse",
+      "gene_id": 236,
+      "path": "coarse/gene_236.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 237,
+      "scale": "coarse",
+      "gene_id": 237,
+      "path": "coarse/gene_237.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 238,
+      "scale": "coarse",
+      "gene_id": 238,
+      "path": "coarse/gene_238.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 239,
+      "scale": "coarse",
+      "gene_id": 239,
+      "path": "coarse/gene_239.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 240,
+      "scale": "coarse",
+      "gene_id": 240,
+      "path": "coarse/gene_240.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 241,
+      "scale": "coarse",
+      "gene_id": 241,
+      "path": "coarse/gene_241.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 242,
+      "scale": "coarse",
+      "gene_id": 242,
+      "path": "coarse/gene_242.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 243,
+      "scale": "coarse",
+      "gene_id": 243,
+      "path": "coarse/gene_243.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 244,
+      "scale": "coarse",
+      "gene_id": 244,
+      "path": "coarse/gene_244.png",
+      "responded_image_count": 2
+    },
+    {
+      "global_id": 245,
+      "scale": "coarse",
+      "gene_id": 245,
+      "path": "coarse/gene_245.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 246,
+      "scale": "coarse",
+      "gene_id": 246,
+      "path": "coarse/gene_246.png",
+      "responded_image_count": 1
+    },
+    {
+      "global_id": 247,
+      "scale": "coarse",
+      "gene_id": 247,
+      "path": "coarse/gene_247.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 248,
+      "scale": "coarse",
+      "gene_id": 248,
+      "path": "coarse/gene_248.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 249,
+      "scale": "coarse",
+      "gene_id": 249,
+      "path": "coarse/gene_249.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 250,
+      "scale": "coarse",
+      "gene_id": 250,
+      "path": "coarse/gene_250.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 251,
+      "scale": "coarse",
+      "gene_id": 251,
+      "path": "coarse/gene_251.png",
+      "responded_image_count": 0
+    },
+    {
+      "global_id": 252,
+      "scale": "coarse",
+      "gene_id": 252,
+      "path": "coarse/gene_252.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 253,
+      "scale": "coarse",
+      "gene_id": 253,
+      "path": "coarse/gene_253.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 254,
+      "scale": "coarse",
+      "gene_id": 254,
+      "path": "coarse/gene_254.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 255,
+      "scale": "coarse",
+      "gene_id": 255,
+      "path": "coarse/gene_255.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 256,
+      "scale": "medium",
+      "gene_id": 0,
+      "path": "medium/gene_000.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 257,
+      "scale": "medium",
+      "gene_id": 1,
+      "path": "medium/gene_001.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 258,
+      "scale": "medium",
+      "gene_id": 2,
+      "path": "medium/gene_002.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 259,
+      "scale": "medium",
+      "gene_id": 3,
+      "path": "medium/gene_003.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 260,
+      "scale": "medium",
+      "gene_id": 4,
+      "path": "medium/gene_004.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 261,
+      "scale": "medium",
+      "gene_id": 5,
+      "path": "medium/gene_005.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 262,
+      "scale": "medium",
+      "gene_id": 6,
+      "path": "medium/gene_006.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 263,
+      "scale": "medium",
+      "gene_id": 7,
+      "path": "medium/gene_007.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 264,
+      "scale": "medium",
+      "gene_id": 8,
+      "path": "medium/gene_008.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 265,
+      "scale": "medium",
+      "gene_id": 9,
+      "path": "medium/gene_009.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 266,
+      "scale": "medium",
+      "gene_id": 10,
+      "path": "medium/gene_010.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 267,
+      "scale": "medium",
+      "gene_id": 11,
+      "path": "medium/gene_011.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 268,
+      "scale": "medium",
+      "gene_id": 12,
+      "path": "medium/gene_012.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 269,
+      "scale": "medium",
+      "gene_id": 13,
+      "path": "medium/gene_013.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 270,
+      "scale": "medium",
+      "gene_id": 14,
+      "path": "medium/gene_014.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 271,
+      "scale": "medium",
+      "gene_id": 15,
+      "path": "medium/gene_015.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 272,
+      "scale": "medium",
+      "gene_id": 16,
+      "path": "medium/gene_016.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 273,
+      "scale": "medium",
+      "gene_id": 17,
+      "path": "medium/gene_017.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 274,
+      "scale": "medium",
+      "gene_id": 18,
+      "path": "medium/gene_018.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 275,
+      "scale": "medium",
+      "gene_id": 19,
+      "path": "medium/gene_019.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 276,
+      "scale": "medium",
+      "gene_id": 20,
+      "path": "medium/gene_020.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 277,
+      "scale": "medium",
+      "gene_id": 21,
+      "path": "medium/gene_021.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 278,
+      "scale": "medium",
+      "gene_id": 22,
+      "path": "medium/gene_022.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 279,
+      "scale": "medium",
+      "gene_id": 23,
+      "path": "medium/gene_023.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 280,
+      "scale": "medium",
+      "gene_id": 24,
+      "path": "medium/gene_024.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 281,
+      "scale": "medium",
+      "gene_id": 25,
+      "path": "medium/gene_025.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 282,
+      "scale": "medium",
+      "gene_id": 26,
+      "path": "medium/gene_026.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 283,
+      "scale": "medium",
+      "gene_id": 27,
+      "path": "medium/gene_027.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 284,
+      "scale": "medium",
+      "gene_id": 28,
+      "path": "medium/gene_028.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 285,
+      "scale": "medium",
+      "gene_id": 29,
+      "path": "medium/gene_029.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 286,
+      "scale": "medium",
+      "gene_id": 30,
+      "path": "medium/gene_030.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 287,
+      "scale": "medium",
+      "gene_id": 31,
+      "path": "medium/gene_031.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 288,
+      "scale": "medium",
+      "gene_id": 32,
+      "path": "medium/gene_032.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 289,
+      "scale": "medium",
+      "gene_id": 33,
+      "path": "medium/gene_033.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 290,
+      "scale": "medium",
+      "gene_id": 34,
+      "path": "medium/gene_034.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 291,
+      "scale": "medium",
+      "gene_id": 35,
+      "path": "medium/gene_035.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 292,
+      "scale": "medium",
+      "gene_id": 36,
+      "path": "medium/gene_036.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 293,
+      "scale": "medium",
+      "gene_id": 37,
+      "path": "medium/gene_037.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 294,
+      "scale": "medium",
+      "gene_id": 38,
+      "path": "medium/gene_038.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 295,
+      "scale": "medium",
+      "gene_id": 39,
+      "path": "medium/gene_039.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 296,
+      "scale": "medium",
+      "gene_id": 40,
+      "path": "medium/gene_040.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 297,
+      "scale": "medium",
+      "gene_id": 41,
+      "path": "medium/gene_041.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 298,
+      "scale": "medium",
+      "gene_id": 42,
+      "path": "medium/gene_042.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 299,
+      "scale": "medium",
+      "gene_id": 43,
+      "path": "medium/gene_043.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 300,
+      "scale": "medium",
+      "gene_id": 44,
+      "path": "medium/gene_044.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 301,
+      "scale": "medium",
+      "gene_id": 45,
+      "path": "medium/gene_045.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 302,
+      "scale": "medium",
+      "gene_id": 46,
+      "path": "medium/gene_046.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 303,
+      "scale": "medium",
+      "gene_id": 47,
+      "path": "medium/gene_047.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 304,
+      "scale": "medium",
+      "gene_id": 48,
+      "path": "medium/gene_048.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 305,
+      "scale": "medium",
+      "gene_id": 49,
+      "path": "medium/gene_049.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 306,
+      "scale": "medium",
+      "gene_id": 50,
+      "path": "medium/gene_050.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 307,
+      "scale": "medium",
+      "gene_id": 51,
+      "path": "medium/gene_051.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 308,
+      "scale": "medium",
+      "gene_id": 52,
+      "path": "medium/gene_052.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 309,
+      "scale": "medium",
+      "gene_id": 53,
+      "path": "medium/gene_053.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 310,
+      "scale": "medium",
+      "gene_id": 54,
+      "path": "medium/gene_054.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 311,
+      "scale": "medium",
+      "gene_id": 55,
+      "path": "medium/gene_055.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 312,
+      "scale": "medium",
+      "gene_id": 56,
+      "path": "medium/gene_056.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 313,
+      "scale": "medium",
+      "gene_id": 57,
+      "path": "medium/gene_057.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 314,
+      "scale": "medium",
+      "gene_id": 58,
+      "path": "medium/gene_058.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 315,
+      "scale": "medium",
+      "gene_id": 59,
+      "path": "medium/gene_059.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 316,
+      "scale": "medium",
+      "gene_id": 60,
+      "path": "medium/gene_060.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 317,
+      "scale": "medium",
+      "gene_id": 61,
+      "path": "medium/gene_061.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 318,
+      "scale": "medium",
+      "gene_id": 62,
+      "path": "medium/gene_062.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 319,
+      "scale": "medium",
+      "gene_id": 63,
+      "path": "medium/gene_063.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 320,
+      "scale": "medium",
+      "gene_id": 64,
+      "path": "medium/gene_064.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 321,
+      "scale": "medium",
+      "gene_id": 65,
+      "path": "medium/gene_065.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 322,
+      "scale": "medium",
+      "gene_id": 66,
+      "path": "medium/gene_066.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 323,
+      "scale": "medium",
+      "gene_id": 67,
+      "path": "medium/gene_067.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 324,
+      "scale": "medium",
+      "gene_id": 68,
+      "path": "medium/gene_068.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 325,
+      "scale": "medium",
+      "gene_id": 69,
+      "path": "medium/gene_069.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 326,
+      "scale": "medium",
+      "gene_id": 70,
+      "path": "medium/gene_070.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 327,
+      "scale": "medium",
+      "gene_id": 71,
+      "path": "medium/gene_071.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 328,
+      "scale": "medium",
+      "gene_id": 72,
+      "path": "medium/gene_072.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 329,
+      "scale": "medium",
+      "gene_id": 73,
+      "path": "medium/gene_073.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 330,
+      "scale": "medium",
+      "gene_id": 74,
+      "path": "medium/gene_074.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 331,
+      "scale": "medium",
+      "gene_id": 75,
+      "path": "medium/gene_075.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 332,
+      "scale": "medium",
+      "gene_id": 76,
+      "path": "medium/gene_076.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 333,
+      "scale": "medium",
+      "gene_id": 77,
+      "path": "medium/gene_077.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 334,
+      "scale": "medium",
+      "gene_id": 78,
+      "path": "medium/gene_078.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 335,
+      "scale": "medium",
+      "gene_id": 79,
+      "path": "medium/gene_079.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 336,
+      "scale": "medium",
+      "gene_id": 80,
+      "path": "medium/gene_080.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 337,
+      "scale": "medium",
+      "gene_id": 81,
+      "path": "medium/gene_081.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 338,
+      "scale": "medium",
+      "gene_id": 82,
+      "path": "medium/gene_082.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 339,
+      "scale": "medium",
+      "gene_id": 83,
+      "path": "medium/gene_083.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 340,
+      "scale": "medium",
+      "gene_id": 84,
+      "path": "medium/gene_084.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 341,
+      "scale": "medium",
+      "gene_id": 85,
+      "path": "medium/gene_085.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 342,
+      "scale": "medium",
+      "gene_id": 86,
+      "path": "medium/gene_086.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 343,
+      "scale": "medium",
+      "gene_id": 87,
+      "path": "medium/gene_087.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 344,
+      "scale": "medium",
+      "gene_id": 88,
+      "path": "medium/gene_088.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 345,
+      "scale": "medium",
+      "gene_id": 89,
+      "path": "medium/gene_089.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 346,
+      "scale": "medium",
+      "gene_id": 90,
+      "path": "medium/gene_090.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 347,
+      "scale": "medium",
+      "gene_id": 91,
+      "path": "medium/gene_091.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 348,
+      "scale": "medium",
+      "gene_id": 92,
+      "path": "medium/gene_092.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 349,
+      "scale": "medium",
+      "gene_id": 93,
+      "path": "medium/gene_093.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 350,
+      "scale": "medium",
+      "gene_id": 94,
+      "path": "medium/gene_094.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 351,
+      "scale": "medium",
+      "gene_id": 95,
+      "path": "medium/gene_095.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 352,
+      "scale": "medium",
+      "gene_id": 96,
+      "path": "medium/gene_096.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 353,
+      "scale": "medium",
+      "gene_id": 97,
+      "path": "medium/gene_097.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 354,
+      "scale": "medium",
+      "gene_id": 98,
+      "path": "medium/gene_098.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 355,
+      "scale": "medium",
+      "gene_id": 99,
+      "path": "medium/gene_099.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 356,
+      "scale": "medium",
+      "gene_id": 100,
+      "path": "medium/gene_100.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 357,
+      "scale": "medium",
+      "gene_id": 101,
+      "path": "medium/gene_101.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 358,
+      "scale": "medium",
+      "gene_id": 102,
+      "path": "medium/gene_102.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 359,
+      "scale": "medium",
+      "gene_id": 103,
+      "path": "medium/gene_103.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 360,
+      "scale": "medium",
+      "gene_id": 104,
+      "path": "medium/gene_104.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 361,
+      "scale": "medium",
+      "gene_id": 105,
+      "path": "medium/gene_105.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 362,
+      "scale": "medium",
+      "gene_id": 106,
+      "path": "medium/gene_106.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 363,
+      "scale": "medium",
+      "gene_id": 107,
+      "path": "medium/gene_107.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 364,
+      "scale": "medium",
+      "gene_id": 108,
+      "path": "medium/gene_108.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 365,
+      "scale": "medium",
+      "gene_id": 109,
+      "path": "medium/gene_109.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 366,
+      "scale": "medium",
+      "gene_id": 110,
+      "path": "medium/gene_110.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 367,
+      "scale": "medium",
+      "gene_id": 111,
+      "path": "medium/gene_111.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 368,
+      "scale": "medium",
+      "gene_id": 112,
+      "path": "medium/gene_112.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 369,
+      "scale": "medium",
+      "gene_id": 113,
+      "path": "medium/gene_113.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 370,
+      "scale": "medium",
+      "gene_id": 114,
+      "path": "medium/gene_114.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 371,
+      "scale": "medium",
+      "gene_id": 115,
+      "path": "medium/gene_115.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 372,
+      "scale": "medium",
+      "gene_id": 116,
+      "path": "medium/gene_116.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 373,
+      "scale": "medium",
+      "gene_id": 117,
+      "path": "medium/gene_117.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 374,
+      "scale": "medium",
+      "gene_id": 118,
+      "path": "medium/gene_118.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 375,
+      "scale": "medium",
+      "gene_id": 119,
+      "path": "medium/gene_119.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 376,
+      "scale": "medium",
+      "gene_id": 120,
+      "path": "medium/gene_120.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 377,
+      "scale": "medium",
+      "gene_id": 121,
+      "path": "medium/gene_121.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 378,
+      "scale": "medium",
+      "gene_id": 122,
+      "path": "medium/gene_122.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 379,
+      "scale": "medium",
+      "gene_id": 123,
+      "path": "medium/gene_123.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 380,
+      "scale": "medium",
+      "gene_id": 124,
+      "path": "medium/gene_124.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 381,
+      "scale": "medium",
+      "gene_id": 125,
+      "path": "medium/gene_125.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 382,
+      "scale": "medium",
+      "gene_id": 126,
+      "path": "medium/gene_126.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 383,
+      "scale": "medium",
+      "gene_id": 127,
+      "path": "medium/gene_127.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 384,
+      "scale": "fine",
+      "gene_id": 0,
+      "path": "fine/gene_000.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 385,
+      "scale": "fine",
+      "gene_id": 1,
+      "path": "fine/gene_001.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 386,
+      "scale": "fine",
+      "gene_id": 2,
+      "path": "fine/gene_002.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 387,
+      "scale": "fine",
+      "gene_id": 3,
+      "path": "fine/gene_003.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 388,
+      "scale": "fine",
+      "gene_id": 4,
+      "path": "fine/gene_004.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 389,
+      "scale": "fine",
+      "gene_id": 5,
+      "path": "fine/gene_005.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 390,
+      "scale": "fine",
+      "gene_id": 6,
+      "path": "fine/gene_006.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 391,
+      "scale": "fine",
+      "gene_id": 7,
+      "path": "fine/gene_007.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 392,
+      "scale": "fine",
+      "gene_id": 8,
+      "path": "fine/gene_008.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 393,
+      "scale": "fine",
+      "gene_id": 9,
+      "path": "fine/gene_009.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 394,
+      "scale": "fine",
+      "gene_id": 10,
+      "path": "fine/gene_010.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 395,
+      "scale": "fine",
+      "gene_id": 11,
+      "path": "fine/gene_011.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 396,
+      "scale": "fine",
+      "gene_id": 12,
+      "path": "fine/gene_012.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 397,
+      "scale": "fine",
+      "gene_id": 13,
+      "path": "fine/gene_013.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 398,
+      "scale": "fine",
+      "gene_id": 14,
+      "path": "fine/gene_014.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 399,
+      "scale": "fine",
+      "gene_id": 15,
+      "path": "fine/gene_015.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 400,
+      "scale": "fine",
+      "gene_id": 16,
+      "path": "fine/gene_016.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 401,
+      "scale": "fine",
+      "gene_id": 17,
+      "path": "fine/gene_017.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 402,
+      "scale": "fine",
+      "gene_id": 18,
+      "path": "fine/gene_018.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 403,
+      "scale": "fine",
+      "gene_id": 19,
+      "path": "fine/gene_019.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 404,
+      "scale": "fine",
+      "gene_id": 20,
+      "path": "fine/gene_020.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 405,
+      "scale": "fine",
+      "gene_id": 21,
+      "path": "fine/gene_021.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 406,
+      "scale": "fine",
+      "gene_id": 22,
+      "path": "fine/gene_022.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 407,
+      "scale": "fine",
+      "gene_id": 23,
+      "path": "fine/gene_023.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 408,
+      "scale": "fine",
+      "gene_id": 24,
+      "path": "fine/gene_024.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 409,
+      "scale": "fine",
+      "gene_id": 25,
+      "path": "fine/gene_025.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 410,
+      "scale": "fine",
+      "gene_id": 26,
+      "path": "fine/gene_026.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 411,
+      "scale": "fine",
+      "gene_id": 27,
+      "path": "fine/gene_027.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 412,
+      "scale": "fine",
+      "gene_id": 28,
+      "path": "fine/gene_028.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 413,
+      "scale": "fine",
+      "gene_id": 29,
+      "path": "fine/gene_029.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 414,
+      "scale": "fine",
+      "gene_id": 30,
+      "path": "fine/gene_030.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 415,
+      "scale": "fine",
+      "gene_id": 31,
+      "path": "fine/gene_031.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 416,
+      "scale": "fine",
+      "gene_id": 32,
+      "path": "fine/gene_032.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 417,
+      "scale": "fine",
+      "gene_id": 33,
+      "path": "fine/gene_033.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 418,
+      "scale": "fine",
+      "gene_id": 34,
+      "path": "fine/gene_034.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 419,
+      "scale": "fine",
+      "gene_id": 35,
+      "path": "fine/gene_035.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 420,
+      "scale": "fine",
+      "gene_id": 36,
+      "path": "fine/gene_036.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 421,
+      "scale": "fine",
+      "gene_id": 37,
+      "path": "fine/gene_037.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 422,
+      "scale": "fine",
+      "gene_id": 38,
+      "path": "fine/gene_038.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 423,
+      "scale": "fine",
+      "gene_id": 39,
+      "path": "fine/gene_039.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 424,
+      "scale": "fine",
+      "gene_id": 40,
+      "path": "fine/gene_040.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 425,
+      "scale": "fine",
+      "gene_id": 41,
+      "path": "fine/gene_041.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 426,
+      "scale": "fine",
+      "gene_id": 42,
+      "path": "fine/gene_042.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 427,
+      "scale": "fine",
+      "gene_id": 43,
+      "path": "fine/gene_043.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 428,
+      "scale": "fine",
+      "gene_id": 44,
+      "path": "fine/gene_044.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 429,
+      "scale": "fine",
+      "gene_id": 45,
+      "path": "fine/gene_045.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 430,
+      "scale": "fine",
+      "gene_id": 46,
+      "path": "fine/gene_046.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 431,
+      "scale": "fine",
+      "gene_id": 47,
+      "path": "fine/gene_047.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 432,
+      "scale": "fine",
+      "gene_id": 48,
+      "path": "fine/gene_048.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 433,
+      "scale": "fine",
+      "gene_id": 49,
+      "path": "fine/gene_049.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 434,
+      "scale": "fine",
+      "gene_id": 50,
+      "path": "fine/gene_050.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 435,
+      "scale": "fine",
+      "gene_id": 51,
+      "path": "fine/gene_051.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 436,
+      "scale": "fine",
+      "gene_id": 52,
+      "path": "fine/gene_052.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 437,
+      "scale": "fine",
+      "gene_id": 53,
+      "path": "fine/gene_053.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 438,
+      "scale": "fine",
+      "gene_id": 54,
+      "path": "fine/gene_054.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 439,
+      "scale": "fine",
+      "gene_id": 55,
+      "path": "fine/gene_055.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 440,
+      "scale": "fine",
+      "gene_id": 56,
+      "path": "fine/gene_056.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 441,
+      "scale": "fine",
+      "gene_id": 57,
+      "path": "fine/gene_057.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 442,
+      "scale": "fine",
+      "gene_id": 58,
+      "path": "fine/gene_058.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 443,
+      "scale": "fine",
+      "gene_id": 59,
+      "path": "fine/gene_059.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 444,
+      "scale": "fine",
+      "gene_id": 60,
+      "path": "fine/gene_060.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 445,
+      "scale": "fine",
+      "gene_id": 61,
+      "path": "fine/gene_061.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 446,
+      "scale": "fine",
+      "gene_id": 62,
+      "path": "fine/gene_062.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 447,
+      "scale": "fine",
+      "gene_id": 63,
+      "path": "fine/gene_063.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 448,
+      "scale": "fine",
+      "gene_id": 64,
+      "path": "fine/gene_064.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 449,
+      "scale": "fine",
+      "gene_id": 65,
+      "path": "fine/gene_065.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 450,
+      "scale": "fine",
+      "gene_id": 66,
+      "path": "fine/gene_066.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 451,
+      "scale": "fine",
+      "gene_id": 67,
+      "path": "fine/gene_067.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 452,
+      "scale": "fine",
+      "gene_id": 68,
+      "path": "fine/gene_068.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 453,
+      "scale": "fine",
+      "gene_id": 69,
+      "path": "fine/gene_069.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 454,
+      "scale": "fine",
+      "gene_id": 70,
+      "path": "fine/gene_070.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 455,
+      "scale": "fine",
+      "gene_id": 71,
+      "path": "fine/gene_071.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 456,
+      "scale": "fine",
+      "gene_id": 72,
+      "path": "fine/gene_072.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 457,
+      "scale": "fine",
+      "gene_id": 73,
+      "path": "fine/gene_073.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 458,
+      "scale": "fine",
+      "gene_id": 74,
+      "path": "fine/gene_074.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 459,
+      "scale": "fine",
+      "gene_id": 75,
+      "path": "fine/gene_075.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 460,
+      "scale": "fine",
+      "gene_id": 76,
+      "path": "fine/gene_076.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 461,
+      "scale": "fine",
+      "gene_id": 77,
+      "path": "fine/gene_077.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 462,
+      "scale": "fine",
+      "gene_id": 78,
+      "path": "fine/gene_078.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 463,
+      "scale": "fine",
+      "gene_id": 79,
+      "path": "fine/gene_079.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 464,
+      "scale": "fine",
+      "gene_id": 80,
+      "path": "fine/gene_080.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 465,
+      "scale": "fine",
+      "gene_id": 81,
+      "path": "fine/gene_081.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 466,
+      "scale": "fine",
+      "gene_id": 82,
+      "path": "fine/gene_082.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 467,
+      "scale": "fine",
+      "gene_id": 83,
+      "path": "fine/gene_083.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 468,
+      "scale": "fine",
+      "gene_id": 84,
+      "path": "fine/gene_084.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 469,
+      "scale": "fine",
+      "gene_id": 85,
+      "path": "fine/gene_085.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 470,
+      "scale": "fine",
+      "gene_id": 86,
+      "path": "fine/gene_086.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 471,
+      "scale": "fine",
+      "gene_id": 87,
+      "path": "fine/gene_087.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 472,
+      "scale": "fine",
+      "gene_id": 88,
+      "path": "fine/gene_088.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 473,
+      "scale": "fine",
+      "gene_id": 89,
+      "path": "fine/gene_089.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 474,
+      "scale": "fine",
+      "gene_id": 90,
+      "path": "fine/gene_090.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 475,
+      "scale": "fine",
+      "gene_id": 91,
+      "path": "fine/gene_091.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 476,
+      "scale": "fine",
+      "gene_id": 92,
+      "path": "fine/gene_092.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 477,
+      "scale": "fine",
+      "gene_id": 93,
+      "path": "fine/gene_093.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 478,
+      "scale": "fine",
+      "gene_id": 94,
+      "path": "fine/gene_094.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 479,
+      "scale": "fine",
+      "gene_id": 95,
+      "path": "fine/gene_095.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 480,
+      "scale": "fine",
+      "gene_id": 96,
+      "path": "fine/gene_096.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 481,
+      "scale": "fine",
+      "gene_id": 97,
+      "path": "fine/gene_097.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 482,
+      "scale": "fine",
+      "gene_id": 98,
+      "path": "fine/gene_098.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 483,
+      "scale": "fine",
+      "gene_id": 99,
+      "path": "fine/gene_099.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 484,
+      "scale": "fine",
+      "gene_id": 100,
+      "path": "fine/gene_100.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 485,
+      "scale": "fine",
+      "gene_id": 101,
+      "path": "fine/gene_101.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 486,
+      "scale": "fine",
+      "gene_id": 102,
+      "path": "fine/gene_102.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 487,
+      "scale": "fine",
+      "gene_id": 103,
+      "path": "fine/gene_103.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 488,
+      "scale": "fine",
+      "gene_id": 104,
+      "path": "fine/gene_104.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 489,
+      "scale": "fine",
+      "gene_id": 105,
+      "path": "fine/gene_105.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 490,
+      "scale": "fine",
+      "gene_id": 106,
+      "path": "fine/gene_106.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 491,
+      "scale": "fine",
+      "gene_id": 107,
+      "path": "fine/gene_107.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 492,
+      "scale": "fine",
+      "gene_id": 108,
+      "path": "fine/gene_108.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 493,
+      "scale": "fine",
+      "gene_id": 109,
+      "path": "fine/gene_109.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 494,
+      "scale": "fine",
+      "gene_id": 110,
+      "path": "fine/gene_110.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 495,
+      "scale": "fine",
+      "gene_id": 111,
+      "path": "fine/gene_111.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 496,
+      "scale": "fine",
+      "gene_id": 112,
+      "path": "fine/gene_112.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 497,
+      "scale": "fine",
+      "gene_id": 113,
+      "path": "fine/gene_113.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 498,
+      "scale": "fine",
+      "gene_id": 114,
+      "path": "fine/gene_114.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 499,
+      "scale": "fine",
+      "gene_id": 115,
+      "path": "fine/gene_115.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 500,
+      "scale": "fine",
+      "gene_id": 116,
+      "path": "fine/gene_116.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 501,
+      "scale": "fine",
+      "gene_id": 117,
+      "path": "fine/gene_117.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 502,
+      "scale": "fine",
+      "gene_id": 118,
+      "path": "fine/gene_118.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 503,
+      "scale": "fine",
+      "gene_id": 119,
+      "path": "fine/gene_119.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 504,
+      "scale": "fine",
+      "gene_id": 120,
+      "path": "fine/gene_120.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 505,
+      "scale": "fine",
+      "gene_id": 121,
+      "path": "fine/gene_121.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 506,
+      "scale": "fine",
+      "gene_id": 122,
+      "path": "fine/gene_122.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 507,
+      "scale": "fine",
+      "gene_id": 123,
+      "path": "fine/gene_123.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 508,
+      "scale": "fine",
+      "gene_id": 124,
+      "path": "fine/gene_124.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 509,
+      "scale": "fine",
+      "gene_id": 125,
+      "path": "fine/gene_125.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 510,
+      "scale": "fine",
+      "gene_id": 126,
+      "path": "fine/gene_126.png",
+      "responded_image_count": 5
+    },
+    {
+      "global_id": 511,
+      "scale": "fine",
+      "gene_id": 127,
+      "path": "fine/gene_127.png",
+      "responded_image_count": 5
+    }
+  ],
+  "computation": "CPU rendering and statistics from existing FP32 export; no model execution.",
+  "updated_utc": "2026-11-17T10:08:02.831163+00:00"
+}

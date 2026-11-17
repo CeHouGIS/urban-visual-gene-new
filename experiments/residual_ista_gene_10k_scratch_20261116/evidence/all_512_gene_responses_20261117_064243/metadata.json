@@ -1,0 +1,137 @@
+{
+  "status": "complete",
+  "source_arrays": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/reports/five_street_expressions_20261117_062418/five_street_expression_arrays.npz",
+  "checkpoint": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/runs/multiscale_residual_ista/checkpoint_best.pt",
+  "checkpoint_step": 6000,
+  "computation": "CPU statistics and plotting from existing verified FP32 model outputs; no new inference or training.",
+  "selected_images": [
+    {
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "test_index": 347,
+      "id": "Sofia_iuztSvNtNfNEmxOakWBCrQ_270"
+    },
+    {
+      "city": "Tallinn",
+      "country": "Estonia",
+      "test_index": 384,
+      "id": "Tallinn_QA9dPZlPWMkhso5PqRD6uw_0"
+    },
+    {
+      "city": "Tauranga",
+      "country": "New Zealand",
+      "test_index": 809,
+      "id": "Tauranga_gSXTEWzvqwitLxurcxie2A_90"
+    },
+    {
+      "city": "Cancún",
+      "country": "México",
+      "test_index": 613,
+      "id": "Cancún_a-b0KZWtdRFOb4HrM8Sy1A_90"
+    },
+    {
+      "city": "Santo Domingo",
+      "country": "Dominican Republic",
+      "test_index": 561,
+      "id": "SantoDomingo_VzniOdpO0BCk2lOHX81aBQ_90"
+    }
+  ],
+  "total_genes": 512,
+  "responded_in_at_least_one_image": 407,
+  "responded_in_all_five_images": 370,
+  "per_image_active_gene_counts": [
+    387,
+    382,
+    400,
+    391,
+    380
+  ],
+  "scales": {
+    "coarse": {
+      "candidate_genes": 256,
+      "expression_grid": [
+        16,
+        16
+      ],
+      "locations_per_gene_per_image": 256,
+      "global_gene_offset": 0,
+      "response_count_histogram_0_to_5": [
+        105,
+        11,
+        10,
+        5,
+        11,
+        114
+      ],
+      "distinct_genes_responded_in_any_image": 151,
+      "distinct_genes_responded_in_all_five_images": 114,
+      "per_image_active_gene_counts": [
+        131,
+        126,
+        144,
+        135,
+        124
+      ],
+      "mean_weight_display_max": 0.5376301440410316
+    },
+    "medium": {
+      "candidate_genes": 128,
+      "expression_grid": [
+        32,
+        32
+      ],
+      "locations_per_gene_per_image": 1024,
+      "global_gene_offset": 256,
+      "response_count_histogram_0_to_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        128
+      ],
+      "distinct_genes_responded_in_any_image": 128,
+      "distinct_genes_responded_in_all_five_images": 128,
+      "per_image_active_gene_counts": [
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "mean_weight_display_max": 0.09769737885289942
+    },
+    "fine": {
+      "candidate_genes": 128,
+      "expression_grid": [
+        64,
+        64
+      ],
+      "locations_per_gene_per_image": 4096,
+      "global_gene_offset": 384,
+      "response_count_histogram_0_to_5": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        128
+      ],
+      "distinct_genes_responded_in_any_image": 128,
+      "distinct_genes_responded_in_all_five_images": 128,
+      "per_image_active_gene_counts": [
+        128,
+        128,
+        128,
+        128,
+        128
+      ],
+      "mean_weight_display_max": 0.08791047759223147
+    }
+  },
+  "response_definition": "A>0 at at least one spatial location in that image.",
+  "location_response_definition": "Number of spatial expression-grid locations with A>0, separately for every image and gene.",
+  "weight_definition": "Spatial mean of inferred expression A over all grid locations including zeros; not the shared dictionary D or causal RGB importance.",
+  "ordering": "Fixed scale-local IDs: coarse 0..255, medium 0..127, fine 0..127. CSV global IDs use offsets 0,256,384.",
+  "updated_utc": "2026-11-17T06:42:48.401722+00:00"
+}

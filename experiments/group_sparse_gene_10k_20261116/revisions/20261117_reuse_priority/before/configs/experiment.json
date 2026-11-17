@@ -1,0 +1,159 @@
+{
+  "name": "group_sparse_gene_10k_20261116",
+  "seed": 42,
+  "root": "/host/mnt/nas/urban-visual-gene/group_sparse_gene_10k_20261116",
+  "python": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/.venv/bin/python3",
+  "cache": "/workspace/urban-visual-gene/multiscale_gene_10k_20261116/cache",
+  "temporary_directory": "/workspace/urban-visual-gene/group_sparse_gene_10k_20261116/tmp",
+  "shared_gpu_leases": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/gpu_leases",
+  "data": {
+    "train": 10000,
+    "validation": 1000,
+    "test": 1000,
+    "resolution": 256,
+    "source_root": "/host/mnt/nas/urban-visual-gene/additive_gene_1m_20261115",
+    "source_cache": "/workspace/urban-visual-gene/additive_gene_1m_20261115/cache",
+    "grid_size_m": 1000,
+    "photos_per_grid": 20,
+    "selection": "capacity-aware continent-country-city balance; whole original grid bundles",
+    "cache_loading": "resident uint8 arrays, no RGB decoding during training",
+    "batch_schedule": "fixed shuffled grid cycle; randomized image order per grid per epoch; no repeated grid in global batch"
+  },
+  "model": {
+    "latent_channels": 64,
+    "dictionary_sizes": [
+      256,
+      128,
+      128
+    ],
+    "dictionary_kernels": [
+      1,
+      3,
+      3
+    ],
+    "budgets": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "budget_allocations": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        8,
+        4,
+        4
+      ],
+      [
+        16,
+        8,
+        8
+      ],
+      [
+        32,
+        16,
+        16
+      ]
+    ],
+    "expression_downsample": 2,
+    "quantization_bits": 8,
+    "expression_max": 4.0,
+    "hard_concrete_temperature": 0.6666666666666666,
+    "hard_concrete_gamma": -0.1,
+    "hard_concrete_zeta": 1.1,
+    "initial_gate_probability": 0.9,
+    "group_cap_ramp_updates": [
+      400,
+      1600
+    ],
+    "gate_ramp_updates": [
+      400,
+      1600
+    ],
+    "medium_ramp_updates": [
+      200,
+      600
+    ],
+    "fine_ramp_updates": [
+      600,
+      1200
+    ],
+    "dictionary_size": 512
+  },
+  "training": {
+    "max_training_images": 2048000,
+    "effective_batch_size": 256,
+    "micro_batch_size": 128,
+    "learning_rate": 0.0002,
+    "minimum_learning_rate": 2e-05,
+    "warmup_updates": 100,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "perceptual_weight": 0.1,
+    "evaluate_every": 500,
+    "first_evaluation": 100,
+    "checkpoint_every": 100,
+    "log_every": 10,
+    "preview_count": 3,
+    "precision": "bfloat16_if_supported",
+    "initial_validation": false,
+    "max_updates": 8000,
+    "feature_objective_weight": 0.0,
+    "pyramid_weight": 0.05,
+    "gene_price": 2e-05,
+    "byte_price": 1e-07,
+    "complexity_ramp_updates": [
+      800,
+      1600
+    ]
+  },
+  "variants": [
+    "learned_s42",
+    "random_s42",
+    "learned_s137",
+    "random_s137"
+  ],
+  "compute": {
+    "gpu_only": true,
+    "max_gpus": 4,
+    "gpus_per_variant": 2,
+    "poll_seconds": 10,
+    "distributed_backend": "nccl"
+  },
+  "created_utc": "2026-11-16T15:09:17.819936+00:00",
+  "reference_root": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116",
+  "protocol": {
+    "seeds": [
+      42,
+      137
+    ],
+    "initialization": "all weights from scratch; learned/random pairs have identical initial state, dictionary frozen only in random",
+    "sampling": "same 10k images and deterministic grid stream for all methods",
+    "rates": "each model cycles all four whole-gene caps; 2000 updates per nominal cap",
+    "codec": "32-byte header/scale; uint16 gene ID + fixed uint8 low-resolution expression map per transmitted gene; no separate gate or image-dependent scale",
+    "expression_grids_at_256": [
+      8,
+      16,
+      32
+    ],
+    "max_payload_bytes_at_256": [
+      2928,
+      5760,
+      11424,
+      22752
+    ],
+    "loss": "L1 + 0.1 LPIPS + 0.05 normalized RGB pyramid auxiliary loss + ramp*(gene_price*E[L0] + byte_price*E[payload])",
+    "complexity_expectation": "analytic hard-concrete nonzero probability BEFORE TopK cap and uint8 rounding; an upper bound on expected post-cap training payload, not an exact deterministic evaluation count",
+    "upstream_queue": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/queue_status.json",
+    "upstream_postprocess": "/host/mnt/nas/urban-visual-gene/gene_validation_three_tests_20261116/reports/postprocess_status.json",
+    "wait_for_upstream": true,
+    "test_policy": "checkpoint selected by mean validation RGB objective across caps; evaluate fixed test and previously used 128-city diagnostics once",
+    "no_new_blind_test_claim": true,
+    "gpu_only": true,
+    "support_selection": "TopK image-conditioned log-alpha scores before stochastic gate sampling; STE supplies candidate-selector gradients outside support"
+  }
+}

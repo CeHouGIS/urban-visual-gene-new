@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "world_size": 2,
+  "global_batch_size": 256,
+  "per_gpu_microbatch": 128,
+  "accumulation_steps": 1,
+  "small_real_photo_count": 4,
+  "small_updates": 20,
+  "losses": [
+    0.31362538039684296,
+    0.3263281434774399,
+    0.31238633394241333,
+    0.2724718302488327,
+    0.22988960146903992,
+    0.22011394053697586,
+    0.21338419616222382,
+    0.20261861383914948,
+    0.19330264627933502,
+    0.18797799944877625,
+    0.18707720190286636,
+    0.21060816943645477,
+    0.22952698916196823,
+    0.22233932465314865,
+    0.19629914313554764,
+    0.19245557487010956,
+    0.19641439616680145,
+    0.19801517575979233,
+    0.19723114371299744,
+    0.1955435499548912
+  ],
+  "full_global_batch_loss": 0.2568138837814331,
+  "gradient_norm": 0.225925013422966,
+  "gradient_equivalence_max_abs_error": 3.67872416973114e-07,
+  "rank_parameter_max_difference": 0.0,
+  "per_rank_peak_memory_bytes": [
+    31916342272,
+    31916342272
+  ],
+  "forward_conv_dictionary_macs_per_image": 17073815552,
+  "weights_discarded": true,
+  "model_spec": {
+    "method": "random",
+    "parameters": 5218782,
+    "trainable_parameters": 5054942,
+    "frozen_dictionary": true,
+    "from_scratch": true,
+    "shared_trunk_initialization": true,
+    "rate_widths": [
+      3,
+      12,
+      48
+    ],
+    "budget_bytes": [
+      32352,
+      129120,
+      516192
+    ],
+    "coefficient_quantization": "float16 with straight-through training",
+    "support": "per-scale global magnitude TopK for dictionaries; dense channel prefix for AE",
+    "no_encoder_bypass": true,
+    "dictionary_genes": 512,
+    "scale_grids": {
+      "coarse": 16,
+      "medium": 32,
+      "fine": 64
+    }
+  },
+  "updated_utc": "2026-11-16T15:36:04.445782+00:00"
+}
