@@ -1,0 +1,122 @@
+{
+  "experiment": "dinov3_sae_downstream_20261121",
+  "root": "/host/mnt/nas/urban-visual-gene/dinov3_single_scale_sae_20261121/downstream",
+  "source": "/host/mnt/nas/urban-visual-gene/github/urban-visual-gene-additive/experiments/dinov3_single_scale_sae_20261121/downstream/source",
+  "base": {
+    "python": "/root/code/urban-visual-gene/experiments/dinov3_generation_revision/.venv/bin/python3",
+    "seed": 20261121,
+    "manifests": {
+      "train": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/data/images.train.jsonl",
+      "validation": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/data/images.validation.jsonl",
+      "test": "/host/mnt/nas/urban-visual-gene/residual_ista_gene_10k_scratch_20261116/data/images.test.jsonl"
+    },
+    "shared_gpu_leases": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/outputs/v2/gpu_leases",
+    "max_gpus": 2,
+    "compression": {
+      "steps": 1200,
+      "batch_size": 128,
+      "micro_batch_size": "chosen_by_real_feature_GPU_benchmark",
+      "learning_rate": 0.0005,
+      "entropy_lr": 0.002,
+      "warmup_steps": 60,
+      "checkpoint_every": 100,
+      "validate_every": 200,
+      "quantization_step": 0.125,
+      "max_symbol": 63
+    },
+    "validation_images": 128,
+    "queries": [
+      184,
+      666,
+      454,
+      23,
+      724
+    ],
+    "experiment": "dinov3_single_scale_sae_20261121",
+    "root": "/host/mnt/nas/urban-visual-gene/dinov3_single_scale_sae_20261121",
+    "source": "/host/mnt/nas/urban-visual-gene/github/urban-visual-gene-additive/experiments/dinov3_single_scale_sae_20261121/source",
+    "local": "/workspace/urban-visual-gene/dinov3_single_scale_sae_20261121",
+    "weights": "/host/mnt/nas/urban-visual-gene/urbangene_v2_20261109/models/dinov3-vitl16",
+    "temporary_directory": "/workspace/urban-visual-gene/dinov3_single_scale_sae_20261121/tmp",
+    "dictionary_sizes": [
+      2048,
+      4096
+    ],
+    "resolution": 512,
+    "channels": 1024,
+    "feature_hw": 32,
+    "kernel": 3,
+    "lambda_bpp": 0.015,
+    "normalization": "train-only channel mean; one scalar RMS; full 1024 channels, no PCA/whitening",
+    "extraction": {
+      "batch_candidates": [
+        2,
+        4,
+        8
+      ],
+      "workers": 6,
+      "shards": 2
+    },
+    "benchmark_micro_batches": [
+      4,
+      8,
+      16
+    ],
+    "benchmark_memory_fraction": 0.78,
+    "init_seed": 20281121
+  },
+  "local": "/workspace/urban-visual-gene/dinov3_single_scale_sae_20261121/downstream",
+  "temporary_directory": "/workspace/urban-visual-gene/dinov3_single_scale_sae_20261121/downstream/tmp",
+  "max_gpus": 2,
+  "decoder": {
+    "steps": 1602,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "warmup_steps": 40,
+    "checkpoint_every": 200,
+    "validate_every": 400,
+    "benchmark_micro_batches": [
+      8,
+      16,
+      32
+    ],
+    "memory_fraction": 0.78,
+    "output_resolution": 256,
+    "loss": "RGB MAE only; backbone and both final SAEs frozen; one shared decoder"
+  },
+  "rgb_cache": "/workspace/urban-visual-gene/multiscale_gene_10k_20261116/cache",
+  "dictionary_sizes": [
+    2048,
+    4096
+  ],
+  "queries": [
+    184,
+    666,
+    454,
+    23,
+    724
+  ],
+  "validation_images": 128,
+  "arithmetic_validation_indices": [
+    0,
+    499,
+    999
+  ],
+  "seed": 20261121,
+  "export_batch": 8,
+  "batch_audit_steps": [
+    1,
+    400,
+    800,
+    1200
+  ],
+  "batch_audit_size": 128,
+  "sources": [
+    "dino_reference",
+    "atoms_2048",
+    "atoms_4096"
+  ],
+  "provenance": "Continue frozen DINOv3/SAE results; add original RGB probe, retrieval and actual arithmetic coding",
+  "start_gate": "upstream progress.status == complete; final checkpoints step == 1200; idle GPU with cooperative lock",
+  "parent_config_sha256": "f9ec4f0ab554cddf5d3f63a46011ded610a712c6a4eb4f54050b8c8f8c283d20"
+}

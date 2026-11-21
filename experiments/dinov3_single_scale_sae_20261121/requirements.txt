@@ -1,0 +1,10 @@
+# Versions used for the completed experiment. Install the CUDA-compatible torch
+# build for your host; PyTorch / torchvision versions must match each other.
+torch==2.14.0
+torchvision==0.29.0
+transformers==4.56.2
+numpy==1.26.4
+Pillow==12.3.0
+matplotlib==3.11.2
+pytest==8.4.2
+safetensors==0.6.2
